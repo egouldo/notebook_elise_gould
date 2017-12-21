@@ -15,6 +15,7 @@ tags:
 header:
   caption: ''
   image: ''
+bibliography: ../../static/files/citations/posts_read.bib
 ---
 
 *Matzek, V., Gornish, E. S., Hulvey, K. B. (2017) Emerging approaches to successful ecological restoration: five imperatives to guide innovation (eds E. Gornish, V. Matzek, & K. Hulvey). Restoration Ecology. 25, S110–S113.*

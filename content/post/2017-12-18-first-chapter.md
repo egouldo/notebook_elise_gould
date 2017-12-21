@@ -15,7 +15,7 @@ header:
   image: ''
 ---
 
-Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not applying existing criteria for reproducibility, but would require generating criteria appropriate to DST's and ecological models. Maybe some existing criteria apply. Maybe some don't.
+Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST's and ecological models. Maybe some existing criteria apply. Maybe some don't.
 
 First chapter initial steps:
 

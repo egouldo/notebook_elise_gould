@@ -1,0 +1,31 @@
+---
+title: "research_proposal"
+author: "Elise Gould"
+date: "19/12/2017"
+output: html_document
+bibliography: /Users/Elise/Documents/PhD/notebook_elise_gould/static/files/citations/posts_read.bib
+---
+
+Max 5 pages, 3000 - 4000 words.
+Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
+
+- are topic and aims well defined and achievable
+- are the appropriate methods established or will they need to be developed
+- does the student understand the relevant literature
+- are there any intellectual property issues
+- current / potential EHS issues?
+
+# Introduction
+
+- well-referenced intro that explains scientific context of project (1 - 3 pages)
+
+# Project Aims and Outline
+
+- an outline of the major aims of th eproject and the approaches that will be taken (1 - 2 pages)
+
+# Timeline of activities and goals
+
+- timeline of activities and goals for first 12 months of candidature (GANTT chart),
+including preparation of the confirmation report and holding the confirmation meeting (9 - 10 months)
+
+# References

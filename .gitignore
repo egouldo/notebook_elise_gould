@@ -5,3 +5,5 @@
 .DS_Store
 blogdown
 public/
+/content/docs/*.html
+/content/post/*.html

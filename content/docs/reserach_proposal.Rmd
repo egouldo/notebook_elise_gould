@@ -3,7 +3,7 @@ title: "research_proposal"
 author: "Elise Gould"
 date: "19/12/2017"
 output: html_document
-bibliography: /Users/Elise/Documents/PhD/notebook_elise_gould/static/files/citations/posts_read.bib
+bibliography: ../../static/files/citations/posts_read.bib
 ---
 
 Max 5 pages, 3000 - 4000 words.

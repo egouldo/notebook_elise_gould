@@ -23,6 +23,11 @@ Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
 
 - an outline of the major aims of th eproject and the approaches that will be taken (1 - 2 pages)
 
+
+target audience:
+
+scope: Am i examining just models... or am I looking at the entire decision-making process... from specification of objectives, for example.. My feeling is that there are a lot of papers focusing on good / robust modelling practices within ecology / conservation in general, as well as articulating why models are necessary in decision-making. I think it could be useful to consider the entire process to developing the decision tool as a whole because aspects of the whole process may influence the final decision.. For example, Law et al.  [-@Law:2017ia] argue that decisions are sensitive to the scenarios selected during scenario analysis.
+
 # Timeline of activities and goals
 
 - timeline of activities and goals for first 12 months of candidature (GANTT chart),

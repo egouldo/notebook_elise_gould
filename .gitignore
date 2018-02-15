@@ -7,3 +7,4 @@ blogdown
 public/
 /content/docs/*.html
 /content/post/*.html
+/content/project/*.html

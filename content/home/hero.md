@@ -1,7 +1,8 @@
 +++
+# This is a banner you can have at the top of your website, set active to true to turn it back on.
 # Hero widget.
 widget = "hero"
-active = true
+active = false
 date = 2017-10-15
 
 title = "Academic"

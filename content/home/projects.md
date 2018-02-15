@@ -5,7 +5,7 @@ widget = "projects"
 active = true
 date = "2016-04-20T00:00:00"
 
-title = "Projects"
+title = "Filter posts by project"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -29,12 +29,12 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "First Chapter"
+  category = ".first chapter"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Reproducibility"
+  tag = ".reproducibility"
 
 +++
 

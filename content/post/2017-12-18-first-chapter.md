@@ -13,6 +13,7 @@ tags:
 header:
   caption: ''
   image: ''
+bibliography: '../../static/files/citations/posts_read.bib'
 ---
 
 Libby has suggested an idea for the first chapter. It would be a data-based review of reproducibility issues facing decision support tools and ecological models. It would require not simply applying existing criteria for reproducibility, but would require generating criteria appropriate to DST's and ecological models. Maybe some existing criteria apply. Maybe some don't.
@@ -27,3 +28,8 @@ First chapter initial steps:
 - Figure out a way of scoring the models
 - Apply the list and score the models
 
+Questions:
+
+Are models / studies developed within a structured framework, such as Structured Decision Making, or perhaps MCDA (multi-criteria-decision-analysis), more reproducible?
+
+See paper: [@AdemEsmail:2018jf]

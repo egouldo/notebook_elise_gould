@@ -1,9 +1,14 @@
 ---
 title: "research_proposal"
 author: "Elise Gould"
-date: "19/12/2017"
+date: "2017-02-15T00:00:00"
 output: html_document
 bibliography: ../../static/files/citations/posts_read.bib
+slug: reserach_proposal
+categories: 
+  - research proposal
+tags: 
+  - project
 ---
 
 Max 5 pages, 3000 - 4000 words.

@@ -16,9 +16,9 @@ header:
 
 *Borregaard, M. K., Hart, E. M. (2018) Towards a more reproducible ecology. httpwww.ecography.orgblogtowards-more-reproducible-ecology, 1–9.*
 
-## The nordic society OIKOS ##
+This is an editorial intro to the special edition of ecography dedicated to [reproducible methods in ecology.](http://onlinelibrary.wiley.com/doi/10.1111/ecog.2016.v39.i4/issuetoc).
 
-### Subject ###
+
 
 #### [Page 1](highlights://Towards%20a%20more%20reproducible%20ecology#page=1) ####
 

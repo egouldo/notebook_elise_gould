@@ -14,43 +14,8 @@ tags:
 
 # Timeline
 
-```{r}
-suppressPackageStartupMessages(library(timevis))
-suppressPackageStartupMessages(library(dplyr))
+<iframe src="https://egouldo.shinyapps.io/shiny_phd_timeline/" style = "border: none; width: 900px; height: 1000px></iframe>
 
-timeline_items <- data_frame(
-        content = c("PhD start",
-                    "Establish Advisory Committee",
-                    "Advisory Committee Meeting", 
-                    "RIOT (Research Integrity Online Training)",
-                    "Prepare Research Proposal",
-                    "PhD end"),
-        start = c("2017-11-22",
-                  "2018-02-22",
-                  "2018-02-22",
-                  "2018-02-22",
-                  "2018-02-22",
-                  "2021-11-22"),
-        end = c(NA,
-                NA,
-                "2018-05-22", 
-                "2018-05-22",
-                "2018-02-22",
-                NA),
-        group = c(1,2,2,2,2,1)
-) %>%
-        dplyr::mutate(id = 1:n())
-
-timeline_groups <- data_frame(
-        content = c(
-                "General",
-                "First Committee Meeting"
-        )
-) %>% dplyr::mutate(id = 1:n())
-
-timevis(data = timeline_items,groups = timeline_groups) %>% 
-        centerTime()
-```
 # Milestones
 
 Milestones are documented in the RHD manual, page 4: [https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf](https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf)
@@ -78,5 +43,3 @@ From 6 to 12 months (we recommend 9 to 10 months as ideal):
 - Confirmation meeting with your Advisory Committee
 - At 9 months, you will receive your Graduate Research Confirmation form from RHS Science. This form has to be completed and signed by you, your supervisor, your Advisory Committee and the Head of School of BioSciences then returned to RHD Science.
 ```
-
-

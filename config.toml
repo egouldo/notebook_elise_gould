@@ -1,4 +1,4 @@
-baseurl = "https://egouldo.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "research notebook"
 copyright = "&copy; 2017 Elise Gould"
 theme = "hugo-academic"
@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Elise Gould"
-  role = "PhD Student, University of Melbourne"
+  role = "PhD Candidate, University of Melbourne"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

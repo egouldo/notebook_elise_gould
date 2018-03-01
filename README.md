@@ -23,3 +23,13 @@ All posts except `synthesis` should be written, committed, and then should be re
 ### Post Tags:
 
 Tags denote the ideas / content covered in a post, and are essentially 'keywords'. I won't include a list here, because this will constantly be growing. See the 'tags' widget for a word-cloud of all tags.
+
+## Deploying the notebook to github
+
+I followed the instructions here: [https://gohugo.io/hosting-and-deployment/hosting-on-github/](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
+To deploy changes to website, run:
+```
+ ./deploy.sh "Your optional commit message" 
+```
+Changes will be sent to to egouldo.github.io. Don't forget to commit changes to the notebook repository as well.

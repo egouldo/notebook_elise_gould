@@ -1,8 +1,8 @@
 ---
 title: "PhD Timeline and Milestones"
 author: "Elise Gould"
-date: "2018-28-15T00:00:00"
-output: html_notebook
+date: '2018-02-28'
+output: html_document
 bibliography: ../../static/files/citations/posts_read.bib
 slug: phd_timeline
 categories: 

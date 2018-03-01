@@ -37,6 +37,6 @@ weight = 5
 
 # Biography
 
-Elise Gould is a PhD candidate at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne.
+I am a PhD candidate at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things PhD.
 
 

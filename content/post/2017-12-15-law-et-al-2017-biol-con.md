@@ -2,14 +2,16 @@
 title: Law et al. (2017) Biol Con
 author: Elise Gould
 date: '2017-12-15'
-slug: law-et-al-2017-biol-con
 categories:
   - reading
+  - systematic review
+  - coding criteria
 tags:
   - causal inference
-  - prediction
   - evidence-based
   - policy
+  - prediction
+slug: law-et-al-2017-biol-con
 header:
   caption: ''
   image: ''

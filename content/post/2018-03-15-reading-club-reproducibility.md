@@ -39,9 +39,8 @@ COST of reproducibility - grand-writing, do you budget / account for time in imp
 
 Saves you time later!!! "technical debt", programming term. Investing time now saves heartache later.
 
-# Reproducible reports
+Other things not given time, but to be considered:
 
-
-
-# Debugging / defensive coding
+- Reproducible reports
+- Debugging / defensive coding
 

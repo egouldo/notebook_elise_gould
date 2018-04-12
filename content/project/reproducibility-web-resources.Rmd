@@ -1,0 +1,8 @@
+---
+title: "reproducibility blogs and websites"
+author: "Elise Gould"
+date: "2018-02-20"
+output: html_document
+---
+
+[https://methodsblog.wordpress.com/2016/08/02/reproducibility/](https://methodsblog.wordpress.com/2016/08/02/reproducibility/)

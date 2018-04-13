@@ -61,7 +61,7 @@ I think this is a pretty common feature of decision-support tools, also. We use,
 
 # Existing standards / methodologies for reporting expert judgments
 
-At the time of the review, the below standards are `the only significant guidance on how thismight be done.`
+At the time of the review, the below standards are `the only significant guidance on how this might be done.`
 
 
 > • Scrutability/accountability. All data, including experts’ names and 

@@ -1,0 +1,42 @@
+---
+title: "research_proposal"
+author: "Elise Gould"
+date: "2017-02-15T00:00:00"
+output: html_document
+bibliography: ../../static/files/citations/posts_read.bib
+slug: reserach_proposal
+categories: 
+  - research proposal 
+  - systematic review
+tags: 
+  - project
+---
+
+# Goal
+
+I want to generate a roadmap, if you like, of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing DSTs in applied ecology. These QRPs and biases will make a DST irreproducible. So the question is really about "what sorts of biases and QRPs make a DST reproducible". In knowing this, we can offer a guide or advice, for various decision-points in the DST building process that will ensure a DST is reproducible, or at least as reproducible as possible.
+
+At first I focus on a single study, I can step outside the confines of a single study to look at how sources of bias in the broader evidence base or discipline level might impact on the reproducibility of a decision-support tool.
+
+# Plan
+
+## Defining what we mean by reproducibility
+
+There are many typologies of reproducibility / replication. What do we consider a reproducible DST to be?
+For this task... are we talking about a direct / exact replication? Close / partial? Conceptual?
+Something to consider later.... does the risk of types of QRPs / sources of bias increase or decrease depending on what type of reproducibility / replication level you're considering?
+
+## Method for generating the roadmap
+
+1. Sketch out the SDM / DST building process, but breakdown into modelling-steps if need be. 
+        a. Does this process differ for different tools?
+2. Separately, identify sources of bias AND questionable research practices that other people have identified in ecology and evolution, but also in other disciplines.
+        a. at the individual study level
+        b. at the broader level (what do we mean by this?)
+        c. WHAT ARE THE LEVELS?!
+        d. Are these biases applicable to DSTs?
+        e. are there other biases unique to DSTs, that other people haven't considered?
+        f. Is their occurrence dependent on the type of tool / technical specifics of the application... i.e. are some tools more robust to biases / QRPs than others?
+3. Map these biases / QRPs onto 1, where do they occur at the various decision-points?
+
+

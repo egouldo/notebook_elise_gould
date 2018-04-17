@@ -2,7 +2,7 @@
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
 draft = false
-
+bibliography = "../../static/files/citations/posts_read.bib"
 # Tags and categories
 # For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
@@ -17,5 +17,6 @@ categories = []
 image = ""
 caption = ""
 preview = true
+
 
 +++

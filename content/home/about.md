@@ -12,9 +12,11 @@ weight = 5
   interests = [
     "Ecological Modelling",
     "Decision Support Tools",
-    "Reproducibility",
     "Plant Ecology",
-    "Vegetation Management"
+    "Vegetation Management",
+    "Reproducibility",
+    "Data Science",
+    "R"
   ]
 
 # List your qualifications (such as academic degrees).

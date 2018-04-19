@@ -28,16 +28,13 @@ Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
 
 Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable [@Nakagawa:2015bn]. As the recent "reproducibility crisis" debate illustrates, this assumption is often incorrect [@Nature:un]. Failure to reproduce a large proportion of published studies has received considerable attention and provoked heated debate among researchers in the disciplines of psychology and medicine. 
 
-Evidence for irreproduciability
+Evidence for (ir)reproduciability
+Highlight a couple of studies crying out that there is a reproducibility crisis.
 - In a large-scale replication study only 36% of Psychology replications had significant results [@OpenScienceCollaboration:2015cn]
 
-what are some of the finer points of the "heated debate"?
+evidence for this "heated debate"?
 is a crisis, there isn't? that the studies claiming there is a crisis are also wrong (used bad methods to reproduce).
 Study that replicated those studies was unable to be replicated.
-
-Highlight a couple of studies crying out that there is a reproducibility crisis.
-
-
 
 There is an inherent cost to ensure / increase reproducibility of an experiment or study [@Nature:un].. time (better documentation around methods for example) and therefore money 
 
@@ -51,7 +48,8 @@ The reproducibility crisis in ecology and evolution is beginning to receive more
 Reproducibility crisis in ecology... outline recent work evidencing this.
 Summarise the particular nuances of the reproducibility crisis in ecology.
 
-**Reproducibility, define:**
+## Defining Reproducibility 
+
 "broad term used to describe the ability to replicate an experiment or study and / or its outcomes." [@Fidler:2017he]
 
 May be used inter-changably with the term 'replication'. 
@@ -62,6 +60,10 @@ There are a number of different definitions / typologies of replications:
 - [@Nakagawa:2015bn] 
 
 ## Decision Support Tools - Reproducibility 
+
+Significant resources are invested in conservation and management. 
+1. demonstrating credibility is important.
+2. 
 
 What is the risk that decision support tools are irreproducible? I.e. the consequences. Why is it worth examining.
 

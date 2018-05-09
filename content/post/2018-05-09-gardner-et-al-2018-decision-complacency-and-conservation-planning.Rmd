@@ -1,0 +1,80 @@
+---
+title: Gardner et al. 2018 Decision Complacency and Conservation Planning
+author: ''
+date: '2018-05-09'
+slug: gardner-et-al-2018-decision-complacency-and-conservation-planning
+categories:
+  - reading
+tags:
+  - transparency
+  - practice
+  - evidence-based
+  - decision support
+  - decision-science
+  - knowing-doing gap
+header:
+  caption: ''
+  image: ''
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+Gardner et al. [-@Gardner:2018dm] add to knowledge-doing gap literature by defining and exemplifying what they call "Decision Complacency"
+
+> The non-use of evidence or systematic processes to make decisions.
+
+**Contextualising decision complacency in the knowledge-doing gap**:
+
+1. *Researcher-practitioner divide*: the case where researchers do not meet the needs of practitioners such that the information provided by conservation scientists does not allow decision-makers or practitioners to make sufficiently evidence-based decisions
+2. *Evidence Complacency*: Sutherland and Wordley [-@Sutherland:2017hc] describe a different angle of the researcher-practitioner divide where practitioners don't use or seek available evidence, and/or don't test the impact of their actions. The result is sub-optimal decision-making, and risks undermining the ability to meet conservation goals. 
+3. *Decision Complacency*: However, "once evidence is collated and synthesised it must be transformed into decisios using some sort of decision-support system to 
+        i. frame the decision-context
+        ii. process the evidence in a systematic and transparent amnner that minimises the decision-makers cognitive biases."
+
+## Case Study: Lemur Conservation Strategy 2013 - 2016
+
+The paper then illustrates a real-world example of "decision complacency" using an emergency conservation prioritisation and action plan developed using expert workshops. The workshop outputs were a site-prioritisation, and action-plans for each prioritised sites.
+
+**site prioritisation**
+
+The paper illustrates that yes, empirical evidence including lemur richness and the nhe number of endangered / critically endangered lemur species, etc. So yes, evidence was used. However, importantly, no systematic approaches were used to establish a) a comprehensive pool of candidate sites, or to b) select the final priority list.
+
+The authors assess the 'performance' of the prioritisation, and found that there was some redundancy in species representation for the final prioritisation delivered by the workshop. By optimising representation, and replacing two redundant sites with two unique sites, representation was shifted from 91 - 99%.
+
+**action plans**
+
+Action plans for priotity sites used expert knowledge of participants who had site-specific experience. However, no systematic approaches were employed to process that evidence into decisions.
+
+The authors argue that they are unlikely to be as "effective as they might have been had a systematic approach been used to list all potential actions, gather evidence about them, and objectively evaluate the likely effectiveness of each." Moreover, action-planning could have benefited from learning by monitoring and evaluating the actions implemented in the 1992 predecessor Lemur action plan. This was a missed opportunity.
+
+### Decision Complacency and Expert Judgment
+
+By not using decision support tools, the site prioritisation and action plans were developed wholly on the basis of expert judgment. The authors do not dismiss the use of expert judgment, and in fact it is "necessary to produce any such action plan", however, they do note that expert judgment and decisions are influenced by a range of cognitive biases *"if elicited without the use of rigorous methods"*. In the optimal allocation of funds, "decisions should be based on syustematic and transparent processes that objectively identify priority sites and evaluate the relative strengths of proposed strategies rather than the subjective judgment of those with a vested interest in the funding of particular actions and places".
+
+Although the "correctness" of decisions / choosing the most effective suite of actions is important, I'd like to add that transparency and objectivity provided by a systematic decision-making process is also important. The authors also point out that there is the possibility for conscious or unconsciously self-serving decision-making. I add that it is this potential and its perception by the public, or vocal commentators of environmental decision-making, that warrants rigorously transparent and systematic decision support systems.
+
+Yes, decision-makers often lack empirical data, and rely on multiple forms of evidence (including, experience, intuition and expert judgment), and moreover there is the need for rapid development of conservation plans in the face of uncertainty. However, the authors point out the plethora of existing systematic conservation decision making tools and approaches for systematic, objective optimal decision-making.
+
+The technical nature of such tools should not preclude their use in real-world contexts. This is not a legitiamte argument. There are many commonly implemented technical tools available to be used in workshop settings.
+
+Next-steps for this area of research are to understand *why* decision-makers don't use available DSS's and DST's, however, this can't be achieved if we don't name and characterise the problem. The authors argue that the term 'decision complacency' "better encapsulates the multiple facets of conservation decision-making"" than the Sutherland and Wordley [-@Sutherland:2017hc] alternative. I would agree with this, and indeed this notion of 'decision complacency' has helped me conceptualise the flow of evidence and information in conservation decision-making. I'll discuss this below.
+
+## Relevence to my research
+
+### Decision-science "informatics"?
+
+I'm starting to build a mental picture of processes / information-flow around knowledge / decision generation in conservation science and practice. The extension of the concept from 'evidence' to 'decision complacency' clarifies, for me, the flow of information between researchers practitioners, and the subsequent transformation into decisions with decision-support systems. Could we describe this as a type of 'decision-informatics'? In doing so, does this allow for the recognition and subsequent addressing of deficiencies in ways knowledge and evidence is generated, collated, synthesised, and transformed into decisions? And therefore, can we ultimately improve the ability of DSS's and DST's to meet conservation objectives?
+
+**Bias and the evidence-base. DSS's don't exist in a vaccuum**
+
+The paper makes the point that unless we use Decision Support Systems to systematically and objectively make conservation decisions, our decisions will be plagued by conscious / unconscious cognitive biases. This is a really important point, however, I would argue that cognitive bias is also likely to rear its head (and hamper reproducibility) even when decisions are embedded in DSS's. AND, it's not just expert knowledge that is subject to bias, but also empirical knowledge. My task is to identify where sources of bias (cognitive and otherwise) may arise in CDM (conservation decision making) processes. I'm also interested in looking at the bigger picture, at a 'decision-science informatics' level... how do biases / errors in the evidence base filter through to the final decisions...? I don't think you can properly identify and address issues of reproducibility if you are just considering the DSS / DST in a vaccuum.
+
+
+### Ideas for experiments
+
+This paper presented a really cool deconstruction of a conservation decision making problem to illustrate their newly defined concept of "Decision Complacency". I wonder if I could do something similar, but for a more complex problem / technical decision process, and following a decision process from beginning to end rather than just exmaining the outputs... LR and HF, woodlands?
+
+### Purpose of evaluating the reproducibility of decision-tools
+
+Role of reproducibility evaluations for conservation science?
+
+# References

@@ -41,6 +41,8 @@ There is an inherent cost to ensure / increase reproducibility of an experiment 
 
 ## Repro Crisis Ecology
 
+What is the state of the 'crisis' in ecology? Extent...? But can't measure!
+
 Falling under the banner of 'reproducibility' are a number of different concepts. Moreover, there is disagreement among the scientific community as to how to define what a reproducible study actually is.
 
 The reproducibility crisis in ecology and evolution is beginning to receive more attention.
@@ -48,7 +50,7 @@ The reproducibility crisis in ecology and evolution is beginning to receive more
 Reproducibility crisis in ecology... outline recent work evidencing this.
 Summarise the particular nuances of the reproducibility crisis in ecology.
 
-## Defining Reproducibility 
+## Defining Reproducibility in Ecology.
 
 "broad term used to describe the ability to replicate an experiment or study and / or its outcomes." [@Fidler:2017he]
 

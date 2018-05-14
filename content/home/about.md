@@ -39,6 +39,6 @@ weight = 5
 
 # Biography
 
-I am a PhD candidate at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things PhD.
+I am a PhD student at the Centre of Excellence for Biosecurity and Risk Analysis (CEBRA), University of Melbourne. This is my research notebook for all things PhD.
 
 

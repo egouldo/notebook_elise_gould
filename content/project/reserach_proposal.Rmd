@@ -24,7 +24,9 @@ Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
 
 - well-referenced intro that explains scientific context of project (1 - 3 pages)
 
-
+IMportnat points to cover:
+- non-NHST call.
+- 
 
 Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable [@Nakagawa:2015bn]. As the recent "reproducibility crisis" debate illustrates, this assumption is often incorrect [@Nature:un]. Failure to reproduce a large proportion of published studies has received considerable attention and provoked heated debate among researchers in the disciplines of psychology and medicine. 
 
@@ -38,6 +40,7 @@ Study that replicated those studies was unable to be replicated.
 
 There is an inherent cost to ensure / increase reproducibility of an experiment or study [@Nature:un].. time (better documentation around methods for example) and therefore money 
 
+Very onerous to check code, even 
 
 ## Repro Crisis Ecology
 
@@ -75,9 +78,51 @@ So how might a reproducibility crisis manifest in ecological decision support to
 
 Decision models are built against an uncertain evidence base [@Law:2017ia].
 
+## State of reproducibility research in ecology
+
+There seems to be a growing body of work at the meta-research level, characterising the state of the problem at the disciplinary level.
+In its infancy, work mostly focussed on trying to identify whether it's likely that we have a problem with reproducibility in ecology. Drawing on the body of work from fields in Medicine and Psychology, to a lesser extent Physics, Economics. Papers by Nakagawa, Parker, Fidler. These studies are synthesising across many ecological studies.
+
+At the other end of the spectrum there is a decent body of work focusing on the level of the individual researcher / study. This literature examines the data analysis pipeline for a single analysis or study, and is largely software and data focussed. It could be described as falling under the banner of "reproducible research", "scientific computing". It's technically-minded and solutions-focussed, and seems to really be drawing on the notion of reproducibility as being computational or direct in nature, rather than on replications. Solutions are largely software-based. And take the starting point of reproducibility to be at the point where analysis is ready to begin (you've got the data already!). Draws largely on the work of computational biology.
+
+**Examples:**
+- [@Wilson:2014ck] describes a set of practices for improving reproducibility of analyses in many quantitative research settings, e.g. version control, incremental changes, functional programming, plannning for mistakes using unit-testing...etc.
+- literatre programming and Rmarkdown documents for portable, containerised analyses linked to their inferences, e.g.: [@Baumer:2015hc] and [@Gandrud:2016ux]
+- [@White:2013ea] how to make your data re-usable to others for replications, or whatever. But also on how to maek it reproducible for yourself. emphasis on ecological data (types.)
+
+Then there's also a push to *share* data in ecology "open data" and science more broaldy. this work is less likely to only consider the researcher / study in its own right, and consider issues of reproducibility within a broader systems-level view: treating openness as precurser for a) fostering greater rates of replication, by making individual studies more readily reproducible (computationally / directly) [@Merali:2010tw]. Importantly, there is recognition that issues around reproducibility and openness as pertaining to the technical limitations of individual researchers are actually inter-generational and cultural: As ecologists, scientists more generally, we mostly aren't trained in software development, but have picked bits and pieces up along the way / are self-taught (i.e. we lack a formal training) [@Merali:2010tw]. The same point has been made about statistical training of ecologsts (CITE... context of QRPs???). Consequently proponents of openness also advocate for collaboration of ecologists with software developers and computer scientists and for bringing industrial software practices into the workflows of labs and research groups [@Merali:2010tw]. 
+
+Some proponents of openness argue that transparency (access to source code, and links to data) is not enough -- too onerous to have researchers check data line by line in replications [@Merali:2010tw]. There are technical solutions from the Computer science / reproducible research areas that aim to alleviate this barrier to checking the reproducibility of papers, e.g. E.g. $R^2$ the executable papers platform for the R community [@Leisch:2011hf]. Aimed to remove the burden of checking computational reproducibility off reviewers by providing a "new web service which outsources validation of computational results in executable papers to an independent third party." It's one solution to the issue of reviewers and journals having to check this (some journals have hired statiscial reviewrs and programmers to address this sticking point for reproducibility (CITE)).
 
 
-# Project Aims and Outline
+
+Openness work still largely considers reproducibility to be computational or direct reproducibility.
+
+likely to consider transparency and openness as precursers for replications. Not only considering computational reproducibility.
+
+Openness work Still technically focussed:
+- individual reseracher solutions to facilitating data-sharing  in ECOLOGY (e.g. meta-data), but with a view to combining data with other data in the future - i.e. facilitating longitudinal studies, reuse for other questions (other data parasites), or replications  / reproducibility studies [@White:2013ea] 
+- [@TorontoInternationalDataReleaseWorkshopAuthors:2009jh] Pre-publication data-sharing. 
+- [@Anonymous:a1kBf1q9] "Git can facilitate greater reproducibility and increased transparency in science"
+-  Not enough just to provide source code and links to data. Get scientists and software developers working together. Develop code in modular fashion so that can easily add new analyses. Bring Computer scientists into research groups.
+- [@Merali:2010tw] Lots of technical solutions. Short survey of the opennes problem and how it impedes reproducibility. Examines issues around transparency with a focus on scientific software and code development by scientists.
+- Calls for scientists to publish computer code with paper [@Barnes:2010dn], with solutions focus on the individual researcher.
+
+Other Openness papers Policy-focussed approaches considering reproducibility and studies in the context of a broader ecosystem of research in which reproducibility is impacted by some broader culture:
+- Other calls looking at barriers / lack of standards beyond the individual researcher that prevent scientists publishing code - AKA "source-code withholding" (institutional support, funding policy, publishing requirement - journal level) [@Science:2012hf].
+- Scientific computing studies also consider this broader ecosystem (R2 paper), and address issues of policy: [@Stodden:2012ww]. Highlights jouranl poolicy and funding agency, but misses publishing requirements, as the paper above included. This study also argues that it's not just about source-code but about the whole process, from the dev environment to the complete set of instructions that generated the figures, and paper.
+- post-publication data sharing: publication level standards / policy, licensing schema and accompanying data and resource-sharing infrastructure, incentives [@Gribbin:2009us]
+- Empirical evidence looking at trends in openness policy in terms of data sharing: [@Stodden:2013ho].
+
+
+
+Both metaresearch work and reproducible research / open science / data advocates tend to consider reserach in the broader context, and offer policy-based approaches that target the journal editors, funding agencies, and publishing requirements (some technical, e.g. post-publication paper).
+
+
+
+
+
+# Project Aims and Outline 
 
 - an outline of the major aims of the project and the approaches that will be taken (1 - 2 pages)
 
@@ -97,6 +142,31 @@ DST Protocol Development
 ## Paper 3
 
 How do you replicate a DST?
+
+## Ecological Informatics / Reproducibility Roadmap
+
+PhD output: could be a thinkpiece, or might be the literature review for the thesis (check the guidelines, you need one in addition to a published one)...
+
+What: Building an informatics for ecology (and decision suport systems as a part of this, to bridge the knowledge-doing gap).
+
+Why: Sketching out this conceptual model of an informatics for ecology will aid me (and, actually, researchers / science in general) in highlighting potential avenues of future research. What parts of this 'macchine' can I focus on? What needs to be done.
+
+Need to describe the  flow and transformation of information into knowledge, in a research 'ecosystem', But with sufficient detail at various levels e.g. enough insight into a single research pipeline for a single study, but also need to consider how data / information fits together at a disciplinary level / evidence-base level. E.g. We need data and resource sharing infrastructure, e.g. as suggested by [@Gribbin:2009us]: to prevent scientists from re-inventing the wheel [@Merali:2010tw], but importantly in a decision-tool context, to aid in evidence / data retrieval, selection to build models.
+
+For conservation, there's this 'knowing-doing' gap. ANd an interesting set pf relations between practitioners and researcheres. Need to capture what Fiona called the  "translational research" element of decision-making reserach for conseration in our informatics.
+
+Understanding the components of this system, and what their properties are... am I building an 'ontology'? See Culina paper.
+
+### What makes ecological data special?
+- [@White:2013ea]
+- [@Borregaard:2018gu]
+
+## What makes applied ecological work / conservation special?
+
+Need to unpack what we do in decision support for ecology. what sorts of models / analysis do we use? not NHST. often building predictive models. Law paper. Conservation decision-making and evidence work
+
+## Conservation evidence-base - "DATA LANDSCAPE"
+Lots of good papers writing about this, I believe they can help informat my understanding of reproducibility issues for ecology
 
 # Timeline of activities and goals
 

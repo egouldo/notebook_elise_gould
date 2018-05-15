@@ -1,0 +1,68 @@
+---
+title: Fraser et al 2018 QRPs in Ecology and Evolution
+author: ''
+date: '2018-05-15'
+slug: fraser-et-al-2018-qrps-in-ecology-and-evolution
+categories:
+  - reading
+tags:
+  - research practice
+  - QRP
+  - publication bias
+  - reproducibility
+  - transparency
+  - ecology
+  - evolution
+header:
+  caption: ''
+  image: ''
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+**Fraser, H. S., Parker, T. H., Nakagawa, S., Barnett, A., Fidler, F. (2018) Questionable Research Practices in Ecology and Evolution. doi: 10.17605/OSF.IO/AJYQG.**
+
+"Transformation process" of science communication is susceptible to confusion and corruption, has triggered both reflection and meta-research in other disciplines. 
+
+*Forstmeier et al [8]:*
+
+Individual research practice is embedded in a broader culture, and promoite conditions of publication bias and type 1 errors. 'Questionable research practices' are fostered under conditions of publication bias, inflating false postive rates in the literature.
+
+Within Ecology and evolution research, there is a dearth of replications of existing research. Existing advice predominantly focuses on practices that individual researchers can implement. There is increasing initiatives at broader scales, at the journal level, for example, to improve reporting standards.
+
+Psychology and Medicine have both properly documented the prevalence of QRPs. [-@Fraser:2018cl] represents the first study to document the prevalence of QRPs in EcoEvo.
+
+## What are QRPs?
+
+- `p-hacking`:
+
+> A set of activities: checking the statistical significance of results before deciding whether to collect more data; stopping data collection early because results reached statistical significance; deciding whether to exclude data points (e.g., outliers) only after checking the impact on statistical significance and not reporting the impact of the data exclusion; adjusting statistical models, for instance by including or excluding covariates based on the resulting strength of the main effect of interest; and rounding of a p value to meet a statistical significance threshold (e.g., presenting 0.053 as p < .05).
+
+- `cherry picking`:
+
+> includes failing to report dependent or response variables or relationships that did not reach statistical significance or other threshold and/or failing to report conditions or treatments that did not reach statistical significance or other threshold.
+
+- `HARK-ing` (hypothesizing after results are known):
+
+> includes presenting ad hoc and/or unexpected findings as though they had been predicted all along [16]; and presenting exploratory work as though it was confirmatory hypothesis testing [17].
+
+--> Jian: ideally, exploratory work should be published / presented as just that, and offer potential hypotheses / mechanisms explaining the findings that future researchers can test.
+
+## Publication bias, publish-or-perish culture
+
+> Publication bias in this context refers to a bias towards publishing statistically significant, ‘positive’ results and not publishing statistically non-significant (‘negative’ or null results).
+
+It has been documented for decads in disciplines like psychology. Moreover, the increase in the proportion of statistiaclly significant results has been increasing over the last 25 years.
+
+What is the relationship between QRP prevalence and publication bias + publish/perish culture? It is thought that these broader set of conditions may be impacting on the frequency with which researchers use QRPs (Agnoli) (Fidler).
+
+
+
+ # Relevance to my research
+
+## Building a picture of the different levels of research
+
+Most research focused on the individual researcher - reference for this? No. I get this impression, too. But would be good to evaluate this claim by looking at the literature systematically.
+
+## Non-NHST QRPs
+
+- p-hacking: point about "adjusting statistical models (e.g. by including or excluding covariates based on resulting strength of the main effect of interest)". This is presumably referencing GLMS / GAMs and other models where there are fit statistics with p-values, etc. What is a parallel offence for other sorts of models, e.g. causal models?

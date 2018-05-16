@@ -172,25 +172,46 @@ Understanding the components of this system, and what their properties are... am
 - [@Madin:2008jv] ontologies for ecology... talk about the specifics of ecological data. Concluding remarks section has good discussion on changing landscape of ecological work and data landscape.. integrative / synthetic approaches to dealing with data.
 - [@Jones:2007fv] metadata-driven framework for generating field data entry interfaces in ecology
 
-Problems: 
-Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv]. Aimed to be used within respective projects only. Data owners are the only intended users, and information about structure, content and usage is not recorded. IMO probably because the data creator has this mental understanding of the data and doesn't need it.
-"As ecological research becomes holistic and integrative, better approaches are needed ". In Conservation Decision Making, I think this was always already an issue. 
-
-"Current data practices in ecology are not amenable to data sharing and re-use." Spreadsheet models, or even more sophisticated database frameworks don't have the necessary information to facilitate long-term preservation and interpretation of data. There are good approaches, but ontology-based approaches are rare. "Thus, the adoption of ontolo- gies is hindered both by the familiarity of current practices and the lack of tools to readily migrate to improved prac- tices." 
+How does ecology differ from other disciplines? Madin 2008 paper... lack of formalised terms and concepts... It's seen a a 'soft-science'
 
 
 
-The landscape of ecology:
+
+The data landscape of ecology:
 Newer synthetic approaches to ecological analyses, that are often cross-disciplinary (this was in 2008).
 
+Problems: 
 
+Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv]. Aimed to be used within respective projects only. Data owners are the only intended users, and information about structure, content and usage is not recorded. IMO probably because the data creator has this mental understanding of the data and doesn't need it.
+"As ecological research becomes holistic and integrative, better approaches are needed " [@Madin:2008jv]. In Conservation Decision Making, I think this was always already an issue. 
+
+"Current data practices in ecology are not amenable to data sharing and re-use." Spreadsheet models, or even more sophisticated database frameworks don't have the necessary information to facilitate long-term preservation and interpretation of data. There are good approaches, but ontology-based approaches are rare. "Thus, the adoption of ontolo- gies is hindered both by the familiarity of current practices and the lack of tools to readily migrate to improved prac- tices."  [@Madin:2008jv]
+
+"Long-tail" of ecological research [@Culina:2018dn]: "many individual projects producing small-scale data" has not embraced the open data movement. But some fields in ecology and evolution that are characterised by 'big data' have embraced open data. Authors think that it is the heterogeneous nature of ecological research (e.g. specific taxa, systems, regions or methodologies) that have impeded uptake.
+
+There is increasing demand for the use of open data in ecology and evolutionary biology. One example is that there is a need to "identify broader ecological and evolutionary patterns and processes across species, space and time " [@Culina:2018dn]. Two other such uses are 1. facilitating meta-analyses, and replications. 2. Conservation decision making and decision support!! Translational research of ecological research into decision support systems and then into decisions. 3. "re-analysis of data using new statistical iapproaches, error checking or use of existing data to address new questions "
 
 ## What makes applied ecological work / conservation special?
 
 Need to unpack what we do in decision support for ecology. what sorts of models / analysis do we use? not NHST. often building predictive models. Law paper. Conservation decision-making and evidence work
 
+So, in conservation-decision making, we need to be aware of the technical issues around reusing and synthesising data -- Culina et al [-@Culina:2018dn] highlight an example where two different meta-analyses wrongly concluded tehre was no net loss of biodiversity due to spatial biases in collected data sets. 
+
 ## Conservation evidence-base - "DATA LANDSCAPE"
-Lots of good papers writing about this, I believe they can help informat my understanding of reproducibility issues for ecology
+Lots of good papers writing about this, I believe they can help inform my understanding of reproducibility issues for ecology
+
+
+
+### Conservation Decision-making and translational research
+
+Bridging the knowledge-doing gap. This stuff will cover the evidence base / conservation literature.
+
+Segan
+Sutherland
+Pulin
+Bower
+
+
 
 # Timeline of activities and goals
 

@@ -89,6 +89,9 @@ At the other end of the spectrum there is a decent body of work focusing on the 
 - [@Wilson:2014ck] describes a set of practices for improving reproducibility of analyses in many quantitative research settings, e.g. version control, incremental changes, functional programming, plannning for mistakes using unit-testing...etc.
 - literatre programming and Rmarkdown documents for portable, containerised analyses linked to their inferences, e.g.: [@Baumer:2015hc] and [@Gandrud:2016ux]
 - [@White:2013ea] how to make your data re-usable to others for replications, or whatever. But also on how to maek it reproducible for yourself. emphasis on ecological data (types.)
+- BES's guide to data management [@BritishEcologicalSociety:2014va]
+- Organizing computaitonal biology projects [@Noble:2009da] not ecol specific, but biol specific
+
 
 Then there's also a push to *share* data in ecology "open data" and science more broaldy. this work is less likely to only consider the researcher / study in its own right, and consider issues of reproducibility within a broader systems-level view: treating openness as precurser for a) fostering greater rates of replication, by making individual studies more readily reproducible (computationally / directly) [@Merali:2010tw]. Importantly, there is recognition that issues around reproducibility and openness as pertaining to the technical limitations of individual researchers are actually inter-generational and cultural: As ecologists, scientists more generally, we mostly aren't trained in software development, but have picked bits and pieces up along the way / are self-taught (i.e. we lack a formal training) [@Merali:2010tw]. The same point has been made about statistical training of ecologsts (CITE... context of QRPs???). Consequently proponents of openness also advocate for collaboration of ecologists with software developers and computer scientists and for bringing industrial software practices into the workflows of labs and research groups [@Merali:2010tw]. 
 
@@ -155,11 +158,13 @@ Need to describe the  flow and transformation of information into knowledge, in 
 
 For conservation, there's this 'knowing-doing' gap. ANd an interesting set pf relations between practitioners and researcheres. Need to capture what Fiona called the  "translational research" element of decision-making reserach for conseration in our informatics.
 
-Understanding the components of this system, and what their properties are... am I building an 'ontology'? See Culina paper.
+Understanding the components of this system, and what their properties are... am I building an 'ontology'? See Culina paper and also Madin (2007)...: "Ontologies are formal models that define concepts and their relationships within a scientific domain such as ecology". 
 
 ### What makes ecological data special?
 - [@White:2013ea]
 - [@Borregaard:2018gu]
+- [@Madin:2008jv] ontologies for ecology... talk about the specifics of ecological data. Concluding remarks section has good discussion on changing landscape of ecological work and data landscape.. integrative / synthetic approaches to dealing with data.
+- [@Jones:2007fv] metadata-driven framework for generating field data entry interfaces in ecology
 
 ## What makes applied ecological work / conservation special?
 

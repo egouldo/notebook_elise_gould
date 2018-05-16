@@ -28,6 +28,12 @@ IMportnat points to cover:
 - non-NHST call.
 - 
 
+Debate around whether there is a crisis. Some say that the narrative of a crisis is "mistaken", and argue that the 'crisis' should be rebranded as a narrative of 'eopchal changes and empowerment of scientists' [@Fanelli:2018je].
+
+See [@Jamieson:2018kz] for an essay on communicating the shitstorm. 
+
+I think the point I want to make is that, personally I think these are two different issues. I think there is evidence that we *can't reproduce or replicate many studies*, but whether we call this a crisis or a credibility revolution is a separate issue. Still important though!
+
 Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable [@Nakagawa:2015bn]. As the recent "reproducibility crisis" debate illustrates, this assumption is often incorrect [@Nature:un]. Failure to reproduce a large proportion of published studies has received considerable attention and provoked heated debate among researchers in the disciplines of psychology and medicine. 
 
 Evidence for (ir)reproduciability
@@ -35,12 +41,14 @@ Highlight a couple of studies crying out that there is a reproducibility crisis.
 - In a large-scale replication study only 36% of Psychology replications had significant results [@OpenScienceCollaboration:2015cn]
 
 evidence for this "heated debate"?
-is a crisis, there isn't? that the studies claiming there is a crisis are also wrong (used bad methods to reproduce).
+is a crisis, there isn't? that the studies claiming there is a crisis are also wrong (used bad methods to reproduce). just downloaded one now.
 Study that replicated those studies was unable to be replicated.
 
 There is an inherent cost to ensure / increase reproducibility of an experiment or study [@Nature:un].. time (better documentation around methods for example) and therefore money 
 
-Very onerous to check code, even 
+Very onerous to check code, eve.
+
+See [@Williams:2017bg] for a good brief definition of replication / reproducibility using Peng.
 
 ## Repro Crisis Ecology
 
@@ -66,11 +74,17 @@ There are a number of different definitions / typologies of replications:
 
 ## Decision Support Tools - Reproducibility 
 
+What's a reproducible decision?? Transparency is touted as key to decision-making process to facilitate 'reproducible' decisions? But what does this actually mean:
+"Transparency is a key feature of environmental decision-support systems, allowing stakeholders to structure conservation problems and potentially delivering defensible and reproducible decisions (McIntosh et al., 2011)" in [@Kim:2016gf]. [@McIntosh:2011ew]: "Transparent because rational explanations can be provided to support decisions, and because the user/stakeholder/citizen can reproduce the decision procedure, play with the weights, and perform sensitivity analysis to assess decision strength and robustness." .... So they are just saying that the procedure can be 'repeated' really. It's not really saying that the decision is reproducible. Just assuming that it is.
+
+
 Significant resources are invested in conservation and management. 
 1. demonstrating credibility is important.
 2. 
 
 What is the risk that decision support tools are irreproducible? I.e. the consequences. Why is it worth examining.
+
+A quick set of definitions / glossary (table): define them here in a table.
 
 Now move onto decision support tools - huge part of what we do in applied ecology. 
 So how might a reproducibility crisis manifest in ecological decision support tools?
@@ -92,12 +106,22 @@ At the other end of the spectrum there is a decent body of work focusing on the 
 - BES's guide to data management [@BritishEcologicalSociety:2014va]
 - Organizing computaitonal biology projects [@Noble:2009da] not ecol specific, but biol specific
 - Best practices for reporting climate data in ecology. Guideliens for individual researchers, but witha  view of creating transparency and reporting standards for editors, and reviewers [@MoruetaHolme:2018bi]
+- [@Evolution:cl] describe technical and cultural issues that need to be addressed to aid archiving more data in Eco/Evo. target the best-practice guideliens for data creators, data users (i.e. researchers synthesising data), and for journal editors and publishers.
+- again another ecoinformatics paper, breaking down the research data life-cycle, 
 
+Then there is research focussing on the the reproducibility of particular tools or methods used to inform conservation decision-making, e.g. for Population Viability Analyses PVA. Morrison et al 2018 frontiers in ecology and evolution. [@Morrison:2016cd]. This is a step towards understanding that reproducible or "robust" decisions aren't just those that follow a transparent process... but "scientific input into conservation plannign [must be] robust and reliable, thereby increasing the chances of making decisions that are both beneficial and defensible". So it views decisions in this broader context. Also! reallly cool paper because it tried to directly repeat and reproduce a bunch of PVA's systematically. cool.
+
+
+### open data and sharing
 
 Then there's also a push to *share* data in ecology "open data" and science more broaldy. this work is less likely to only consider the researcher / study in its own right, and consider issues of reproducibility within a broader systems-level view: treating openness as precurser for a) fostering greater rates of replication, by making individual studies more readily reproducible (computationally / directly) [@Merali:2010tw]. Importantly, there is recognition that issues around reproducibility and openness as pertaining to the technical limitations of individual researchers are actually inter-generational and cultural: As ecologists, scientists more generally, we mostly aren't trained in software development, but have picked bits and pieces up along the way / are self-taught (i.e. we lack a formal training) [@Merali:2010tw]. The same point has been made about statistical training of ecologsts (CITE... context of QRPs???). Consequently proponents of openness also advocate for collaboration of ecologists with software developers and computer scientists and for bringing industrial software practices into the workflows of labs and research groups [@Merali:2010tw]. 
 
+QRP study: [@Agnoli:2017kl]
+
 Some proponents of openness argue that transparency (access to source code, and links to data) is not enough -- too onerous to have researchers check data line by line in replications [@Merali:2010tw]. There are technical solutions from the Computer science / reproducible research areas that aim to alleviate this barrier to checking the reproducibility of papers, e.g. E.g. $R^2$ the executable papers platform for the R community [@Leisch:2011hf]. Aimed to remove the burden of checking computational reproducibility off reviewers by providing a "new web service which outsources validation of computational results in executable papers to an independent third party." It's one solution to the issue of reviewers and journals having to check this (some journals have hired statiscial reviewrs and programmers to address this sticking point for reproducibility (CITE)).
 
+
+"The combination of for- mal systems for tracking provenance, and fed- erated data repositories like DataONE that provide unique identifiers for every data object, will be instrumental in realizing the goal of fully reproduc- ible science in support of understanding global environmental issues such as climate change, species invasions, and epidemics" data sharing should facilitate "as well as greater reproducibility and transparency of the methods and analyses that support scientific insights."
 
 
 Openness work still largely considers reproducibility to be computational or direct reproducibility.
@@ -141,21 +165,25 @@ target audience:
 
 scope: Am i examining just models... or am I looking at the entire decision-making process... from specification of objectives, for example.. My feeling is that there are a lot of papers focusing on good / robust modelling practices within ecology / conservation in general, as well as articulating why models are necessary in decision-making. I think it could be useful to consider the entire process to developing the decision tool as a whole because aspects of the whole process may influence the final decision.. For example, Law et al.  [-@Law:2017ia] argue that decisions are sensitive to the scenarios selected during scenario analysis.
 
-## Paper 1
+## Paper 1 - Systematic Review
 
-Systematic Review
+## Paper 2 - DSS Protocol Development
 
-## Paper 2
+## Paper 3 - How do you replicate a DST?
 
-DST Protocol Development
+One thing to test for in the replication:
 
-## Paper 3
+Bower et al [-@Bower:2017im] argue that problem formulation is a crucial first step in any CDM process. However, they state that " If parties to the decision process do not have a clear, shared idea of the problem itself, then entering into an SDM process is recommended. Specific techniques outlined in Table 1 can then be used to help clarify problem formulation." Page 4, [@Bower:2017im].  Wonder if that is robust enough, and how you measure the definition of the problem... line of inquiry for review.. Are decisions generated from DSS's developed with an SDM framework more reproducible than those that are not?
 
-How do you replicate a DST?
+It's worth trying to get a handle on this... because these more rigorous decision protocols have a cost to them and "Unfortunately, insufficient resources often constrain smaller conservation agencies’ capacity for strictly following rigorous decision protocols." Page 4, [@Bower:2017im]. Bower et al suggest using truncated versions of these protocols, such that the decision process is still transparent.
 
 ## Ecological Informatics / Reproducibility Roadmap
 
-PhD output: could be a thinkpiece, or might be the literature review for the thesis (check the guidelines, you need one in addition to a published one)...
+Michener et al define ecoinformatics as a "framework that enables scientists to generate new knowledge through innovative tools and approaches for discovering, managing, integrating, analyzing, visualising and preserving relevant biological, environmental, and socioeconomic data and information".
+
+So perhaps I could extend an ecoinformatics model to account for translational research... i.e. one that accounts for the knowledge-doing gap.
+
+PhD output: could be a thinkpiece, or might be the literature review or a chapter for the thesis (check the guidelines, you need one in addition to a published one)... But could be a real intervention... a technical solution.. like a small-scale / pilot, perhaps using Qaeco's task, data archiving repository that uses semantic annotation and ontologies.What would be the point of this?? There are already repositories in existance that do this... But do they do ontology-driven integration? Could build something that implements this... Payal's database problem.
 
 What: Building an informatics for ecology (and decision suport systems as a part of this, to bridge the knowledge-doing gap).
 
@@ -172,16 +200,33 @@ Understanding the components of this system, and what their properties are... am
 - [@Borregaard:2018gu]
 - [@Madin:2008jv] ontologies for ecology... talk about the specifics of ecological data. Concluding remarks section has good discussion on changing landscape of ecological work and data landscape.. integrative / synthetic approaches to dealing with data.
 - [@Jones:2007fv] metadata-driven framework for generating field data entry interfaces in ecology
+- "Page 1
+One challenge that is particularly daunting lies in dealing with the scope of ecology and the enormous variability in scales that is encountered, spanning microbial community dynamics, communities of organisms inhabiting a single plant or square meter, and ecological Page 1
+One challenge that is particularly daunting lies in dealing with the scope of ecology and the enormous variability in scales that is encountered, spanning microbial community dynamics, communities of organisms inhabiting a single plant or square meter, and ecological 
+Page 2
+processes occurring at the scale of the continent and biosphere. The diversity in scales studied and the ways in which studies are carried out results in large numbers of small, idiosyncratic data sets that accumulate from the thousands of scientists that collect relevant biological, ecological and environmental data
+[18] 
+Page 2
+Such heterogeneity can be attributed, in part, to methodological specialization to address specific scientific hypotheses, but also to a lack of standard protocols for acquiring, organizing and describing data and language barriers and cultural differences across disciplines, institutions and countries.
+"
 
 How does ecology differ from other disciplines? Madin 2008 paper... lack of formalised terms and concepts... It's seen a a 'soft-science'
 
 
 
 
-The data landscape of ecology:
+The data landscape of ecology is changing..
 Newer synthetic approaches to ecological analyses, that are often cross-disciplinary (this was in 2008).
 
-Problems: 
+"Ecologists increasingly address questions at broader scales that have both scientific and societal relevance", [@Michener:2012ho]. Affected by changes occurring in science more broadly, and so there is growing emphasis on data stewardship sharing, openness [@Michener:2012ho].
+
+
+### Problems (with regard to ecological data storage and accessibility)
+
+Ecology's filedrawer problem:
+In ecology and evolutionary biology, most data that is collected is lost to science, and are never accessible to anyone other than the original collector or user [@Evolution:cl]. That excludes summaries posted in publications. Then, eventually many data are lost, even to the original collector [@Evolution:cl].
+But the foundation of science is data - information about the natural world obtained through experiment and observation.
+
 
 Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv]. Aimed to be used within respective projects only. Data owners are the only intended users, and information about structure, content and usage is not recorded. IMO probably because the data creator has this mental understanding of the data and doesn't need it.
 "As ecological research becomes holistic and integrative, better approaches are needed " [@Madin:2008jv]. In Conservation Decision Making, I think this was always already an issue. 
@@ -190,7 +235,14 @@ Data collected, often for a targeted purpose, without considering how it might b
 
 "Long-tail" of ecological research [@Culina:2018dn]: "many individual projects producing small-scale data" has not embraced the open data movement. But some fields in ecology and evolution that are characterised by 'big data' have embraced open data. Authors think that it is the heterogeneous nature of ecological research (e.g. specific taxa, systems, regions or methodologies) that have impeded uptake.
 
+**increasing use and establishment of data repositories / open data in Eco/Evo**
 There is increasing demand for the use of open data in ecology and evolutionary biology. One example is that there is a need to "identify broader ecological and evolutionary patterns and processes across species, space and time " [@Culina:2018dn]. Two other such uses are 1. facilitating meta-analyses, and replications. 2. Conservation decision making and decision support!! Translational research of ecological research into decision support systems and then into decisions. 3. "re-analysis of data using new statistical iapproaches, error checking or use of existing data to address new questions "
+
+Increasing data deposits are driven by policies of journals or funding agencies to encourage or require data archiving as part of the publication process [@Evolution:cl]. Lots!!! of ecological repositories now (table 2 of [@Michener:2012ho])
+
+The two functions of open data archiving [@Evolution:cl]:
+1. error checking and verification of results. As well as a method for preventing and correcting misconduct, although it is likely rare.
+2. data to be re-used for broader meta-analyses, and for addressing new questions.
 
 ## What makes applied ecological work / conservation special?
 
@@ -204,6 +256,8 @@ Lots of good papers writing about this, I believe they can help inform my unders
 
 
 ### Conservation Decision-making and translational research
+
+Conservation decision making according to Bower: "Conservation practitioners face complex challenges due to resource limitations, biological and socioeconomic trade-offs, involvement of diverse interest groups, and data deficiencies".
 
 Bridging the knowledge-doing gap. This stuff will cover the evidence base / conservation literature.
 

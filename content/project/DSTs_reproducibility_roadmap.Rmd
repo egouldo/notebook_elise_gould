@@ -1,10 +1,10 @@
 ---
-title: "research_proposal"
+title: "QRP and Biases Roadmap"
 author: "Elise Gould"
 date: "2017-02-15T00:00:00"
 output: html_document
 bibliography: ../../static/files/citations/posts_read.bib
-slug: reserach_proposal
+slug: qrp_roadmap
 categories: 
   - research proposal 
   - systematic review

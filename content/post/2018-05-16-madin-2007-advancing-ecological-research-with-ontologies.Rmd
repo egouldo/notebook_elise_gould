@@ -1,19 +1,18 @@
 ---
-title: Madin (2007) Advancing ecological research with ontologies
+title: "Madin (2007) Advancing ecological research with ontologies"
 author: ''
 date: '2018-02-24'
-slug: madin-2007-advancing-ecological-research-with-ontologies
-categories:
-  - reading
-tags:
-  - ecology
-  - research practice
-  - ontology
-  - informatics
-  - open data
+categories: reading
 header:
   caption: ''
   image: ''
+slug: madin-2007-advancing-ecological-research-with-ontologies
+tags:
+- ecology
+- research practice
+- ontology
+- informatics
+- open data
 bibliography: ../../static/files/citations/posts_read.bib
 ---
 
@@ -52,8 +51,31 @@ The authors categorise three types of ontologies th8are are important in ecology
 
 Ontologies can aid in scientists utilising and publishing ecological and environmental data. See Figure Below:
 
+![](https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Madin_et_al-2008.png)
 
+Publishing data to repositories (to share with other researchers), is often acompanied by the use of metadata standards, providing descriptive information (who created, licensing, data structure, methods of collection). One example is the Metacat data-management syustem, a distributed repository used by organisations like Ecological Society of America. Ontologies can enhacne the power of metadata, as well as enabling software capabilities in addition to semantic queries "smart" queries. E.g. data merging (integration), unit conversion, sensible summarisation that matches the underlying structure of the data.
+
+1. Framework ontologies can aid in this, with semantic annotations. It is needed to translate the units or taxa from different datasets. They can therefore help automate the merging of datasets by clarifying and relating their logical structures. Applications can then use this information to determine if two data attrivutes are compatible for a particular analytic purpose.
+2. Can enable sensible summarisation by exposing important contextual information about when, where and how measurements were taken. Software can then interpret sampling design and identify which variables represent (e.g. nesting or blocking factors) and summarise appropriately.
+3. Ontologies can be used in statistical analysis and modeling tools, e.g. workflow-automation systems. Providing graphical environments for creating and running analyses, and visualising results and tracking data provenance. They can aid researchers in finding relevant analyses, and indicate the data transformation and integration tasks required for analysis.
 
 # Relevance to my research
+
+The above image shows a "proposed high-level architecture" for ecological and environmental data management at three levels. It's this sort of thinking that I want to apply to considering reproducibility issues in ecology and conservation.
+
+I can see this sort of high-level architecture being useful for solving a few problems in reproducibility:
+
+1. The problem of data selection when building process models can be mitigated by ontologies that help better synthetic and data-sharing capabilities in ecology.
+
+- can't find data, it's absent (but maybe it exists on a hard-drive somewhere... I think we still have a file-drawer problem in ecology!!) - open data and cultural uptake of data sharing will reduce this.. "herd immunity"
+- Can't find data - but it's actually present on the database you are looking at (but the text-based searching using user-defined keywords fails to make the match), or it's on a different database
+- Can find data, can use OK
+- Can find data, can't use because wrong shape, or isn't adequately described. Perhaps we don't know where or how it was collected.
+
+I think it could also aid with QRPs in the case of eggregious or even unintentional statistical errors. For example, there are framework ontologies developed that can automatically the experimental design / nested structure of the data (given appropriate metadata). This then facilitaes appropriate synthesis of data for broader analyses... but ALSO wrt to QRPs, could be used to identify the underlying structure of the data, and if linked to some other statistical ontology, could identify whether the underlying properties of the data structure are appropriate for some given analysis.
+
+To Qaeco's data repository project: I think we should have a policy that all honours / masters students should submit their own data to A repository, not just with code, to facilitate ecological data sharing.
+
+See also [-@Culina:2018dn] for a contemporary discussion on the role of ontologies with open standards in open science.
 
 # References

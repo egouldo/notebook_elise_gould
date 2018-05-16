@@ -158,13 +158,19 @@ Need to describe the  flow and transformation of information into knowledge, in 
 
 For conservation, there's this 'knowing-doing' gap. ANd an interesting set pf relations between practitioners and researcheres. Need to capture what Fiona called the  "translational research" element of decision-making reserach for conseration in our informatics.
 
-Understanding the components of this system, and what their properties are... am I building an 'ontology'? See Culina paper and also Madin (2007)...: "Ontologies are formal models that define concepts and their relationships within a scientific domain such as ecology". 
+Understanding the components of this system, and what their properties are... am I building an 'ontology'? See Culina paper and also Madin (2007)...: "Ontologies are formal models that define concepts and their relationships within a scientific domain such as ecology". Hmmm. Digging further.. not quite... More of a directed conceptual model.
 
 ### What makes ecological data special?
 - [@White:2013ea]
 - [@Borregaard:2018gu]
 - [@Madin:2008jv] ontologies for ecology... talk about the specifics of ecological data. Concluding remarks section has good discussion on changing landscape of ecological work and data landscape.. integrative / synthetic approaches to dealing with data.
 - [@Jones:2007fv] metadata-driven framework for generating field data entry interfaces in ecology
+
+Problems: 
+Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv].
+
+The landscape of ecology:
+Newer synthetic approaches to ecological analyses, that are often cross-disciplinary.
 
 ## What makes applied ecological work / conservation special?
 

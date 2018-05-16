@@ -129,6 +129,12 @@ Both metaresearch work and reproducible research / open science / data advocates
 
 - an outline of the major aims of the project and the approaches that will be taken (1 - 2 pages)
 
+Provide further insight and deepen the understanding of issues of reproducibility and transparency in ecology and conservation decision making.
+
+1. Develop an understanding / framework / definition of reproducibility that is applicable to Non-NHST and translational research, that is sensitive to the particularities of the data, the methods, the questions commonly used within these contexts.
+2. Build a picture / conceptual model of ecological informatics with a reproducibility bent, multi-level.
+2. Characterise the extent and magnitude of the "problem."reproducibility crisis"
+3. Devise (and possibly test) interventions for improving reproducibility and transparency in ecology and conservation. improving the scientific process in ECO / CDM. Could be policy-based, could be guidelines  targeted at the author, could be a technical tool.
 
 target audience:
 

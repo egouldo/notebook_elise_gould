@@ -167,10 +167,17 @@ Understanding the components of this system, and what their properties are... am
 - [@Jones:2007fv] metadata-driven framework for generating field data entry interfaces in ecology
 
 Problems: 
-Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv].
+Data collected, often for a targeted purpose, without considering how it might be reused for broader projects and analyses [@Madin:2008jv]. Aimed to be used within respective projects only. Data owners are the only intended users, and information about structure, content and usage is not recorded. IMO probably because the data creator has this mental understanding of the data and doesn't need it.
+"As ecological research becomes holistic and integrative, better approaches are needed ". In Conservation Decision Making, I think this was always already an issue. 
+
+"Current data practices in ecology are not amenable to data sharing and re-use." Spreadsheet models, or even more sophisticated database frameworks don't have the necessary information to facilitate long-term preservation and interpretation of data. There are good approaches, but ontology-based approaches are rare. "Thus, the adoption of ontolo- gies is hindered both by the familiarity of current practices and the lack of tools to readily migrate to improved prac- tices." 
+
+
 
 The landscape of ecology:
-Newer synthetic approaches to ecological analyses, that are often cross-disciplinary.
+Newer synthetic approaches to ecological analyses, that are often cross-disciplinary (this was in 2008).
+
+
 
 ## What makes applied ecological work / conservation special?
 

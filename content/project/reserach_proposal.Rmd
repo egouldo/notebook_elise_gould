@@ -39,14 +39,37 @@ Science is a cumulative process building upon previous research to develop knowl
 
 Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a "crisis" persists. Fanelli et al. [-@Fanelli:2018je] use a failed replication of a large-scale meta-analysis to argue that the "crisis" is mistaken, and should instead be rebranded as a narratvive of "epochal changes and empowerment of scients" [@Jamieson:2018kz]. In a 'post-truth' era of 'alternative-facts', how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important [@Sutherland:2017hc]. Although large-scale direct replications are largely absent in ecology [@Nakagawa:2015bn], an initial assessment of the conditions found to foster reproducibility problems provide evidence that ecology as a discipline is *at risk* of a "reproducibility crisis" [@Fidler:2017he]. **Moreover, CITE HANNAH'S PAPER HERE.** **CALL FOR METARESEARCH, fidler**.
 
+## Reproducibility *of* decisions versus reproducibility *for* decision-making
+
+
+
+Morrison et al. [-@Morrison:2016cd] propose some initial discussion as to the implications of the non-reproducibility of the technical inputs into the decision-making process.
+
+- "reliability of predictions could result in scarce resources being directed inefficiently" + therefore opportunity costs
+- credibility / repeatability of original model "those that are not repeatable may bring into question the validity and predictions of the original model."
+- "where predictions cannot be repeated or reproduced practitioners may be unable to evaluate whether any conservation action or spending has achieved the desired conservation objective" Can't evaluate against predictions.
+- Can't evaluate effectiveness of intervention against predictions of the mode (because you can't repeat the model!) AND this is really important in ecology because we only really ever get one chance n = 1 to test the effectiveness of an action, and then we must use the model outputs to to compare against the counter-factual.
+- In an adaptive management context / management underpinned by monitoring, or during iterative model development if you can't reproduce the model, ability of conservation practitioners to compare revised models using updated parameters to previous models is limited.
+
+These arguments mirror / echo those made in the conservation decision making literature and the role of the robustness of the evidence-base. Law, gardner, sutherland S4.
+
+But what's missing? 
+
+yes, further research like the Morrison work above, is needed on the reproducibility of inputs from models / tools at various stages of the decision-process. However, must examine the reproducibility of decisiosn through the *whole* decision process.
 
 Reproducibility of the "raw" evidence-base is important. But why would it be worth looking at *decisions*? what are the implications?
 
-Implications of not being able to reproduce predictions.
+But this is just focussing reproducibility issues *in* the evidence base... i.e. in terms of the reproducibility of the information / inputs going into the decision support system.
 
-**Implications of non-repro for decisions** See the PVA repro paper discussion.
+Why we need to examine reproducibility of decisions... but as embedded in a broader informatics-based framework.
 
+Paper I sent to Libby about values in the DP: "Decision-making in conservation is a human enterprise. Inevitably, values and ver- ifiable facts shape conservation decision-making ".
 
+Law: Risk attitudes + values, can impact the chosen decision. It's important that we examine the whole DP wrt reproducibility.
+
+Then lead onto the major aims / scope of my PhD:
+
+explore reproducibility of decisions generated from formal approaches to conservation decision-making. And will do so by examining knowledge / information synthesis within different parts of this knowledge system.
 
 ---------
 new structure:

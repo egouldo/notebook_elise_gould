@@ -2,7 +2,9 @@
 title: "PhD Research Proposal"
 author: "Elise Gould"
 date: "2017-02-15T00:00:00"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 bibliography: ../../static/files/citations/research_proposal.bib
 slug: reserach_proposal
 categories: 

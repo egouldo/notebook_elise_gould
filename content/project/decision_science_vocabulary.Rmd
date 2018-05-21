@@ -11,6 +11,10 @@ tags:
   - project
 ---
 
+Decision Making: " p.56: For the purposes of this paper, we define decision-making as the process of identifying options and selecting a feasible solution, based on evidence combined with the decisionmaker’s values and experience (DeFries & Nagendra, 2017).  -- Highlighted 21 May 2018" [@Mukherjee:2018cb]
+
+When is a tool a tool or a system? See heading "decision support systems" in [@Dicks:2014gf] Dicks, L. V., Walsh, J. C., Sutherland, W. J. (2014) Organising evidence for environmental management decisions: a ‘4S’ hierarchy. Trends in Ecology & Evolution. 29, 607–613.
+
 NOTE: see the [@McIntosh:2011ew] paper for a good discussion on the taxonomy and history of decision processes in environmental decision-making
 
 The language of decision science or formal approaches to guding conservation decision making is very confused. It is clear that authors use the same term but with different meanings. It is also clear that they understand the relationships between terms and ideas in different ways.

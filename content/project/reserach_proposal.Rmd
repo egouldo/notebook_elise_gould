@@ -23,24 +23,30 @@ Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
 - current / potential EHS issues?
 - well-referenced intro that explains scientific context of project (1 - 3 pages)
 
+Keywords:
+
+- conservation
+- decision-making
+- ecology
+- reproducibility
+- structured decision-making
+
 # Introduction
 
-**INTRO PARAGRAPH**
-- intro sentence: what we do in applied ecology and conservation: decision-making under uncertainty. Rapid decisions. 
-- Formal approaches to environmental decision-making under uncertainty, such as Structured Decision Making (SDM), are commonly touted as a means to more robust and reproducible decisions because of their inherent transparency. List examples.
-- claim largely untested. very little discussion of reproducibility of decision-support in ecology and conservation beyond the throwaway claim of benefit.
-- Given that science is in the grips of a broader "reproducibility crisis" or "credibility revolution" (depending on which way you spin it), within a broader socio-political climate of alternative facts and post-truthness where scientific truths are heavily scrutinised and, it's essential and timely that researchers begin examining the reproducibility of decision-support systems in ecology and conservation.
-
-------
+Successful biodiversity conservation and management is underpinned by effective and robust decision-making [@Mukherjee:2018cb]. Decision-makers are tasked with allocating limited resources in the face of uncertainty about the effectiveness of alternative management interventions, and incomplete or inadequate scientific information. Moreover, environmental decisions often must be made in complex socio-economic and political contexts, with multiple stakeholders and multiple and/or competing objectives. Formal, structured approaches to decision-making under uncertainty, such as Structured Decision Making, are commonly espoused as a means to more robust and reproducibile conservation decisions because of their transparency in the decision process (**LIST EXAMPLES**). However, this claim to assumed reproducibility remains untested, and a more nuanced consideration of what exactly reproducibility means in this application is lacking. Given that science is said to be in the grips of a "reproducibility crisis", and that biased and unfair scrutiny in the broader socio-political climate of "alternative facts" threatens credibility of scientific knowledge [@Baillieul:2018jd], it is both essential and timely that the reproducibility of decision-support in ecology and conservation is given rigorous research attention.
 
 Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable [@Nakagawa:2015bn]. As the recent "reproducibility crisis" debate illustrates, this assumption is often incorrect [@Nature:un]. Failure to reproduce a large proportion of published studies in the fields of psychology and medicine has received considerable attention and provoked heated discussion among researchers in the broader scientific community. For example, the Open Science Collaboration's Psychology Reproducibility Project reported that less than half of published results could be reproduced [@OpenScienceCollaboration:2015cn]. 
 
-Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a "crisis" persists. Fanelli et al. [-@Fanelli:2018je] use a failed replication of a large-scale meta-analysis to argue that the "crisis" is mistaken, and should instead be rebranded as a narratvive of "epochal changes and empowerment of scients" [@Jamieson:2018kz]. In a 'post-truth' era of 'alternative-facts', how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important [@Sutherland:2017hc]. Although large-scale direct replications are largely absent in ecology [@Nakagawa:2015bn], an initial assessment of the conditions found to foster reproducibility problems evidence that ecology as a discipline is *at risk* of a "reproducibility crisis" [@Fidler:2017he]. **Moreover, CITE HANNAH'S PAPER HERE.** **CALL FOR METARESEARCH, fidler**.
+Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a "crisis" persists. Fanelli et al. [-@Fanelli:2018je] use a failed replication of a large-scale meta-analysis to argue that the "crisis" is mistaken, and should instead be rebranded as a narratvive of "epochal changes and empowerment of scients" [@Jamieson:2018kz]. In a 'post-truth' era of 'alternative-facts', how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important [@Sutherland:2017hc]. Although large-scale direct replications are largely absent in ecology [@Nakagawa:2015bn], an initial assessment of the conditions found to foster reproducibility problems provide evidence that ecology as a discipline is *at risk* of a "reproducibility crisis" [@Fidler:2017he]. **Moreover, CITE HANNAH'S PAPER HERE.** **CALL FOR METARESEARCH, fidler**.
 
-## Why does reproducibility of conservation decisions matter?
+
+Reproducibility of the "raw" evidence-base is important. But why would it be worth looking at *decisions*? what are the implications?
+
+Implications of not being able to reproduce predictions.
+
 **Implications of non-repro for decisions** See the PVA repro paper discussion.
 
-There is an inherent cost to ensure / increase reproducibility of an experiment or study [@Nature:un].. time (better documentation around methods for example) and therefore money. Very onerous to check code, eve.
+
 
 ---------
 new structure:
@@ -78,7 +84,7 @@ To better suti ecocons and translational research
 
 -------
 
-
+There is an inherent cost to ensure / increase reproducibility of an experiment or study [@Nature:un].. time (better documentation around methods for example) and therefore money. Very onerous to check code, eve.
 
 
 # Reproducibility of Ecology and Conservation - State of the Research / small lit review
@@ -232,6 +238,9 @@ Contribution to PhD: This paper will build a picture or 'map' of QRPs in the dec
 The aim of the review is to evaluate the decision making literature in ecology and conservation for its transparency and potential reproducibility.
 
 Setting the scope - what is the unit of study? This is where the language thing is useful. This research will consider reproducibility of decisions generated from 'decision *frameworks*', not just from tools. It's important to consider the whole decision process, because CDM work indicates that problem formulation may influence the decision outcome (Law paper).
+
+Moreover: Researchers, particularly those trained in the natural sciences
+
 
 SDM work only? No. Although SDM approaches are very common in conservation, I think that restricting the inclusion of studies to nominally SDM studies will omti a lot of research that might be decision-analytic in approach, and therefore still be be a structured / formal framework for decision-making. There's so much slippage around the classification terminology. Might be omitting relevant work. But also, I would like one aspect of the analysis to consider whether the framework used influences the likely reproducibiltiy / transparency of the decision.
 

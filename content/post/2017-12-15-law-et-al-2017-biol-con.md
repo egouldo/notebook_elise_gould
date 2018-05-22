@@ -109,7 +109,7 @@ Baseline scenarios, are usually set as a continuation of current or historical c
 
 The difference between retrospective and prospective analyses of conservation interventions is that retrospective analyses have a fact for alternative scenarios to run counter to, there is an observable, factual case against which alternative scenarios can be compared. However, for prospective analyses both scenarios and baselines must be constructed through assumptions and narrative. Analysts need to ensure that scenarios are not impossible or highly improbabale, because this can give the impression that a particularly positive or negative outcome is likely.
 
-Must ensure each scenario has its assumpptions transparently communicated. 'Robust' prospective evaluation needs clearly articulated, conscientious, defendable definitions of baselines and alternative scnarios.
+Must ensure each scenario has its assumptions transparently communicated. 'Robust' prospective evaluation needs clearly articulated, conscientious, defendable definitions of baselines and alternative scnarios.
 
 The output and subsequent recommendations may substantially differ if there is variation in the scenario definition.
 

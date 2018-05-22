@@ -1,15 +1,15 @@
 ---
-title: "QRP and Biases Roadmap"
-author: "Elise Gould"
-date: "2017-02-15T00:00:00"
+title: QRP and Biases Roadmap
+author: Elise Gould
+date: '2017-02-15'
+categories:
+  - research proposal
+  - systematic review
+tags:
+  - project
 output: html_document
 bibliography: ../../static/files/citations/posts_read.bib
 slug: qrp_roadmap
-categories: 
-  - research proposal 
-  - systematic review
-tags: 
-  - project
 ---
 
 # Goal
@@ -22,15 +22,14 @@ At first I focus on a single study, I can step outside the confines of a single 
 
 ## Method for generating the roadmap
 
-1. Sketch out the SDM / DST building process, but breakdown into modelling-steps if need be. 
+1. Sketch out the SDM / DST building process, but breakdown into modelling steps if necessary.
         a. Does this process differ for different tools / decision frameworks?
-2. Separately, identify sources of bias AND questionable research practices that others have identified in ecology and evolution, but also in other disciplines.
-        a. at the individual study level
-        b. at a higher level, e.g. evidence base / discipline
-        c. WHAT ARE THE LEVELS?!
-        d. Are these biases / QRPs applicable to DSTs?
+2. Identify sources of bias AND QRPs that others have identified in ecology and evolution, but also in other scientific disciplines and translational research fields
+        a. at the individual DSS level
+        b. at a higher level, e.g. in the evidence-base
+        d. Are these biases / QRPs applicable to DSSs?
         e. are there other biases unique to DSTs, that I can identify, that haven't been considered?
-        f. Is their occurrence dependent on the type of tool / technical specifics of the application... i.e. are some tools more robust to biases / QRPs than others?
+        f. Is their occurrence specific to the type of tool or application under consideration? i.e. are some tools more robust to biases / QRPs than others?
 3. Map these biases / QRPs onto 1, where do they occur at the various decision-points?
 
 # DST process
@@ -58,7 +57,7 @@ Pattil et al. [-@Patil:2016tm] have defined a statistical framework for defining
 
 ![](https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Pattil-et-al_2016_fig-1.png)
 
-I've attempted to define some key points of departure, based on Pattil et al.
+I've attempted to define some key points of departure, based on Pattil et al.:
 
 - **Analyst(s):** Person / people leading the decision process from inception / problem definition to decision implementation (SDM), and to learning and review (AM).
 - **Decision-maker(s):** Person / people wholly or partially for responsible for implementing some decision for a given problem.

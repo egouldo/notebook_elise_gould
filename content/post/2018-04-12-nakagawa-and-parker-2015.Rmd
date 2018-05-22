@@ -1,0 +1,38 @@
+---
+title: Nakagawa and Parker 2015
+author: ''
+date: '2018-04-12'
+slug: nakagawa-and-parker-2015
+categories:
+  - reading
+tags:
+  - replication
+  - reproducibility
+  - ecology
+  - evolution
+  - generalisation
+  - validation
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+## Why do we replicate?
+
+1. Assess the validity of prior findings
+2. probe the generality of those findings
+
+## Levels of replication
+
+1. Exact (also known as "direct"): highest fidelity to the original work. But in ecology, usually can only be 'close' replications.
+2. Partial: there is a spectrum of partial replications, from close to limited. These have slight procedural differences.
+3. Conceptual: uses distinctly different study designs to test the same hypotheses.
+4. Quasi-replication (cross-species or system)
+
+## Assessing validity
+
+## Probing generality
+
+Conceptual replications: when results concur, we can define generality. If they conflict, we cannot draw robust inferences about *why* this occurs.
+
+The majority of large-scale meta-analyses
+
+## Incentives to encourage replication in ecology and evolution

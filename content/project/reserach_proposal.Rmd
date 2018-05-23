@@ -1,20 +1,24 @@
 ---
-title: "PhD Research Proposal"
+title: "PhD Research Proposal -- DRAFT"
 author: "Elise Gould"
-date: '2017-02-15'
+date: '2018-05-23'
 output:
+  word_document: default
   pdf_document: default
   html_document:
     keep_md: yes
+number_sections: yes
 categories: research proposal
 slug: research_proposal
 tags: project
 bibliography: ../../static/files/citations/research_proposal.bib
-number_sections: yes
 ---
+
+*Checklist:*
 
 Max 5 pages, 3000 - 4000 words.
 Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
+
 - are topic and aims well defined and achievable
 - are the appropriate methods established or will they need to be developed
 - does the student understand the relevant literature
@@ -23,7 +27,7 @@ Send to committee and cc'd to rhd-biosciences@unimelb.edu.au
 - well-referenced intro that explains scientific context of project (1 - 3 pages)
 - an outline of the major aims of the project and the approaches that will be taken (1 - 2 pages)
 
-Keywords:
+*Keywords:*
 
 - conservation
 - decision-making
@@ -33,11 +37,11 @@ Keywords:
 
 # Introduction
 
-Successful biodiversity conservation and management is underpinned by effective and robust decision-making [@Mukherjee:2018cb]. Decision-makers are tasked with allocating limited resources in the face of uncertainty about the effectiveness of alternative management interventions, and incomplete or inadequate scientific information. Moreover, environmental decisions often must be made in complex socio-economic and political contexts, with multiple stakeholders and multiple and/or competing objectives. Formal, structured approaches to decision-making under uncertainty, such as Structured Decision Making, are commonly espoused as a means to more robust and reproducible conservation decisions because of their transparency in the decision process (**LIST EXAMPLES**). However, this claim to assumed reproducibility remains untested, and a more nuanced consideration of what exactly reproducibility means in this application is lacking. Given that science is said to be in the grips of a "reproducibility crisis", and that biased and unfair scrutiny in the broader socio-political climate of "alternative facts" threatens credibility of scientific knowledge [@Baillieul:2018jd], it is both essential and timely that the reproducibility of decision-support in ecology and conservation is given rigorous research attention.
+Successful biodiversity conservation and management is underpinned by effective and robust decision-making [@Mukherjee:2018cb]. Decision-makers are tasked with allocating limited resources in the face of uncertainty about the effectiveness of alternative management interventions, and incomplete or inadequate scientific information. Moreover, environmental decisions often must be made in complex socio-economic and political contexts, with multiple stakeholders and multiple and/or competing objectives. Formal, structured approaches to decision-making under uncertainty, such as Structured Decision Making, are commonly espoused as a means to more robust and reproducible conservation decisions because of their transparency in the decision process (*list examples*). However, this claim to assumed reproducibility remains untested, and a more nuanced consideration of what exactly reproducibility means in this application is lacking. Given that science is said to be in the grips of a "reproducibility crisis", and that biased and unfair scrutiny in the broader socio-political climate of "alternative facts" threatens credibility of scientific knowledge [@Baillieul:2018jd], it is both essential and timely that the reproducibility of decision-support in ecology and conservation is given rigorous research attention.
 
 Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable [@Nakagawa:2015bn]. As the recent "reproducibility crisis" debate illustrates, this assumption is often incorrect [@Nature:un]. Failure to reproduce a large proportion of published studies in the fields of psychology and medicine has received considerable attention and provoked heated discussion among researchers in the broader scientific community. For example, the Open Science Collaboration's Psychology Reproducibility Project reported that less than half of published results could be reproduced [@OpenScienceCollaboration:2015cn]. 
 
-Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a "crisis" persists. Fanelli et al. [-@Fanelli:2018je] use a failed replication of a large-scale meta-analysis to argue that the "crisis" is mistaken, and should instead be re-branded as a narrative of "epochal changes and empowerment of science" [@Jamieson:2018kz]. In a 'post-truth' era of 'alternative-facts', how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important [@Sutherland:2017hc]. Although large-scale direct replications are largely absent in ecology [@Nakagawa:2015bn], an initial assessment of the conditions found to foster reproducibility problems provide evidence that ecology as a discipline is *at risk* of a "reproducibility crisis" [@Fidler:2017he]. **Moreover, CITE HANNAH'S PAPER HERE.** **CALL FOR METARESEARCH, fidler**.
+Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a "crisis" persists. Fanelli et al. [-@Fanelli:2018je] use a failed replication of a large-scale meta-analysis to argue that the "crisis" is mistaken, and should instead be re-branded as a narrative of "epochal changes and empowerment of science" [@Jamieson:2018kz]. In a 'post-truth' era of 'alternative-facts', how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important [@Sutherland:2017hc]. Although large-scale direct replications are largely absent in ecology [@Nakagawa:2015bn], an initial assessment of the conditions found to foster reproducibility problems provide evidence that ecology as a discipline is *at risk* of a "reproducibility crisis" [@Fidler:2017he]. *cite hannah's paper here*.
 
 ## Research scope: reproducibility *of* decisions versus reproducibility *for* decision-making
 
@@ -47,14 +51,7 @@ Reproducibility research in ecology and conservation should certainly continue a
 
 ## Research aims and objectives
 
-This aim of this PhD is to investigate the transparency and reproducibility of decisions generated from structured approaches to conservation decision-making (such as SDM). By taking as its unit of observation / focus decision-support systems (DSS's), this research will identify critical points in the decision process that threaten the reproducibility of ecological decisions and undermine conservation success. The first major objective of this research is to expand and develop a conceptual understanding of "reproducibility" that is fit for application in conservation decision-making and translational research in ecology. Existing approaches to reproducibility exclusively focus on hypothesis-testing based research, however in applied ecology and conservation technical approaches draw primarily on decision-analytic tools and methods for decision-making. Secondly, I will systematically review the published literature on decision support systems to evaluate the magnitude and extent of the "reproducibility crisis" in translational research of ecology and conservation. Presently, the third major aim of this research is largely unclear, but this work would like to design and implement (potentially in a pilot) some form of intervention aimed at trying to improve the reproducibility of decision support tools in ecology and conservation. In the remainder of this proposal I identify knowledge gaps in the literature and highlight tangible work that I can do in my PhD to fill these gaps.
-
-Provide further insight and deepen the understanding of issues of reproducibility and transparency in ecology and conservation decision making.
-
-1. Develop an understanding / framework / definition of reproducibility that is applicable to Non-NHST and translational research, that is sensitive to the particularities of the data, the methods, the questions commonly used within these contexts.
-2. Build a picture / conceptual model of ecological informatics with a reproducibility bent, multi-level.
-2. Characterise the extent and magnitude of the "problem."reproducibility crisis"
-3. Devise (and possibly test) interventions for improving reproducibility and transparency in ecology and conservation. improving the scientific process in ECO / CDM. Could be policy-based, could be guidelines  targeted at the author, could be a technical tool.
+This major goal of this PhD is to investigate the transparency and reproducibility of decisions generated from structured approaches to conservation decision-making (such as Structured Decision Making (SDM)). The first aim of this research is to expand and develop a conceptual understanding of "reproducibility" that is fit for application in conservation decision-making and translational research in ecology and conservation decision-making. Existing approaches to reproducibility exclusively focus on hypothesis-testing based research, however in applied ecology and conservation technical approaches draw primarily on decision-analytic tools and methods for decision-making. This typology of reproducibility will be sensitive to the particularities of the data, methods and questions commonly encountered within this context. By taking decision-support systems (DSS's) as its unit of interest, this research aims to identify critical points in the decision process that threaten the reproducibility of ecological decisions and undermine conservation success. Secondly, I aim to systematically review the published literature on decision support systems to evaluate the magnitude and extent of the "reproducibility crisis" in translational research of ecology and conservation. This review will allow the development of a set of guidelines or a check list for improving the transparency and reproducibility of decision support systems in ecology and conservation. Finally, I aim to use real-world decision problem case studies to investigate the replication of decision support systems. 
 
 # Reproducibility for decision support in ecology and conservation: towards a formal typology 
 
@@ -165,12 +162,9 @@ One issue is that we need to entice people to participate. This could be using f
 
 Importantly, because this is a real-world problem, I will need to ensure that Chris also benefits from this work. Given that Chris' goals are currently unclear, it's hard to pin this down. However, it could act as a sort of sensitivity analysis, providing evidence about the robustness of different models, but also about the processes used to derive those models. This type of replication analysis would be able to test whether the decision is reasonably robust to different processes, or tools.
 
-*Threatened Woodland Communities*
+*Threatened Woodland Recovery Planning*
 
-2. NESP -- Use my involvement in this project to examine QRPs sources of biases in a specific case study? What's the test?
-
-
-
+This project aims to develop recovery plans for threatened woodland communities by generalising across communities without losing critical aspects of the structure and functioning of each community. The form that this chapter might take is unclear to me, however, the decision problem poses an interesting case study for work on reproducibility in both ecology and conservation decision-making, because it allows us to explore questions around the role of replications in terms of generality.
 
 ------
 

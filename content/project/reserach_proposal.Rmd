@@ -156,25 +156,22 @@ Fidler et al. [-@Fidler:2017he] call for an assessment of the completeness and t
 
 The roadmap of QRPs developed in Chapter Two will inform both the scoping and evaluation criteria for the systematic review. The results of the review will be used to generate a 'reproducibility checklist' or set of criteria for DSS in ecology and conservation. The checklist will be aimed at individual researchers, but with the hope of being adopted by relevant journals. The checklist will need to balance a sufficiently acceptable set of standards against resource constraints on individual researchers in order to prevent the checklist from deterring important DSS work from being published.
 
-**Methods:**
+*Methods:*
 
 I will follow guidelines for undertaking a systematic review in the format and procedure established by Collaboration for Environmental Evidence (CEE) Evidence Synthesis [@CEE:M-Sg3G8U]. I chose this method of systematic review partially because the topic area is relevant (environmental management), and partially because of the comprehensiveness of the guidelines: the guidelines provides detailed and systematic methods for develpping the search strategy, inclusion / exclusion criteria, and coding criteria for evaluating the literature, including pilot searches for refining criteria. The other drawcard was the enforced development and preregistration of the protocol for conducting the review in order to prevent 'mission creep' as the review progresses.
 
 In addition, I will use the PRISMA statement for reporting (CITE), as recommended by Nakagawa and Poulin [-@Nakagawa:2012fl]. The PRISMA checklist contains a checklist of 27 reporting items, as well as a flow diagram that visualizes the database searching procedure as well as decisions for including and evaluating studies. The aim of the statement is to increase the transparency of the literature review process.
 
-**Review scope:**
+*Review scope:*
 
-Setting the scope - what is the unit of study? This is where the language thing is useful. This research will consider reproducibility of decisions generated from 'decision *frameworks*', not just from tools. It's important to consider the whole decision process, because CDM work indicates that problem formulation may influence the decision outcome (Law paper).
-
-Ideas for what/how to analyse:
-
-- Does 
+I distinguish between 'decision *frameworks*' and 'decision *tools*': frameworks may be considered the structured set of procedures governing the approach to an entire decision process - i.e. from problem formulation, to modelling the consequences of decision alternatives, to evaluating alternatives. Structured Decision Making (SDM) is an example of a decision framework [@Bower:2017im]. Decision tools may be understood as the particular procedures or methods used to solve or provide inputs to inform a particular phase in the overarching decision framework. For example, Bayesian Networks, Population Viability Analyses and Multiple Multiple Criteria Decision Analysis constitute decision tools. This review will investigate the reproducibility of decisions generated from 'decision *frameworks*', rather than just the reproducibility of 'decision *tools*'.
 
 
-SDM work only? No. Although SDM approaches are very common in conservation, I think that restricting the inclusion of studies to nominally SDM studies will omti a lot of research that might be decision-analytic in approach, and therefore still be be a structured / formal framework for decision-making. There's so much slippage around the classification terminology. Might be omitting relevant work. But also, I would like one aspect of the analysis to consider whether the framework used influences the likely reproducibiltiy / transparency of the decision.
+*Analysis and Reporting:*
 
-There is such a huge diversity of tools, and I think you need to have good domain knowledge / expertise / familiarity with them to be able to give them proper treatment. Leave that work to the researchers using those particular tools. The PVA paper is a good example of one.
-the *likely* reproducibility of studies.
+By focusing on decision frameworks more broadly -- rather than a particular framework, like SDM -- I hope to be able to evaluate whether different frameworks might influence the transparency and likely reproducibility of resultant decisions. This should also provide a means of testing the claim that SDMs are increase transparency, and therefore the reproducibility of decisions. Importantly, in not restricting the scope too heavily, this provides a way for dealing with linguistic ambiguity around the language of decision support in ecology and conservation. For example, there is considerable slippage between the terms 'decision support system' and 'decision support tools.' Although SDM approaches are very common in conservation, restricting the inclusion of studies to nominally SDM studies will likely omit much research that might be decision-analytic in approach, and therefore still constitute a comparable structured or formal framework for decision-making. Following a pilot test of the searching and inclusion criteria, the scope might be revised (i.e. if too many papers are returned).
+
+I am presently unclear on what analyses to conduct. But they will probably include the presentation of some descriptive statistics based around critical evaluation criteria.
 
 ------
 

@@ -153,31 +153,23 @@ I am presently unclear on what analyses to conduct. But they will probably inclu
 
 **Chapter Four: case studies in replicating DSS's**
 
-The final chapter will involve the use of case studies of real-world ecological and conservation decisions. 
+The final chapter will involve the use of case studies of real-world ecological and conservation decisions. The objective of the case studies is to demonstrate an application of one or several types of reproducibility proposed in the typology in Chapter One. It would also serve as a proof-of-concept for replicating a decision support system. Depending on the degree of complexity and size of the case study, I could compare a selection of different DSS problems.
 
-a) demonstrate an application of the typology of reproducibility developed in Chapter 1
-b) proof-of-concept for replicating a decision support tool.
+*Environmental water allocations*
 
+CJ has been tasked with demonstrating the benefit of environmental water allocations across Victoria and is seeking collaboration to develop this project. 
 
-One thing to test for in the replication:
+It encompasses multiple river systems, each with multiple management agencies, and so presents the opportunity for a replication experiment, perhaps a 'red card' experiment [@Fidler:2017he]. This could involve giving a problem brief with 2 - 3 objectives, for example, to different teams of researchers, and ask them to develop a decision support system, choosing which ever approach or tools that they like. They could be surveyed afterwards, asking them to describe what they did and why. Alternatively they could write up their methods section for submission at the end.
 
+One issue is that we need to entice people to participate. This could be using funds (which are available). Another approach would be to offer co-authorship
 
+Importantly, because this is a real-world problem, I will need to ensure that Chris also benefits from this work. Given that Chris' goals are currently unclear, it's hard to pin this down. However, it could act as a sort of sensitivity analysis, providing evidence about the robustness of different models, but also about the processes used to derive those models. This type of replication analysis would be able to test whether the decision is reasonably robust to different processes, or tools.
 
-Fidler: re-analysis projects - both direct and conceptual re-analyses ("highlight the impact of disclosed and undisclosed statistical assumptions and versions or editions of software, [etc..]")
-
-Conceptual re-analysis: "provide the opportunity to assess the extent of variability among analytic approaches and choices".
-
-Comparative - compare a selection of different DSS problems.
-
-**Potential Case Studies**
-
-Presently there are several different opportunities for case studies.
-
-1. Chris Jones - 
-
-1. CJ - multiple river systems, with multiple management agencies opportunity for a red card type of experiment?
+*Threatened Woodland Communities*
 
 2. NESP -- Use my involvement in this project to examine QRPs sources of biases in a specific case study? What's the test?
+
+
 
 
 ------

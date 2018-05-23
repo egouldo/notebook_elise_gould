@@ -101,7 +101,7 @@ Both metaresearch work and reproducible research / open science / data advocates
 
 ------
 
-**Chapter X: Defining a typology of reproducibility for decision support systems in conservation and ecology**
+**Chapter One: Defining a typology of reproducibility for decision support systems in conservation and ecology**
 
 We cannot go about the task of evaluating the reproducibility of decision support systems without some definition and measure of what that might mean in this context. A major aim of this project is to propose a typology of reproducibility for decision support systems, considering what their role and function might be in terms of the knowledge they generate. At present, what format this work will take is unclear -- this work could be embedded in other chapters (systematic review or the replication case study-=), or be a standalone chapter.
 
@@ -121,7 +121,7 @@ In what is likely the first reproducibility study in conservation, Morrison et a
 
 ------
 
-**Chapter One: QRPs for non-hypothesis testing research**
+**Chapter Two: QRPs for non-hypothesis testing research**
 
 The first output for this research is to generate a "roadmap" of reproducibility issues, biases and questionable research practices (QRPs) that are encountered when developing Decision Support Systems in ecology and conservation.In this chapter I will attempt to identify where exactly in the DSS development process particular biases or 'decision-points' are likely to occur. This work should serve as a launching point for proposing standards and technical solutions targeted at individual (or teams of) researchers / analysts, with the broader objective of minimising the extent and magnitude of questionable research practices for DSS. 
 
@@ -148,19 +148,27 @@ I plan on utilising the outputs of the reproducibility discussion session planne
 
 # Evaluating the Transparency and likely reproducibility of decisions in ecology and conservation
 
-Fidler et al. [-@Fidler:2017he] call for an assessment of the completeness and transparency of methodological and statistical reporting in journals for ecology. Such assessments should take the form of extensive journal surveys, with the aim of highlighting deficiencies in journal's reporting policies. Why is it important: Incomplete reporting impedes direct replication, meta-analysis, and also direct re-analysis projects. From personal experience, I have reason to believe that incomplete reporting is rife in environmental decision support systems. In working with Bayesian Belief Networks for catchment management, it was nearly impossible to re-build any system models from the published literature. At best, the causal structure of the model is reproducible, but only one published study I encountered contained sufficient information so as to reproduce its parameterisation. Importantly, there is also the issue of understanding modeller choices about how and why variables were parameterised. This information is rarely recorded, and often the source of empirical data used in parameterisation is not reported. The next chapter of my research will take up this call, where I will conduct a systematic review aiming to evaluate the decision support literature in ecology and conservation for its transparency and likely reproducibility.
+Fidler et al. [-@Fidler:2017he] call for an assessment of the completeness and transparency of methodological and statistical reporting in journals for ecology. Such assessments should take the form of extensive journal surveys, with the aim of highlighting deficiencies in journal's reporting policies. Why is it important: Incomplete reporting impedes direct replication, meta-analysis, and also direct re-analysis projects. From personal experience, I have reason to believe that incomplete reporting is rife in environmental decision support systems. In working with Bayesian Belief Networks for catchment management, it was impossible to re-build all but one system model from the published literature. At best, the causal structure of the model is reproducible, but only one published study I encountered contained sufficient information so as to reproduce its parameterisation. Importantly, there is also the issue of understanding modeller choices about how and why variables were parameterised. This information is rarely recorded, and often the source of empirical data used in parameterisation is not reported. The next chapter of my research will take up this call, where I will conduct a systematic review aiming to systematically evaluate the decision support literature in ecology and conservation for its transparency and likely reproducibility.
 
 ------
 
-**Chapter Two: Evaluating the transparency and reproducibility of Decision Support Systems in Ecology and Conservation**
+**Chapter Three: Evaluating the transparency and reproducibility of Decision Support Systems in Ecology and Conservation**
 
-This paper will build a picture or 'map' of QRPs in the decision process. The work will inform the scoping and evaluation criteria for the systematic review, whereby it will be used to generate a 'reproducibility checklist' or set of criteria that measure the transparency and 
+The roadmap of QRPs developed in Chapter Two will inform both the scoping and evaluation criteria for the systematic review. The results of the review will be used to generate a 'reproducibility checklist' or set of criteria for DSS in ecology and conservation. The checklist will be aimed at individual researchers, but with the hope of being adopted by relevant journals. The checklist will need to balance a sufficiently acceptable set of standards against resource constraints on individual researchers in order to prevent the checklist from deterring important DSS work from being published.
 
-The aim of the review is to evaluate the decision making literature in ecology and conservation for its transparency and potential reproducibility.
+**Methods:**
+
+I will follow guidelines for undertaking a systematic review in the format and procedure established by Collaboration for Environmental Evidence (CEE) Evidence Synthesis [@CEE:M-Sg3G8U]. I chose this method of systematic review partially because the topic area is relevant (environmental management), and partially because of the comprehensiveness of the guidelines: the guidelines provides detailed and systematic methods for develpping the search strategy, inclusion / exclusion criteria, and coding criteria for evaluating the literature, including pilot searches for refining criteria. The other drawcard was the enforced development and preregistration of the protocol for conducting the review in order to prevent 'mission creep' as the review progresses.
+
+In addition, I will use the PRISMA statement for reporting (CITE), as recommended by Nakagawa and Poulin [-@Nakagawa:2012fl]. The PRISMA checklist contains a checklist of 27 reporting items, as well as a flow diagram that visualizes the database searching procedure as well as decisions for including and evaluating studies. The aim of the statement is to increase the transparency of the literature review process.
+
+**Review scope:**
 
 Setting the scope - what is the unit of study? This is where the language thing is useful. This research will consider reproducibility of decisions generated from 'decision *frameworks*', not just from tools. It's important to consider the whole decision process, because CDM work indicates that problem formulation may influence the decision outcome (Law paper).
 
-Moreover: Researchers, particularly those trained in the natural sciences
+Ideas for what/how to analyse:
+
+- Does 
 
 
 SDM work only? No. Although SDM approaches are very common in conservation, I think that restricting the inclusion of studies to nominally SDM studies will omti a lot of research that might be decision-analytic in approach, and therefore still be be a structured / formal framework for decision-making. There's so much slippage around the classification terminology. Might be omitting relevant work. But also, I would like one aspect of the analysis to consider whether the framework used influences the likely reproducibiltiy / transparency of the decision.
@@ -170,7 +178,7 @@ the *likely* reproducibility of studies.
 
 ------
 
-**Chapter Three: case studies in replicating DSSs**
+**Chapter Four: case studies in replicating DSSs**
 
 One thing to test for in the replication:
 

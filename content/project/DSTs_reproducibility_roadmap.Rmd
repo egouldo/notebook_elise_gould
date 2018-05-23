@@ -81,7 +81,7 @@ Could we have different problem-contexts, but the same system, for a given probl
 Now what about we maintain the problem-context, but have different systems, and a given problem? Well this could depend on the problem specification. Perhaps you have two completely different systems... but respond the same way to some suite of threats, such that you end up with the same process-model. So what do I mean as a system even? Ecological terms: ecosystem, ecological community, species, populations, individuals....
 I think you can vary the system between two replications as long as the underlying "true" causal model is the same. So statistically you would count each of those systems as two 'samples' of some broader population ('problem-domain' ?). So this would mean that a second replciation of some original study on a different system would have to *hypothesise* that the two systems behave in the same manner, given the **problem** at hand. So, do we therefore include **hypothesis** as another departure point, as Pattil et al have done, or do we include this point of variation under the "problem-context"? Is it a hypothesis, or an assumption? because a failed replication might be able to tell us about the hypothesis being false... Again, I think I need to consider WHY we would want to replicate a DST in the first place. Might help with this.
 
-Trying to derive the elements of a decision-problem that must so we can define what constitutes a reproduction and a replication for a DST.
+Trying to derive the elements of a decision-problem that must be constrained so we can define what constitutes a reproduction and a replication for a DST.
 
 So a replication counts when we vary the:
 - analyst

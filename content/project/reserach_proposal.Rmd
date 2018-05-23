@@ -58,7 +58,62 @@ Provide further insight and deepen the understanding of issues of reproducibilit
 2. Characterise the extent and magnitude of the "problem."reproducibility crisis"
 3. Devise (and possibly test) interventions for improving reproducibility and transparency in ecology and conservation. improving the scientific process in ECO / CDM. Could be policy-based, could be guidelines  targeted at the author, could be a technical tool.
 
-# Identifying Reproducibility Issues for Decision Support in Ecology and Conservation: non-hypothesis testing based research
+# Reproducibility for decision support in ecology and conservation: towards a formal typology 
+
+The term "reproducibility" broadly encompasses the ability to "replicate an experiment or study and/or its outcomes" [@Fidler:2017he]. A number of different typologies of reproducibility have been proposed, with each 'type' of reproducibility having its own role or function in terms of the type of knowledge it generates. For example, Nakagawa and Parker [-@Nakagawa:2015bn] distinguish between "exact" or "close", "partial", "conceptual" and "quasi" replications, in order of decreasing fidelity to the original work. Conceptual replications are tests that follow the same hypotheses, whereas quasi-replications replicate across species or systems to test for the generality of biological phenomena across species or systems. According to this typology, the two main functions of the different replications are to test for validity or generality, with there being a distinct trade-off between them.
+
+Others have defined "reproducible research" or a set of minimum standards requiring that data and code is made available for others to verify results of the original study and for re-use of the data [@Peng:2009vn]. This type of "computational reproducibility" has been defined as "re-performing the same analysis with the same code using a different analyst" [@Patil:2016tm]. This has been advocated for as the minimum standard when there are a lack of time or resources for intensive replications [@Williams:2017bg]. Reproducible research emphasising computational reproducibility seems to comprise the bulk of the reproducibility literature in ecology, perhaps because replications in ecology have typically been considered infeasible due to the inherent spatio-temporal variation in nature, or even unethical for work on threatened species [@Nakagawa:2015bn].
+
+## Unpacking "reproducibility" for decisions
+
+Transparency is frequently touted as both a key-feature of environmental decision-support systems, and as central to delivering reproducible decisions [@Kim:2016gf] (OTHER REFS, basically anything SDM). However, the discussion of reproducibility in these contexts usually stops here, and there is no further discussion as to some definition of the term. [-@McIntosh:2011ew] elaborates further than most to explain the link between transparency and reproducibility in formal decision support for ecology: 
+
+> Transparent because rational explanations can be provided to support decisions, and because the user/stakeholder/citizen can reproduce the decision procedure, play with the weights, and perform sensitivity analysis to assess decision strength and robustness.
+
+Examining this statement reveals that, at least for these authors, reproducibility is simply the repeatability of the decision procedure. The repeatability of a decision procedure does not necessarily ensure that the resultant "decision" from the procedure can be repeated (computational reproducibility). I expect that the more complicated the decision process (and the more complex the decision problem / domain), the less likely the decision may be reproduced. Repeatability *is* important, and the assumption that the transparency of decision processes implemented informal decision support systems results in them being repeatable should be tested -- especially given how commonly it is used as a selling-point for particular approaches, like SDM. However, I believe that a more thorough treatment should be given to defining reproducibility for decision support in ecology and conservation.
+
+## Moving beyond "computational reproducibility" in ecology
+
+Most reproducibility research in ecology has been targeted at individual researchers [@Fraser:2018cl] and considers reproducibility to be computational in nature. This research focuses on the data analysis pipeline for a single analysis or study, taking the starting point for reproducibility to be where analysis is ready to begin (data is on hand and probably digitised). Drawing on work from computational biology and scientific computing, it offers technological solutions and is largely software and data focussed. These approaches seem to resonate among ecologists, with much reflection and discussion in the grey literature, particularly in blog and twitter format. For example, Wilson et al. [-@Wilson:2014ck] describe a suite of practices for improving the reproducibility of analyses. Suggested practices include version control, incremental changes, functional programming and unit-testing. Others have emphasised the use of literature programming techniques and containerised analyses that link code to their inferences in a single document [@Baumer:2015hc; @Gandrud:2016ux]. Noble et al. [-@Noble:2009da] describe how to organise computational biology projects while the British Ecological Society's guide to data management synthesises various tools and solutions for making research reproducible into a single guide [@BritishEcologicalSociety:2014va]. 
+
+The "open data" movement within ecology, and science more broadly, assumes more of a systems-level view of reproducibility: situating the reproducibility of individual studies within the broader life-cycle of scientific research. Some computational ecology research in this context is still targeted at improving the research practices of individuals, however, the overarching aim is to improve the computational reproducibility or research in order to facilitate large-scale meta-anlyses [@Merali:2010tw], longitudinal studies and data synthesis [@White:2013ea]. Solutions arising from the open data movement are a mixture of technological and policy-based. For instance, White et al. [-@White:2013ea] discuss the particularities of ecological data and describe methods for ensuring data is re-usable to others; while Ram [-@Anonymous:a1kBf1q9] illustrates how git and GitHub can facilitate greater reproducibility and increased transparency. Similarly, Whitlock [-@Whitlock:cl] describes the technical and cultural issues that must be addressed to increase data-archiving practices in ecology and evolution, including journal policy. The task of reproducibility is thus multi-pronged and responsibility is shared among individual researchers, as both data creators and users (e.g. researchers synthesising data), journal editors and reviewers for improving reproducibility via openness practices and policy [@MoruetaHolme:2018bi]. 
+
+However, even policy-based approaches to transparency and reproducibility still only consider methodological or computational reproducibility issues in ecology. 
+
+- broader research context - openness standards - see parker and nakagawa TOP guidelines.
+
+Some work has examined the barriers to individual researchers publishing their code, i.e. "source-code witholding". These barriers include (institutional support, funding policy, publishing requirement - journal level) [@Science:2012hf].
+Scientific computing studies also consider this broader ecosystem (R2 paper), and address issues of policy: [@Stodden:2012ww]. Highlights jouranl poolicy and funding agency, but misses publishing requirements, as the paper above included. This study also argues that it's not just about source-code but about the whole process, from the dev environment to the complete set of instructions that generated the figures, and paper.
+- post-publication data sharing: publication level standards / policy, licensing schema and accompanying data and resource-sharing infrastructure, incentives [@Gribbin:2009us]
+- Empirical evidence looking at trends in openness policy in terms of data sharing, in order to encourage: [@Stodden:2013ho].
+
+WHY is this the case? seems infeasible.
+
+What are alternative types?
+
+QRP study: [@Agnoli:2017kl]
+
+"The combination of formal systems for tracking provenance, and fed- erated data repositories like DataONE that provide unique identifiers for every data object, will be instrumental in realizing the goal of fully reproduc- ible science in support of understanding global environmental issues such as climate change, species invasions, and epidemics" data sharing should facilitate "as well as greater reproducibility and transparency of the methods and analyses that support scientific insights."
+Cullina.
+
+
+Both metaresearch work and reproducible research / open science / data advocates tend to consider reserach in the broader context, and offer policy-based approaches that target the journal editors, funding agencies, and publishing requirements (some technical, e.g. post-publication paper).
+
+------
+
+**Chapter X: Defining a typology of reproducibility for decision support systems in conservation and ecology**
+
+We cannot go about the task of evaluating the reproducibility of decision support systems without some definition and measure of what that might mean in this context. A major aim of this project is to propose a typology of reproducibility for decision support systems, considering what their role and function might be in terms of the knowledge they generate. At present, what format this work will take is unclear -- this work could be embedded in other chapters (systematic review or the replication case study-=), or be a standalone chapter.
+
+Given that the decision-support tools used during decision-making are not usually hypothesis-based, and their outputs are not usually *p* values, the first step will likely involve determining the unit of measure for reproducibility. Although the 'decision outcome' (the decision recommended at the end of the decision process) seems to be a good candidate, this will need careful consideration for conceptual replications -- should a conceptual replication generate differences during the problem formulation phase, it is possible that the set of potential decision alternatives might not even match those in the original study. 
+
+Conceptual replications are typically constrained by the same hypothesis [@Nakagawa:2015bn], but what would the equivalent be for a DSS It could be that an equivalent for DSSs is the problem formulation phase. However, because the decision outcome is often sensitive to the specification of the problem, it is probably important that there remains scope for variation in this phase -- analysts vary in their ability to properly elicit the problem specification from decision-makers. For instance, the fundamental objective(s) might not be properly specified, the analyst might be subject to 'evidence complacency' [see @Sutherland:2017hc]  or be anchored by the alternatives proposed by the decision-maker, ignoring existing evidence and knowledge about the full range of potential decision alternatives for a given problem. 
+
+Thus, for each relevant type of reproducibility for DSSs, the set of constraints and conditions that constitute the replication need to be carefully specified, in reference to the overall function of that type of replication. The direct replication is the most obvious in terms of its function - it would lend validity to the decision(s) recommended by the original DSS and credibility to the decision process that led to that decision. However, with increasing shift away from fidelity to the original study, the purpose of the replication remains unclear. Does a conceptual replication that converges on the same decision as the original DSS give validity to the original decision, and / or does it tell us something about the applicability of the particular suite of tools built into the DSS for a given decision-context? 
+
+------
+
+# Identifying reproducibility issues for decision support in ecology and conservation: non-hypothesis testing based research
 
 The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler [-@Fidler:2016wv] correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues. However, a full understanding of the types of reproducibility issues, as well as their impact on either the evidence-base, or the decisions informed by the evidence-base, is yet to emerge. 
 
@@ -93,77 +148,7 @@ I plan on utilising the outputs of the reproducibility discussion session planne
 
 # Evaluating the Transparency and likely reproducibility of decisions in ecology and conservation
 
-## Reproducibility for applied ecology: towards a formal definition and elucidating its role and function
-
-Unpacking what this ("reproducibility issues")  means ... what do we need to know? what is my task
-a. how to measure the likely reproducibility of a study
-b. what is the function / role of different types of replications in terms of what they tell us about the broader state of the literature (validity, generalisations)
-c. 
-
-how widespread the reproducibility issues identified in part I. The work from the first aim will help to inform the scoping rules and coding criteria for the systematic review.
-
-What is the state of the 'crisis' in ecology? Extent...? How do we measure?
-
-
-
-What would constitute a conceptual replication for decision support system, and why would we bother? What would it tell us?
-
-
-## Where are we up to? Unpacking "reproducibility" for decisions
-
-Transparency is frequently touted as both a key-feature of environmental decision-support systems, and as central to delivering reproducible decisions [@Kim:2016gf] (OTHER REFS, basically anything SDM). However, the discussion of reproducibility in these contexts usually stops here, and there is no further discussion as to some definition of the term. [-@McIntosh:2011ew] elaborates further than most to explain the link between transparency and reproducibility in formal decision support for ecology: 
-
-> Transparent because rational explanations can be provided to support decisions, and because the user/stakeholder/citizen can reproduce the decision procedure, play with the weights, and perform sensitivity analysis to assess decision strength and robustness.
-
-Examining this statement reveals that, at least for these authors, reproducibility is simply the repeatability of the decision procedure. The repeatability of a decision procedure does not necessarily ensure that the resultant "decision" from the procedure can be repeated (computational reproducibility). I expect that the more complicated the decision process (and the more complex the decision problem / domain), the less likely the decision may be reproduced. Repeatability *is* important, and the assumption that the transparency of decision processes implemented informal decision support systems results in them being repeatable should be tested -- especially given how commonly it is used as a selling-point for particular approaches, like SDM. However, I believe that a more thorough treatment should be given to defining reproducibility for decision support in ecology and conservation.
-
-The term "reproducibility" broadly encompasses the ability to "replicate an experiment or study and/or its outcomes" [@Fidler:2017he]. A number of different typologies of reproducibility have been proposed, with each 'type' of reproducibility having its own role or function in terms of the type of knowledge it generates. For example, Nakagawa and Parker [-@Nakagawa:2015bn] distinguish between "exact" or "close", "partial", "conceptual" and "quasi" replications, in order of decreasing fidelity to the original work. Conceptual replications are tests that follow the same hypotheses, whereas quasi-replications replicate across species or systems to test for the generality of biological phenomena across species or systems. According to this typology, the two main functions of the different replications are to test for validity or generality, with there being a distinct trade-off between them.
-
-Others have defined "reproducible research" or a set of minimum standards requiring that data and code is made available for others to verify results of the original study and for re-use of the data [@Peng:2009vn]. This type of "computational reproducibility" has been defined as "re-performing the same analysis with the same code using a different analyst" [@Patil:2016tm]. This has been advocated for as the minimum standard when there are a lack of time or resources for intensive replications [@Williams:2017bg]. Reproducible research emphasising computational reproducibility seems to comprise the bulk of the reproducibility literature in ecology, perhaps because replications in ecology have typically been considered infeasible due to the inherent spatio-temporal variation in nature, or even unethical for work on threatened species [@Nakagawa:2015bn].
-
-## Moving beyond "computational reproducibility" in ecology
-
-Most reproducibility research in ecology has been targeted at individual researchers [@Fraser:2018cl] and considers reproducibility to be computational in nature. This research focuses on the data analysis pipeline for a single analysis or study, taking the starting point for reproducibility to be where analysis is ready to begin (data is on hand and probably digitised). Drawing on work from computational biology and scientific computing, it offers technological solutions and is largely software and data focussed. These approaches seem to resonate among ecologists, with much reflection and discussion in the grey literature, particularly in blog and twitter format. For example, Wilson et al. [-@Wilson:2014ck] describe a suite of practices for improving the reproducibility of analyses. Suggested practices include version control, incremental changes, functional programming and unit-testing. Others have emphasised the use of literature programming techniques and containerised analyses that link code to their inferences in a single document [@Baumer:2015hc; @Gandrud:2016ux]. Noble et al. [-@Noble:2009da] describe how to organise computational biology projects while the British Ecological Society's guide to data management synthesises various tools and solutions for making research reproducible into a single guide [@BritishEcologicalSociety:2014va]. 
-
-The "open data" movement within ecology, and science more broadly, assumes more of a systems-level view of reproducibility: situating the reproducibility of individual studies within the broader life-cycle of scientific research. Some computational ecology research in this context is still targeted at improving the research practices of individuals, however, the overarching aim is to improve the computational reproducibility or research in order to facilitate large-scale meta-anlyses [@Merali:2010tw], longitudinal studies and data synthesis [@White:2013ea]. Solutions arising from the open data movement are a mixture of technological and policy-based. For instance, White et al. [-@White:2013ea] discuss the particularities of ecological data and describe methods for ensuring data is re-usable to others; while Ram [@Anonymous:a1kBf1q9] illustrates how git and GitHub can facilitate greater reproducibility and increased transparency. Similarly, Whitlock [-@Whitlock:cl] describes the technical and cultural issues that must be addressed to increase data-archiving practices in ecology and evolution, including journal policy. The task of reproducibility is thus multi-pronged and responsibility is shared among individual researchers, as both data creators and users (e.g. researchers synthesising data), journal editors and reviewers for improving reproducibility via openness practices and policy [@MoruetaHolme:2018bi]. 
-
-However, even policy-based approaches to transparency and reproducibility still only consider methodological or computational reproducibility issues in ecology. 
-
-- broader research context - openness standards - see parker and nakagawa TOP guidelines.
-
-Some work has examined the barriers to individual researchers publishing their code, i.e. "source-code witholding". These barriers include (institutional support, funding policy, publishing requirement - journal level) [@Science:2012hf].
-Scientific computing studies also consider this broader ecosystem (R2 paper), and address issues of policy: [@Stodden:2012ww]. Highlights jouranl poolicy and funding agency, but misses publishing requirements, as the paper above included. This study also argues that it's not just about source-code but about the whole process, from the dev environment to the complete set of instructions that generated the figures, and paper.
-- post-publication data sharing: publication level standards / policy, licensing schema and accompanying data and resource-sharing infrastructure, incentives [@Gribbin:2009us]
-- Empirical evidence looking at trends in openness policy in terms of data sharing, in order to encourage: [@Stodden:2013ho].
-
-WHY is this the case? seems infeasible.
-
-What are alternative types?
-
-QRP study: [@Agnoli:2017kl]
-
-
-
-"The combination of formal systems for tracking provenance, and fed- erated data repositories like DataONE that provide unique identifiers for every data object, will be instrumental in realizing the goal of fully reproduc- ible science in support of understanding global environmental issues such as climate change, species invasions, and epidemics" data sharing should facilitate "as well as greater reproducibility and transparency of the methods and analyses that support scientific insights."
-Cullina.
-
-
-
-
-Both metaresearch work and reproducible research / open science / data advocates tend to consider reserach in the broader context, and offer policy-based approaches that target the journal editors, funding agencies, and publishing requirements (some technical, e.g. post-publication paper).
-
-------
-
-**Chapter X: Defining a typology of reproducibility for decision support systems in conservation and ecology**
-
-We cannot go about the task of evaluating the reproducibility of decision support systems without some definition and measure of what that might mean in this context. A major aim of this project is to propose a typology of reproducibility for decision support systems, considering what their role and function might be in terms of the knowledge they generate. At present, what format this work will take is unclear -- this work could be embedded in other chapters (systematic review or the replication case study), or be a standalone chapter.
-
-Given that the decision-support tools used during decision-making are not usually hypothesis-based, and their outputs are not usually *p* values, the first step will likely involve determining the unit of measure for reproducibility. Although the 'decision outcome' (the decision recommended at the end of the decision process) seems to be a good candidate, this will need careful consideration for conceptual replications -- should a conceptual replication generate differences during the problem formulation phase, it is possible that the set of potential decision alternatives might not even match those in the original study. 
-
-Conceptual replications are typically constrained by the same hypothesis [@Nakagawa:2015bn], but what would the equivalent be for a DSS It could be that an equivalent for DSSs is the problem formulation phase. However, because the decision outcome is often sensitive to the specification of the problem, it is probably important that there remains scope for variation in this phase -- analysts vary in their ability to properly elicit the problem specification from decision-makers. For instance, the fundamental objective(s) might not be properly specified, the analyst might be subject to 'evidence complacency' [see @Sutherland:2017hc]  or be anchored by the alternatives proposed by the decision-maker, ignoring existing evidence and knowledge about the full range of potential decision alternatives for a given problem. 
-
-Thus, for each relevant type of reproducibility for DSSs, the set of constraints and conditions that constitute the replication need to be carefully specified, in reference to the overall function of that type of replication. The direct replication is the most obvious in terms of its function - it would lend validity to the decision(s) recommended by the original DSS and credibility to the decision process that led to that decision. However, with increasing shift away from fidelity to the original study, the purpose of the replication remains unclear. Does a conceptual replication that converges on the same decision as the original DSS give validity to the original decision, and / or does it tell us something about the applicability of the particular suite of tools built into the DSS for a given decision-context? 
-
+Fidler et al. [-@Fidler:2017he] call for an assessment of the completeness and transparency of methodological and statistical reporting in journals for ecology. Such assessments should take the form of extensive journal surveys, with the aim of highlighting deficiencies in journal's reporting policies. Why is it important: Incomplete reporting impedes direct replication, meta-analysis, and also direct re-analysis projects. From personal experience, I have reason to believe that incomplete reporting is rife in environmental decision support systems. In working with Bayesian Belief Networks for catchment management, it was nearly impossible to re-build any system models from the published literature. At best, the causal structure of the model is reproducible, but only one published study I encountered contained sufficient information so as to reproduce its parameterisation. Importantly, there is also the issue of understanding modeller choices about how and why variables were parameterised. This information is rarely recorded, and often the source of empirical data used in parameterisation is not reported. The next chapter of my research will take up this call, where I will conduct a systematic review aiming to evaluate the decision support literature in ecology and conservation for its transparency and likely reproducibility.
 
 ------
 
@@ -185,8 +170,7 @@ the *likely* reproducibility of studies.
 
 ------
 
-
-**Chapter Three: case studies - how do you replicate a DST?**
+**Chapter Three: case studies in replicating DSSs**
 
 One thing to test for in the replication:
 
@@ -194,7 +178,15 @@ Bower et al [-@Bower:2017im] argue that problem formulation is a crucial first s
 
 It's worth trying to get a handle on this... because these more rigorous decision protocols have a cost to them and "Unfortunately, insufficient resources often constrain smaller conservation agencies’ capacity for strictly following rigorous decision protocols." Page 4, [@Bower:2017im]. Bower et al suggest using truncated versions of these protocols, such that the decision process is still transparent.
 
-** Method **
+**what's the point of this**
+
+Fidler: re-analysis projects - both direct and conceptual re-analyses ("highlight the impact of disclosed and undisclosed statistical assumptions and versions or editions of software, [etc.]")
+
+Conceptual re-analysis: "provide the opportunity to assess the extent of variability among analytic approaches and choices".
+
+Comparative - compare a selection of different DSS problems.
+
+**Method**
 
 Two ideas
 
@@ -265,7 +257,7 @@ So, in conservation-decision making, we need to be aware of the technical issues
 ### Problems (with regard to ecological data storage and accessibility)
 
 Ecology's filedrawer problem:
-In ecology and evolutionary biology, most data that is collected is lost to science, and are never accessible to anyone other than the original collector or user [@Evolution:cl]. That excludes summaries posted in publications. Then, eventually many data are lost, even to the original collector [@Evolution:cl].
+In ecology and evolutionary biology, most data that is collected is lost to science, and are never accessible to anyone other than the original collector or user [@Whitlock:cl]. That excludes summaries posted in publications. Then, eventually many data are lost, even to the original collector [@Whitlock:cl].
 But the foundation of science is data - information about the natural world obtained through experiment and observation.
 
 
@@ -279,9 +271,9 @@ Data collected, often for a targeted purpose, without considering how it might b
 **increasing use and establishment of data repositories / open data in Eco/Evo**
 There is increasing demand for the use of open data in ecology and evolutionary biology. One example is that there is a need to "identify broader ecological and evolutionary patterns and processes across species, space and time " [@Culina:2018dn]. Two other such uses are 1. facilitating meta-analyses, and replications. 2. Conservation decision making and decision support!! Translational research of ecological research into decision support systems and then into decisions. 3. "re-analysis of data using new statistical iapproaches, error checking or use of existing data to address new questions "
 
-Increasing data deposits are driven by policies of journals or funding agencies to encourage or require data archiving as part of the publication process [@Evolution:cl]. Lots!!! of ecological repositories now (table 2 of [@Michener:2012ho])
+Increasing data deposits are driven by policies of journals or funding agencies to encourage or require data archiving as part of the publication process [@Whitlock:cl]. Lots!!! of ecological repositories now (table 2 of [@Michener:2012ho])
 
-The two functions of open data archiving [@Evolution:cl]:
+The two functions of open data archiving [@Whitlock:cl]:
 1. error checking and verification of results. As well as a method for preventing and correcting misconduct, although it is likely rare.
 2. data to be re-used for broader meta-analyses, and for addressing new questions.
 

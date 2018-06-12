@@ -1,10 +1,10 @@
 ---
-title: "PhD Research Proposal"
+title: "PhD Research Proposal: Reproducibility and Transparency of Decisions in Ecology and Conservation"
 author: "Elise Gould"
 date: '2018-05-23'
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
   html_document:
     keep_md: yes
 number_sections: yes
@@ -38,8 +38,8 @@ This work is a good initial consideration of how reproducibility issues might im
 
 Below I propose some examples of ‘decision-points’ within the broader decision process that may impede the reproducibility of a decision. These are points of departure or variation occurring within the development of a DSS that may result in a different decision-outcome, should the process be repeated – either by the same analyst in the future, or by another independent analyst.
 
-        1. Problem formulation is a critical phase of the decision process but is often neglected or at least poorly documented when it comes to published applications of decision support systems in ecology and conservation. Human values shape preferences about the acceptability of decision outcomes in terms of fulfilling conservation objectives and should therefore be properly captured in objectives and performance measures [@Conroy:2013tc]. Decision modelling outputs may be sensitive to the specification of the performance measure [-@Giljohann:2014tv]. Failing to properly incorporate decision-maker and stakeholder values may therefore influence the reproducibility of a decision, resulting in sub-optimal decisions that do not adequately meet the true objectives.
-        2. Scenario analyses are often used to make a case for implementing one management strategy over others. However, Law et al. [-@Law:2017ia] emphasise that the selection of scenarios may influence inferences about the appropriate course of action – choosing scenarios that are impossible or highly improbable may yield the impression that a particularly positive or negative outcome is likely. Thus, it is not only the modelling inputs into decisions that should be scrutinised in terms of reproducibility, but also the choice scenarios we wish to run through them. 
+1. Problem formulation is a critical phase of the decision process but is often neglected or at least poorly documented when it comes to published applications of decision support systems in ecology and conservation. Human values shape preferences about the acceptability of decision outcomes in terms of fulfilling conservation objectives and should therefore be properly captured in objectives and performance measures [@Conroy:2013tc]. Decision modelling outputs may be sensitive to the specification of the performance measure [-@Giljohann:2014tv]. Failing to properly incorporate decision-maker and stakeholder values may therefore influence the reproducibility of a decision, resulting in sub-optimal decisions that do not adequately meet the true objectives.
+2. Scenario analyses are often used to make a case for implementing one management strategy over others. However, Law et al. [-@Law:2017ia] emphasise that the selection of scenarios may influence inferences about the appropriate course of action – choosing scenarios that are impossible or highly improbable may yield the impression that a particularly positive or negative outcome is likely. Thus, it is not only the modelling inputs into decisions that should be scrutinised in terms of reproducibility, but also the choice scenarios we wish to run through them. 
 
 ## Research aims and objectives
 
@@ -58,7 +58,7 @@ The “open data” movement within ecology, and science more broadly, assumes m
 
 Meta-research approaches include the identification of the types of, and evaluation of the extent of questionable research practices (QRPs) across whole disciplines  [e.g. -@Fraser:2018cl], as well as understanding the broader set of conditions fostering their occurrence and prevalence, such as a lack of transparency and publication bias in a publish-or-perish environment [@Parker:2016hc]. Large-scale meta-analyses are a new and emerging technique for evaluating whole fields for reproducibility, but have not been undertaken in ecology and evolution to date [@Fidler:2017he], even though traditional meta-analyses are not new [@Stewart:2010fh]. Conceptual understandings of reproducibility extend beyond computational reproducibility, with numerous ‘typologies’ of reproducibility being suggested. Within such typologies, each type of reproducibility is understood as performing its own epistemic function. Solutions to mitigating reproducibility issues tend to target a community of practice, or the incentive structure, rather than individuals. For example, pre-registration of study designs may protect against QRPs including ‘p-hacking’, selective reporting and cherry-picking or HARKing (hypothesizing after results are known) [@Parker:2016hc]. Tools for Transparency in Ecology and Evolution (https://osf.io/g65cb/) provide a checklist to authors, reviewers and journal editors for improving reporting transparency. There is increasing uptake of checklists, including *Nature Ecology and Evolution* [@Nature:2018ud] and new guidelines for statistical practice for *Conservation Letters* [@Fidler:2018ho].
 
-## Unpacking "reproducibility *of* decisions""
+## Unpacking "reproducibility *of* decisions"
 
 The term “reproducibility” broadly encompasses the ability to “replicate an experiment or study and/or its outcomes” [@Fidler:2017he]. In ecology and conservation decision-making, researchers the terms ‘repeatable’, ‘replicable’ and ‘reproducible’ are often used interchangeably and transparency is frequently touted as both a key-feature of environmental decision-support systems, and as central to delivering reproducible decisions [@Kim:2016gf]. However, the discussion of reproducibility in these contexts usually stops here, and there is no further discussion as to some definition of the term. McIntosh et al. [-@McIntosh:2011ew] elaborate further than most to explain the link between transparency and reproducibility in formal decision support for ecology:
 

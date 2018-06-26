@@ -1,0 +1,286 @@
+---
+title: de Vos Are Environmental Models Transparent and Reproducible?
+author: ''
+date: '2018-06-20'
+categories:
+  - reading
+tags:
+  - ecology
+  - modelling
+  - non-hypothetico deductive scientific model
+  - reproducibility
+  - systematic review
+  - transparency
+  - peer-review
+  - model evaluation
+slug: de-vos-are-environmental-models-transparent-and-reproducible
+header:
+  caption: ''
+  image: ''
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+# Problem:
+
+## Why is transparency and reproducibility of environmental models important?
+
+1. Transparency and reproducibility are quintessential for facilitating assessment of model quality and suitability by both peer-reviewers, readers, and future users:
+
+##### Page 1, 2018-06-20: #####
+
+> Environmental models are in fact applications of shared theories on how 
+> real-world systems are functioning.
+
+Because "Environmental models are in fact applications of shared theories on how real-world systems are functioning", it is essential that "the underlying scientific theories they need to be evaluated and discussed among peers."
+
+Moreover, the quality and suitability of environmental models should be able to be assessed such that "results and insights" can be "traced through the model structure to the underyling choices and assumptions".
+
+Importantly, this idealised process of model evaluation should be taking place in the peer-review process, before any model output and analysis is published. But this does not happen in reality. 
+
+2. Crucial for enabling "independent re-use of models", given that "Environmental models have an increasing influence on societal decision making on complex issues with potentially large impact (e.g. climate change, food security, biodiversity conservation, pollution)."
+
+3. And then, of course, there is the credibility of whole fields / disciplines at risk if not transparent, reprodicible. E.g. Climate Gate controversy.
+
+### Reporting requirements for model evaluation
+
+What are the reporting requirements necessary for assessing the quality and suitability of these models? What do we need to know in order to evaluate their suitability and quality? What do we need to know? The authors discuss model evaluation within the peer-review process.
+
+1. "Trace model results and insights through the model structure to the underlying choices and assumptions" -- i.e. the choices and assumptions that are an inherent part of the model development process wherein modellers: "decide which processes and concepts to include and which to simplify or neglect (Jakeman et al., 2006; van der Sluijs, 2002)."
+2. Reproduce model findings (Jakeman et al. 2006).
+3. Transparency of the modeling process (Jakeman et al. 2006; Risbey et al., 1996)
+4. Transparency of the model (Jakeman et al. 2006; Risbey et al., 1996)
+
+### State of environmental model reporting practices?
+
+*What is known... as of 2011.*
+
+1. [@Schmolke:2010fd] Ideal of model eval in peer-review practice of being able to trace model findings back through the model structure to the underlying choices and assumptions "is hardly ever realised."
+2. Transparency of models hindered because assumptions and modelling choices are hidden in source code rather than documented. One solution to this is extended peer-review.
+
+> A large part of the choices and assumptions remains hidden in the model source 
+> code or in the minds of the modelers and has not been made explicit in model 
+> documentation (van der Sluijs, 2002; Villa et al., 2009).
+
+*And what might be the barriers to transparent reporting practices?*
+
+- Publication bias: "journal articles reporting modeling efforts focus on scientific originality rather than on model documentation (Alexandrov et al., 2011; Schmolke et al., 2010b).".
+- No consensus on standards / agreed upon reporting of  environmental models - lots of variaiton in this. THUS, peer-reviewers evaluate the model and the findings based solely on the information provided to them.
+
+*Remedies to lack of transparency?*
+
+> Funtowitz and Ravetz in (1990) to propose an extended peer review, in which not 
+> only the associated article but also additional materials such as models, data 
+> and scenarios are reviewed. However, reviewers do not have sufficient time or 
+> resources to conduct detailed evaluation of these models (Alexandrov et al., 
+> 2011).
+
+# Aim / Objective:
+
+To investigate:
+
+> the transparency and reproducibility of environmental 
+> models by evaluating a limited set of models that were re-used by researchers 
+> for their own research.
+
+By testing the validity of the hypothesis:
+
+> that, despite the numerous attempts to promote good modeling 
+> practice and extended peer review, the reproducibility and transparency of 
+> environmental models is limited in actual terms.
+> even though good modeling practice and 
+> extended peer review are promoted.
+
+# Approach:
+
+##### Method, Page 1, 2018-06-20: #####
+
+> To test the validity of this hypothesis we have reviewed publications, 
+> documentation and software of four environmental models. We analyzed to what 
+> extent this material provided insight in the model structure and the modeling 
+> process and to what extent model findings could be traced back to the underlying 
+> choices and assumptions.
+
+I like the approach taken by the authors where they examined highly cited models. Their argument for doing so was that these models are well-regarded. But 3 / 4 lacked enough information to be able to evaluate and assess them... so how did they pass peer-review... multiple times? demonstrate that the model part of the published document was most likely not evaluated.
+
+## What were their criteria for transparency?
+
+> We analyzed to what 
+> extent this material provided insight in the model structure and the modeling 
+> process and to what extent model findings could be traced back to the underlying 
+> choices and assumptions.
+
+Specifically, The availability and the usefulness of descriptions of:
+
+1. the conceptual model
+2. the calculation process,
+3. the input data and results and 
+4. the source code.
+
+These were supposedly based on guidelines for "Good Modelling Practice": (Alexandrov et al., 2011; Gaber et al., 2008; Jakeman et al., 2006; Refsgaard and Henriksen, 2004; Risbey et al., 2005; Rykiel Jr, 1996; Schmolke et al.,  2010b).
+
+I think the term 'usefulness' is too vague to be useful. Especially if my goal is to generate specific items for a reporting checklist. Also... what does "the calculation process" actually entail? I think we need a more detailed and carefully specified framework for model development to better guide the development of the reporting checklist.
+
+# Key Findings wrt Reproducibility:
+
+##### Page 1, 2018-06-20: #####
+
+> Neither can they ensure the reproducibility and transparency of the model 
+> results and insights, for a number of reasons. 
+
+> First, information on model design is scattered over several sources, which are to a limited extent freely 
+> and easily available to reviewers. 
+
+> Second, written model documentation does not 
+> provide a sufficient description of the modeled system. 
+
+> Third, written model 
+> documentation does not provide a sufficient description of the calculation of 
+> model results.
+
+> Finally, results presented in scientific publications do not 
+> necessarily correspond with parameter values or equations in the model source 
+> code.
+
+The authors broke down issues of transparency / reproducibility into the following sub-groups.
+
+## Documentation
+
+Information on model design is often scattered over several publications, especially for larger more complex models. Some papers just do not have the space for an extensive model description. Instead different publications focus on particular parts or applications of the model, but often they "simply describe the general functioning of the model, without being specific or concrete". Alternatively more detailed information is supplied from model developers in the form of reports, but it is not peer-reviewed.
+
+Then there is the issue of how the models are referenced. They refer back to other papers, which then refer back to the grey literature, or book chapters. So readers have to work through a chain ofreferences... I've seen this issue referred to as "daisy chain"ing, especially with reference to the information sources used by "data parasites". There are a couple of issues around this: 1. the indirect referencing means that the information on model design and development can't be guaranteed to be found easily and 2. "The model version used in a journal article might be different from the version described in the documents."
+
+## Conceptual Model
+
+Reader's understanding of the modeled system is necessary for being able to evaluate the model. In order to facilitate this, the authors argue that a "comprehensive list of assumptions, concepts and processes that [describe] the model as a simplified representation" is necessary. The authors had to request further information from 3/4 of the papers, which conflicted with the written documentation. Studying the source code also helped with conceptual understanding.
+
+## Calculation Process
+
+For none of the models could the "results from scientific publications[be] easily reproduced or traced through the model structure to the underlying choices and assumptions". Eggregious reporting errors included:
+
+> some results presented in scientific publications did not correspond with 
+> parameter values or equations in the model source code. Additional parameters 
+> were found in the source code, but not described in the scientific publications, 
+> in one case. 
+
+> In another case, the equations as documented in the scientific 
+> publication could not reproduce the behavior of the model as documented in 
+> figures, until an error was corrected in the equations
+
+> For another paper, the process of setting scenario parameters for model runs was arbitrary and could not be based on scientific
+> theories as the scenario parameters could not be measured or derived from 
+> scientific literature. At the same time these scenario parameters had a large 
+> influence on model results.
+
+> in three cases the written model documentation only presented a selection of the 
+> equations and mathematical descriptions included in the models.
+
+The authors had to study and run the source code by trial and error to understand the process of calculating model results.
+
+## Data
+
+The process of data management should be outlined in enough detail to be understood by readers.
+
+> The identity and source of most of the model input data of the four case study 
+> models are described in written model documentation.
+
+> the input data are stored in dozens of files, which had been typically manually 
+> organized and adapted.
+
+> Input files for one model do not have any 
+> structure or naming to each of the data fields, which may cause confusion and 
+> mistakes in the calculation process.
+
+HOW should input data be managed... rules about metadata?
+
+## Source Code
+
+Not provided for one (exists only as a set of equations and parameters described across several peer-reviewed publications).
+
+One model was available as open source, the source code was available only on request, and then only partly.
+
+Reading the source code alone was too difficult to gain a full understanding of the models, even by studying, altering and running the code.
+
+Two models contained functions or modules that had "no clear documented function in the calculation process, while still being included in the model runs"
+
+## Implications of these findings:
+
+##### Page 1, 2018-06-20: #####
+
+In general, the researchers found that the models were essentially "black boxes" and they had to invest significant time and energy into trying to understand them.
+
+> Our findings suggest that environmental models lack essential quality 
+> characteristics in terms of transparency and reproducibility. This raises the 
+> concern 
+
+This is despite there being numerous guidelines and rules to improve transparency of environmental models. 
+
+In the peer-review process, reviewers must adequately evaluate the models, query their utility and suitability. Given the results of the transparency and reproducibility analysis here, it is likely that the peer-reviewers were unable to do this properly, even if they had tried because models need to be described transparently in order to allow this. The authors are concerned that:
+
+> that they are being used in applications without respecting and 
+> discussing their underlying choices and assumptions.
+
+How common are these problems in reporting transparency for environmental models? Given the fact that the models are "grounded in scientific theory, and are highly cited, and are used regularly in policy-oriented applications" the authors believe that the results of the study here apply to environmental models more generally.
+
+# Postulated structural reasons for lack of transparency of ecological models:
+
+
+## 1. Model size and complexity
+
+The reviewers found that descriptions of concepts, processes and calculation steps "contained only arbitrary selections of parts of the models".
+This is a pragmatic decision because environmental models are "typically big and complex". "Describing all elements in the models requires a lot of time and does not fit within the constraints set by scientific publications or project budgets".
+
+The authors remedy to this p[roblem is to suggest that, actually, the complexity of the models is unwarranted in the first place, but is actually driven by advances in computational systems, and the rise of integrated modelling approaches, as well as modifying existing successful applications to new contexts. The authors quesiton the complexity stating that the cause for modelling is "abstraction and simplification by making appropriate assumptions". Importantly, they argue that finding an appropriate level of model complexity improves performance, and enhances transparency.
+
+These are some pretty big claims and I'm unwilling to support them without reviewing the ecological modelling literature myself. I think that if you have found an appropriate level of model simplification in order to be able to answer the question at hand, then that should be the sole determinant of the level of model abstraction. Not transparency. I beleive there are technological solutions and approaches that can be implemented to aid in improving the transparency of environmental models without increasing the burden of time and resources on researchers.
+
+## 2. Lack of incentives
+
+General lack of incentives for modelers to follow good practice.
+
+- Model imperfections are preferably undisclosed, because "these could be considered as failures". But *every* model is imperfect, because they are *abstractions*!!
+- Reluctance to "give away the intellectual property that is embodied in datasets or source code". I suspect this applies particularly in commercial contexts. But with the advent and uptake of the open source code and data movement, things might have changed since publication.
+- Probably, most importantly: "documenting models carefully is a labor-intensive and not very interesting job", especially given the "on-going development of some models".
+
+So where might incentives come from? Peers, stakeholders, journals requsting openness.
+If there is a demand for transparency and model documentation, the authors postulate that model developers "would spend more time and effort writing clear and comprehensive model documentation". This is based on considering models or software where there is a well defined and active user-group - this software is typically very well documented. 
+
+Yep, I agree, this is a good point. The authors argue that when journals begin to oblige researchers to share data and code, "it will make results and insights replicable, hold model developers more accountable and it will enhance cooperation between scientists."
+
+## 3. Use of computers
+
+For applications involving environmental models, there is emphasis "on computation and simulation, rather than on the descriptive side of modelling."
+
+"Vast amoun ts of data and computations can be processed in a limited time" The authors claim that "environmental modelers often lack the time and skills that are needed to perform rigorous testing and clear annotation of their models (Kelly, 2007; Merali, 2010)". They instead focus on "'model validation' i.e. verifying whether the model results match their expectations or real world observations." They assert that a remedy is training by professional software deelopers. I'm reluctant to stand by any argument denouncing the modelling skills of environmental scientists. I will say that in general we could do better in terms of how we write, annotate and package our software, but I think it's important to distinguish this from any modelling issues. Though perhaps I've misunderstood what they mean by "rigorous testing".
+
+They do make a good point below about the leading principles of scientific software being "representing applied scientific knowledge", and that this requries "specific software development skills and tools", that are basically distinct from those of a commercial software developer. They highlight the issue where the original source code is the only accurate descfiption of the model, but that it is unable to be read by most users, IF it is available in the first place. Importantly, the source code does not often represent accurately the assumptions made by the modeller.
+
+The authors argue for model authors supplying a conceptual description that is comprehensible to all stakeholders, and that this model description is consistent with the model source code (Yeah, this is a pretty good idea). Especially when stakeholders might include managers without any training or minimal exposure in software / modelling practice. So it's also an issue of equity.
+
+ 
+# Remedies and Solutions for improving reproducibility and transparency of ecological models:
+
+> We submit that openness in the modeling process can only be achieved with a 
+> general change of attitude. On the one hand model developers must become 
+> explicit and open about their choices and assumptions. On the other hand peers, 
+> stakeholders and journals must request openness and challenge these choices and 
+> assumptions. In an operational sense, computers and networks can be turned to 
+> their advantage by having them disseminate high-quality model descriptions using 
+> shared vocabularies.
+
+Peer Reviewers: must take responsibility "for the underlying assumptions and choices" so too must, decision makers when using models to explore consequences of alternative policies or management scenarios. HOWEVER, peer-reviewers cannot examine the premises and assumptions, "when they lack information". It is their responsibility to request openness from model developers or journals.
+
+What mechanisms will (and are, at the time of publication) promote this?
+
+- awareness of importance of crediting modelers and data providers: formal authorship, scientific ranking, licenses and other incentives
+- growing importance of open source code and data
+- web-hosting of materials like source code and data: linking models to journal papers to provide more advanced supplementary material (I'm thinking figshare, GitHUB and similar services here).
+- Journals: need to start making delivery of additional material for models and data an obligation
+- Semantic publishing of journal articles: "which allows readers to access and interact with the data and conceptual knowledge of the correpsonding model"...
+
+Whoa. People have been talking about semantic publishing and annotation and shared vocabularies for a *long* time.... I wonder when / if they will ever become operational in a broad-scale sense??!!
+
+# Follow-up references:
+
+- [@Jakeman:2006ii]
+- [@Schmolke:2010fd]
+- [@Alexandrov:2011iv]

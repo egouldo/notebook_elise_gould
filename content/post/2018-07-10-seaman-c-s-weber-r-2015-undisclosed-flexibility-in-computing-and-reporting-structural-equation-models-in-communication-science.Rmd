@@ -1,0 +1,176 @@
+---
+title: Seaman & Weber (2015) Undisclosed Flexibility in Computing and Reporting
+  Structural Equation Models in Communication Science.
+author: ''
+date: '2018-07-10'
+slug: seaman-c-s-weber-r-2015-undisclosed-flexibility-in-computing-and-reporting-structural-equation-models-in-communication-science
+categories:
+  - reading
+tags:
+  - causal inference
+  - model evaluation
+  - modelling
+  - non-hypothetico deductive scientific model
+  - open science
+  - QRP
+  - research practice
+  - transparency
+  - peer-review
+header:
+  caption: ''
+  image: ''
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+# Summary
+
+This paper is a systematic review (or 'methodological review' in their tersm) of both QRPs and bad modelling practice in structural equation modelling within the field of communication. They don't use the term 'Questionable Research Practices', however, they do explicitly look at practices falling under the QRP banner, including cherry-picking, HARKing, and researcher degrees of freedom. Importantly, this paper is really useful to me because they examine these questionable research practices in a modelling framework outside of the non-hypothetico-deductive scientific model.
+
+Some of aspects of the paper (e.g. all their 'types of misapplications of SEM' common in Communication research) aren't relevant, because they don't really distinguish between QRPs and 'bad practices' in general, whereas my focus is solely on QRPs, rather than best modeling practice in general -- that's despite the two being inter-connected (see notes on de Vos, for example [-@deVos:2011uk]).
+
+## Rationale 
+"Exploitation of flexibilities in data collection and analysis"
+
+Their starting point is the paper by Simmons et al [-@Simmons:2011iw], who 
+
+> conducted a 
+> series of computer simulations and experiments that examined the impact of four 
+> research flexibilities in data analysis and collection: (1) selectively 
+> analyzing more than one dependent variable, (2) collecting additional data after 
+> assessing statistical significance, (3) selectively including a covariate or an 
+> interaction with the treatment effect, and (4) selectively analyzing a subset of 
+> the experimental conditions. Their analysis demonstrated how researchers’ 
+> decisions regarding these flexibilities could result in finding statistical 
+> evidence for a false hypothesis.
+
+They extend this analysis to look at SEM in communication, on the basis that:
+
+> the apparent 
+> complexity and sophistication of SEM can often hide very serious methodological 
+> and statistical flaws. Therefore, we as researchers have to be particularly 
+> critical about the use of structural equation modeling to prevent unwarranted 
+> and faulty conclusions.
+
+## Paper approach:
+
+> First, we categorize and critique various types of misapplications and misuses 
+> of SEM in communication scholarship. 
+
+> Second, we update empirical evidence for 
+> our critique in form of a methodical review of the recent communication 
+> literature. 
+
+> Third, we provide recommendations and a “checklist” that can help 
+> researchers/authors, reviewers, and editors to avoid the most common misuses of 
+> SEM.
+
+## Follow-up references:
+
+- [@Simons:2014jm]
+- [@Simmons:2011iw]
+
+# Exploitation of undisclosed flexibility - Researcher degrees of freedom
+
+The authors define this as "the (mostly) intentional, active fabrication of 
+ results (partly due to researchers’ extensive experience with the application of 
+ SEM and profound knowledge of unaddressed flexibilities in reporting SEM 
+ results)".
+ 
+The authors note that in contrast to ANCOVA models examined in Simmons et al. [-@Simmons:2011iw], the SEM process is additionally prone to exploitation of undisclosed flexibility because of the "additional data collection and analysis decisions" that are unique to SEM. The consequence of this QRP is that a "false model may be retained".
+
+Researcher degrees of freedom may be defined as: "Taking advantage of undisclosed flexibilities in modifying initial (theoretical) models". This problem is obfuscated by failure to disclose the process by which a model was formulated: "it is difficult to determine the extent to which a researcher's model is a result of post-hoc "fishing" or was legitimately specified a priori and withstood falsification." This occurs when researchers exploit "researcher degrees of freedom" [sensu @Simmons:2011iw]. They are "typically opportunities for undisclosed decisions researchers make during data analysis and collection that can increase the probability of a false-positive result and render a model as explorative rather than inferential. Post-hoc modifications to a model to improve its fit are a prime example of researcher degrees of freedom due to the nature of how such improvements are chosen."
+
+
+**Analysis Points in SEM where flexibilities can be exploited**
+
+1. Specification ("the relationships between the study's variables in the form of a structural model")
+2. Estimation ("Based upon [the assumption that the model is (roughly) correctly specified], a single set of parameter estimates and fit statistics are derived for the specified theoretical model.")
+3. Evaluation ()
+
+### Inter-connected specification and estimation
+
+### Post-hoc modification and HARKing
+
+Specification of a priori model(s) and estimation is an interconnected process, but ideally, they should be separate: "a single model is specified based upon prior research and theory, and is then tested for falsification with one global test." But in practice, "this is rarely how a model is formulated and tested. Perhaps more commonly, the final model is actually the result of iterative modifications to an initial model and multiple goodness of fit tests using the same data."
+
+"model specification is guided by the results of model estimation. Ignoring some inherent problems of multiple testing, this procedure is not problematic per se, as long as all modifications to the initial model are justified and the final model is characterized as an explorative model."
+
+There are two issues with this:
+
+1. The post-hoc modification occurs, and is disclosed, but the model is used for confirmation / disconfirmation purposes rather than exploratory purposes.
+2. the post-hoc modification occurs, and is undisclosed (aka. HARKing; "Claiming that certain models are a priori, but are in fact the product of post-hoc modification of an earlier failed model"). The effect is that researchers are "exploiting researcher degrees of freedom"
+        a. *a priori* model(s) introduced in the results section
+        b. Multiple *a priori* models but unclear about how the process of specifying took place- i.e. how did the authors come to specify the final model - it's not recorded.
+
+*Extrinsic conditions:*
+
+- no consensus on reporting practices for this emerging modeling technique
+- "“vague” communication theories (theories with low levels of “explanatory explicitness” and “precision”)"
+- "undue page limits imposed by academic journals."
+
+
+*Implications and Consequences:*
+
+1. Misspecification
+
+> One of the biggest problems with this type of “model-fitting” approach is that 
+> it will inevitably cause the model to become “misspecified.” Misspecification is 
+> when the equations and assumptions of a model are not a valid description of the 
+> model that generated the data (Bollen, 2007). This will results from model-fitting for two reasons:
+
+> a. Structural equation modeling is primarily a confirmatory technique. It cannot statisti- cally determine the “best” model from a group of variables, but only whether a given model is reasonably supported by the data. In order for structural modeling to produce meaningful results, a model must strongly reflect the underlying theory or hypothesis it is supposed to be testing. If a model is not grounded in strong a priori knowledge or theory about the phenomenon being examined, the statistical results will be meaningless (Kline, 2010). 
+
+*Conceivably, a model that deliberately contradicts a rigorously tested and supported theory could, due to random chance, be consistent with the data in a single study. However these results would provide no relevant insight into the relationships amongst the variables, as this model itself is almost certainly false. Thus, the value of statistical support for a model is dependent upon the strength of the theory or rationale used to construct it. Models fitted based upon random chance will not result in a model that accurately describes the underlying phenomenon.* Wonder whether this applies to other types of modelling in ecology and conservation??
+
+> b. While a model can be falsified if it is contradicted by the data, merely finding that the model is consistent with the data does not necessarily imply that the model is the best explanation of the observed pattern of relationships amongst the variables. This is, in large part, because there are always alternative models that are equally supported by the data (Pearl, 2000), making sta- tistical considerations useless in determining which model should be favored. Therefore, finding empirical support for a model only implies that the model represents one possible explanation for the data. For this reason, some have suggested that SEM should be viewed as a disconfirmatory technique, as it can tell us which models are likely false, rather than which ones are likely true (Haertel & Thoresen, 1987; Kline, 2010), we strongly support this notion.
+
+2. Researcher Degrees of Freedom
+
+> For these reasons, taking advantage of undisclosed flexibilities in modifying 
+> initial (theoretical) models should be generally discouraged. However, without 
+> disclosing the process by which a model was formulated, it can be difficult to 
+> determine the extent to which a researcher’s model is a result of post-hoc 
+> “fishing” or was legitimately specified a priori and withstood falsification.
+
+
+
+
+### Empirical Re-specification
+
+A.K.A. re-specification that is based solely on improving fit of the model in the context of SEM".
+"As mentioned earlier, empirical re-specification is the post-hoc mod- ification of a model to improve its fit to the data, irrespective of how those modifications would affect the interpretation of the model, which increases the probability of finding good fit to the data purely by chance."
+
+- can be explicitly disclosed
+- can be undisclosed (HARKing)
+
+"If a theoretical model is ultimately specified based upon undisclosed testing and post-hoc modifica- tions, then this is actually an even more dangerous type of empirical re-specification (also called hypothesis testing after the results are known or HARKING), because it cannot be addressed or criticized by reviewers or the broader scholarly community. HARKING is not unique to SEM, but most SEM software provide in-built tools that make HARKING especially easy (e.g., mod- ification indices in AMOS)."
+
+*Solutions*
+
+1. "First, authors should be strongly encouraged to theoretically defend any post-hoc modification of a theoretical model. If this is not possible, then the modification should not be allowed unless they undertake some sort of cross-validation of the new model with new data not used for model re-specification."
+2. "echoing the recommendations of Holbert and Stephenson (2002), authors should be required to disclose the entire process that led them to the final theoretical model they are ultimately testing, especially with regard to any exploratory empirical testing that led to the final model."
+"In turn, reviewers and editors should be discouraged from treating these discussions as indications of a “messy” study; rather, the explication of this process should be seen as necessary and beneficial section of the paper. If the empirical testing was done using the same sample that the final model is being tested with, the authors should be required to do some sort of cross-validation, unless the changes were relatively minor."
+3. "In general, authors, reviewers, and editors should focus more on the model specification process than on model fit. For example, a study that has passable model fit, but has justified all re-specifications that were made to the initial model, should be evaluated much more favorably than a model with excellent model fit but no sound rationale for any of its re-specifications. If additional space is needed to guide readers through the iterative process of model specification, then editors should be generous with page limitations."
+
+### Adding / Subtracting structural paths based on random chance
+
+"Furthermore, adding or subtracting structural paths based upon merely random chance can negatively affect the estimation of the model’s parameters. This is because the full-information estimation methods, which are overwhelmingly used in SEM, will propagate specification error throughout the entire model."
+
+### Cherry-picking Evaluation Statistics 
+
+"There is the strong possibility for researchers to include only those fit statistics that are favourable for th emodel, while ignoring those that imply the model does not fit the data." "This is much greater [risk] than for other types of techniques."
+
+*Extrinsic conditions*
+
+- No consensus on best indices of model fit, or what appropriate thresholds should be for some fit statistics
+- "Consequently considerable thought must be given as to what each fit index value implies about the fit of the model."
+- Coupled with no standard reporting requirements
+
+*Solutions*
+
+- Reporting all tests performed.
+- Including *a priori* multiple types of fit indices, making it difficult to 'cherry pick' those fit statistics that merely support a researcher's model.
+- "Structural equation modeling is a complex technique, and many researchers are not aware of what should (and should not) be included within the results section of a manuscript using it as an analytical technique. While not every detail of a study needs to be reported, there are several areas where failing to include specific information can obscure flaws of a study or even significantly alter the interpretation of a model."
+
+# References
+

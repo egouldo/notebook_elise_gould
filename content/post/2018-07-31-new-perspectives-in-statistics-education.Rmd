@@ -1,0 +1,89 @@
+---
+title: New Perspectives in Statistics Education
+author: ''
+date: '2018-07-31'
+slug: new-perspectives-in-statistics-education
+categories:
+  - talk
+tags:
+  - replication
+  - reproducibility
+  - QRP
+  - research practice
+  - p-value
+  - confidence interval
+  - statistical inference
+header:
+  caption: ''
+  image: ''
+---
+
+Upcoming events: Statistical Society of Australia (SSA), Biostatistics bonanza. August 23. 
+
+# Sue Finch: "Back to basics? Identifying educational needs through statistical consulting"
+
+People who come to consulting come with real need - come with an applied problem.
+How can we use this to inform new generation of statistical training for researchers?
+
+Break down research cycle using PPDAC cycle used within statistical education (Wild and Pfannkuch).
+Process of statistical thinking when carrying out a statistical inquiry.
+
+Problem, Plan, Data, Analysis, Conclusions.
+
+Research question is a question on statistical inference, with an applied interpretation.
+
+
+# Confidence Intervals and replication: the reality, Ian Gordon, Statistical Consulting Centre
+
+Narrow subject within the replication crisis.
+
+1. Confidence Intervals, and 2. P-values.
+
+Debate about the merits of these two alternative interpretations of inference over time.
+Reaction against dogmatic implementation of hypothesis testing.
+
+Confidence intervals emphasised by Gordon adn Watson. Should start with estimation and then move onto hypothesis testing.
+
+Geoff Cumming and co. Recent literature and influencing the practice of publication in terms of reporting. But also to literature looking at how people use and understand hyptohesis testing and p-values.
+
+Gordon: agrees with Cumming that CIs emphasised over P-values, and that the binary divide of 0.05 is unsatisfactory. 
+
+## Replication of confidence intervals
+
+P-values predict the future vaguely, but confidence values do much better. They give good information about what is likely to happen during replication of an experiment.
+
+Dance of te p-values indicate how they vary so much with replication, and therefore how useless they arein terms of replication.
+
+How well do CI's replicate? 83% chance a replication gives a mean falling within the 95% confidence interval of the first.
+Consider sequences of samples giving sample means, how well does the next mean fall within the confidence interval of the first?
+
+Random, realised confidence intervals.. Random vs. observed/realised. are two different things.
+
+Talks about means, but theoretically could extend to other types of estimates.
+
+Is the next point estimate in the previous confidence interval... better question. How well does the next confidence interval replicate the previous one. Means that we don't get single number but more subtle answer.
+
+-> The extent of replication varies.
+
+Why stop at one CI?
+What is chance that all confidence intervals are overlapping?
+
+Right sort of replication (of CI's): 
+
+## Variation (of $ P $ and CI's)
+
+P-values vary in repeated sampling (StatPlay), see Youtube: "Dance p 3 Mar09"
+
+P-values dancing around in frequency histogram. Even in the situation where the null is not true. Could say the same thing about CI's in this example.
+Relative variation? do P values or CI's vary more or less than each other?
+
+Geoff Cumming: Extremely large variation of p-values. But what about when the Null is true (i.e. the null distribution of $P$). P-value distribution under null is uniform. And therefore dance around enormously.
+
+How can we compare sensibly the variation of the CI with the P?
+
+Start with P and Z distribution when Null == TRUE. Plot against each other, Put on same scale using numberline. P-value < Z-value distribution.
+Do the same when alternative == TRUE. Z also varies a lot more than P.
+
+P is a function of Z, doesn't make sense to compare them in direct numerical sense. Same is true with P-values and CI's... same problem occurs during meta-analysis... Not a sensible comparison if you don't have estimate and P-value at the same time.
+
+CI and P vary together, but just on different scales. Have both dance of P and CI. neither is more varying than the other.

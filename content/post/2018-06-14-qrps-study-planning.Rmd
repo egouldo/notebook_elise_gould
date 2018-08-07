@@ -1,0 +1,158 @@
+---
+title: QRPs Study Planning
+author: ''
+date: '2018-06-14'
+slug: qrps-study-planning
+categories:
+  - retreat
+  - planning
+tags:
+  - QRPs
+  - publication bias
+  - conservation
+  - research practice
+  - transparency
+  - non-hypothetico deductive scientific model
+header:
+  caption: ''
+  image: ''
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+# QRPs for non-hypothesis testing research in Ecology and Conservation Decision Making
+
+Problem and Background:
+
+The reproducibility literature has focused exclusively on hypothesis-testing, whether that be Bayesian or frequentist. This also applies to initial research focusing on ecology and evolution. However, Fidler (2016) correctly identifies that in applied ecological research, particularly in conservation science, non-hypothesis testing methods, such as decision-theory, cost-effectiveness analysis, optimization and other scientific computing methods are common. These approaches come with their own set of reproducibility issues. However, a full understanding of the types of reproducibility issues, as well as their impact on either the evidence-base, or the decisions informed by the evidence-base, is yet to emerge.
+
+Meta-research approaches include the identification of the types of, and evaluation of the extent of questionable research practices (QRPs) across whole disciplines (e.g. 2018), as well as understanding the broader set of conditions fostering their occurrence and prevalence, such as a lack of transparency and publication bias in a publish-or-perish environment (Parker et al. 2016). Large-scale meta-analyses are a new and emerging technique for evaluating whole fields for reproducibility, but have not been undertaken in ecology and evolution to date (Fidler et al. 2017), even though traditional meta-analyses are not new (e.g. Stewart 2010). Conceptual understandings of reproducibility extend beyond computational reproducibility, with numerous ‘typologies’ of reproducibility being suggested. Within such typologies, each type of reproducibility is understood as performing its own epistemic function. Solutions to mitigating reproducibility issues tend to target a community of practice, or the incentive structure, rather than individuals. For example, pre-registration of study designs may protect against QRPs including ‘p-hacking’, selective reporting and cherry-picking or HARKing (hypothesizing after results are known) (Parker et al. 2016). Tools for Transparency in Ecology and Evolution (https://osf.io/g65cb/) provide a checklist to authors, reviewers and journal editors for improving reporting transparency. There is increasing uptake of checklists, including Nature Ecology and Evolution (“A checklist for our community” 2018) and new guidelines for statistical practice for Conservation Letters (Fidler et al. 2018).
+
+Most formal decision-support systems for ecology and conservation lie outside of the typical hypothetico-deductive model of science. Although the concept of reproducibility is not inherently specific to that model, the causes and solutions to the reproducibility crisis have focused exclusively on this model. For instance, QRP’s including p-hacking, cherry picking, and HARKing are specific to Null-hypothesis significance testing (NHST) (Fraser et al. 2018). Solutions to the reproducibility crisis, such as preregistration of analysis plans, are specifically targeted at addressing the cognitive biases that foster these QRPs, and so also adhere to this model of science. Measures of reproducibility, such as those employed by the COS reproducibility project for psychology have also focused on the hypothetico-deductive model of science, but not all.
+
+Flagrant misconduct is rare. 
+
+## Aim of this study:
+
+This work aims to identify questionable research practices for non-hypothesis testing research in ecology and conservation.
+
+In terms of broader science: 
+Expand QRP research outside of non-hypothesis testing.
+
+as well as to identify the causes of their occurrence - 
+
+This work aims to expand the focus of current reproducibility research beyond the  non-hypothetico-deductive model of science, and to advance initial meta-research attempts on transparency and reproducibility in Ecology and Conservation (Fraser et al. 2018). It weeks to constitute one element of an emerging roadmap of reproducibility issues occuring in ecology and conservation. Ultimately, this work aims to provide the foundation for futher work in proposing standards and technical solutions for mitigating QRPs in Ecology and Conservation.
+
+This chapter will constitute (from what I am aware of) the first attempt to investigate reproducibility issues for non-hypothesis testing based research. To this extent, the knowledge resulting from this chapter should also be applicable to other fields of science beyond ecology and conservation where translational research and non-hypothesis testing methods are prevalent. It will also build on the work of Fraser et al. (2018) in advancing research on reproducibility and transparency in ecology.
+
+
+Future follow-up work (at end of study):
+
+1. What can be done, what are the solutions?
+2. Frequency / prevalence of the QRPs in ecology.
+3. Expanding scope to broader decision process (e.g. SDM process, and Decision Modelling).
+
+A note on *not* discussing solutions: Future work will involve identifying possible solutions and ways for mitigating QRPs. Could potentially include group training, guidelines for approaches to particular analyses or parts of analyses, or even cultural shift. Could mirror other reproducibility measures such as checklists, etc.
+
+## Defining a QRP
+
+1. Uncertainty: Questionable modelling practices that artifically reduce model uncertainty about how outcomes of interest respond to management.
+2. Values: And possibly, bias towards models that support expectations about which actions result in outcomes that best fulfill the objectives. I.e. selecting a model, or hacking a model until it fits with how you or managers expect the system to respond to management, despite having followed best / analytical and model-building practices.
+
+How does this uncertainty thing work?
+
+There is some inherent natural variation in the world that leads to uncertainty. From this due to sampling error or measurement bias, or other sources of bias, and because the world is imperfectly observable, we have some knowledge / data or ESTIMATE of the true uncertainty. From this, we synthesise the evidence base and potentially new data into a model. If the process artificially reduces this uncertainty in outcomes
+
+
+Conditions:
+Publication bias - don't want an uninformative model.... BUT do we learn something if the model is uninformative? Yes, potentially. Not necessarily the case that an uninformative model is useless, perhaps it tells us that we are missing some key variable or relationship, or there's something wrong with our model that needs improving... (we've learnt that our understanding of the world, is inadequate for describing the system). But there's definitely incentive to have an informative model... one that is able to either EXPLAIN, or PREDICT something. And this is driven by either or both of publication bias, and manager bias - the manager wants information to be able to act!
+Outcome driven practice: locked onto a particular outcome.
+
+How to distinguish between learning when model building?
+
+Is Decision-modelling simply just an extension, of the same process, but using either different types of models, or else just using different inputs (e.g. consequences data, rather than )
+
+
+# Methodology
+
+
+
+It will consist of two parts:
+1. The retreat - generating an initial list of QRPs.
+2. a broader survey of ecologists, perhaps Bayesians, Modellers. Asking them whether you think these practices are in fact questionable? What else can you think of that isn't in this list? Note that the list should be staggered as people add to the list, so it's available for toerhs. How to generate the list of people to target? Ask Mick and Brendan for a list. Else review some particular journal where people have done Bayesian work, for example.
+
+
+
+
+The point of voting is to lend support outside of just us, that these QRPs are real, and occur in practice.
+
+
+## Stage 1: Generating a preliminary list of QRPs at the Qaeceara Lab Retreat
+
+### Session Running Sheet:
+
+Introduction:
+
+1. Hannah and Me on slides
+2. Fiona is on QRP example
+3. Break-out groups
+4. Re-group, vote and summarise on particular QRPs.
+
+### Introduction (to be lead by Hannah and Elise)
+
+Joint aims - need to pitch this correctly
+
+1. For Qaecera: "To help spread awareness among Qaecologists and Cebranalysts about reproducibility in our research practices"
+2. For my research: stage 1. covered above.
+
+Hannah: why reproducibility is important to us as ecologists, the state of reproducibility in eco/evo, an in the context of other dsciplines? Then onto Hannah highlighting the findings in the pre-print? Highlighting common QRPs in broader biological science and in ecology. OR whatever it is they want to discuss!
+
+Elise: on QRPs for non-NHST type research in ecology. A lot of people in the group might think that reproducibility doesn’t really apply to them because they doin’t work in the realm of NHST and p-values. They build predictive models, or use some other type of model, for example. So I want to highlight this gap, and get the group thinking about how QRPs might manifest in these types of research.
+
+Another point that Jian raised is that there are lots of Bayesians in the gorup who might not think that reproducibility issues affect them… important we bring their awareness to the fact that it does.
+
+### Self-confessed QRPs:
+
+Four senior researchers giving examples of times that they have done any of these QRPs.
+1. Fiona
+2. Mick / Pete / Cindy?
+
+### Break out groups
+
+Areas of focus will be pre-identified for dividing the break-out groups along those lines. Open to the floor and people can join which ever group they like.
+
+We will have two break-out groups:
+
+1. Bayesians
+2. Ecological Modelling
+
+If need be, they will be broken down further into splinter groups, potentially around natural topical splits, or else just because of numbers (no more than 8 in each group).
+
+**Directions for running the subgroups:**
+
+Definitions of QRPs:
+publishability, not just a mistake. Excess confidence in a decision, selection or stopping rules.
+
+Don't get hung up on the definition, e.g. if there is disagreement of what a QRP is. The task is to list as many as possible.
+If the QRP is particularly contraversial, can move on, because there will be voting later as to whether the QRP is in fact real.
+
+Sub-groups get back together: this is where we put the lists up and everyone votes on whether they are a QRP.
+
+Not asking for solutions here (they might be immediately obvious), or perhaps the QRPs have NHST analogues, and therefore have exisitng solutions.
+
+Each group will have a facilitator and a scribe for compiling the list of QRPs, as well as any associated discussion points.
+
+### Dealing with being countered
+
+E.g.: don't have time to go through every option / iteration 
+
+Acknowledge that there is a cost to reproducibility and therefore a trade-off between being pragmatic and being reproducible, but that we need a way of deciding what's important / where the critical threshold is. What's tolerable and what's not.
+
+
+### Retreat Session Outputs
+
+Preliminary list of QRPs
+Some associated discussion points
+Conceptual problems
+Vote count
+
+Stage 2: Surveying the broader ecology / conservation community (TBC).

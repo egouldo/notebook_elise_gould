@@ -1,0 +1,108 @@
+---
+title: QRP and Biases Roadmap
+author: Elise Gould
+date: '2017-02-15'
+categories:
+  - synthesis
+tags:
+  - reproducibility roadmap
+bibliography: ../../static/files/citations/posts_read.bib
+slug: qrp_roadmap
+header:
+  caption: ''
+  image: ''
+---
+
+# Goal
+
+I want to generate a "roadmap" of the sources of bias and questionable research practices (QRPs) that I think are frequently encountered when developing D in applied ecology / conservation. These biases will reduce the reproducibility of of a given decision support tool. Identifying where in the DST development process particular biases are likely to occur should serve as a launching point for proposing solutions towards minimising their occurrence and therefore increasing the reproducibility of DSTs. Aside from helping to pinpoint areas of improvement that researchers can target in terms of reproducibility, in the context of my PhD, another important aim of developing this roadmap is to generate coding criteria for the systematic review.
+
+At first I focus on a single study, I can step outside the confines of a single study to look at how sources of bias in the broader evidence base and or cultural research practices at the disciplinary level might impact on the reproducibility of conservation and applied ecological decisions.
+
+# Plan
+
+## Method for generating the roadmap
+
+1. Sketch out the SDM / DST building process, but breakdown into modelling steps if necessary.
+        a. Does this process differ for different tools / decision frameworks?
+2. Identify sources of bias AND QRPs that others have identified in ecology and evolution, but also in other scientific disciplines and translational research fields
+        a. at the individual DSS level
+        b. at a higher level, e.g. in the evidence-base
+        d. Are these biases / QRPs applicable to DSSs?
+        e. are there other biases unique to DSTs, that I can identify, that haven't been considered?
+        f. Is their occurrence specific to the type of tool or application under consideration? i.e. are some tools more robust to biases / QRPs than others?
+3. Map these biases / QRPs onto 1, where do they occur at the various decision-points?
+
+# DST process
+
+As a starting point, I'm going to take the Structured Decision Making process as the overarching framework for building a decision-tool. There are many variations on this, and often the same tasks in the process are called different things. I prefer the diagram by Wintle et al [-@Wintle:2011tl].
+
+![](https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Wintle_et_al-2011.png)
+
+
+## Defining what we mean by "reproducibility" in the context of DSTs
+
+There are many typologies of reproducibility / replication. What do we consider a reproducible DST to be?
+For this task... am I talking about a direct / exact replication? Close / partial? Conceptual?
+And something to consider later.... does the risk of particular QRPs / sources of bias increase or decrease depending on what type of reproducibility / replication level under consideration?
+
+A starting point should be that the original study follows some commonly implemented decision-analytic decision-making / decision-analytic process where the approach to the decision or development of the tool is broken down into several phases. E.g. problem-formulation, modelling, etc.
+
+Does the replication / reproduction follow the **same decision process**. I don't think it necessarily must -- It's plausible that two independent studiesfollow two different decision processes, but arrive at the same decision. So maybe that's where we should begin.. at the end-point... What is the unit of currency that we use to define a replication / reproduction as being successful?
+
+Even if two independent studies follow the same overarching decision process, if we consider that the initial problem-framing is fraught with bias and susceptible to variation based on some combination of the analyst and the stakeholders / decision-makers for a given problem... then we can't guarantee that two different studies will result in the same decision, because they might result in non-overlapping suites of proposed decision alternatives, for example.
+
+### Defining points of departure from one decision-tool application to the next
+
+Pattil et al. [-@Patil:2016tm] have defined a statistical framework for defining reproducibility and replication with a computational science bent. I'm finding it useful for thinking about the particular points in a decision process that might result in variation if it were replicated / reproduced / was developed in a parallel universe.
+
+![](https://github.com/egouldo/notebook_elise_gould/blob/master/static/img/Pattil-et-al_2016_fig-1.png)
+
+I've attempted to define some key points of departure, based on Pattil et al.:
+
+- **Analyst(s):** Person / people leading the decision process from inception / problem definition to decision implementation (SDM), and to learning and review (AM).
+- **Decision-maker(s):** Person / people wholly or partially for responsible for implementing some decision for a given problem.
+- **Decision / decision alternative:** From Conroy [-@Conroy:2013tc], "choice among alternative *actions* ordinarily involving irrevocable allocation of resources, and directed toward achieving an *objective*".
+- **Stakeholders** "Persons or organizations with a vested interest in the outcomes of management decisions" [@Conroy:2013tc]. I see stakeholders as influencing the decision when stakeholders are directly consulted or perhaps even just mentally considered by the analyst or the decision-maker when thinking about the fundamental or means objectives.
+
+What counts as a replication and what counts as a reproduction?
+
+### Apples and Oranges
+
+You might have the same problem, but the system is in a different state / configuration from one problem-context to another. And thus in each context you arrive at a different decision that is implemented. So how do you compare the two tools, how do you meaningfully measure a replication? Well it's not going to be the final action that is undertaken. Instead, it's going to be the suite of decision outcomes in relationship / conditioned on some range of plausible states. So I'm thinking robustness curves and the like as a method for comparing two DST's.
+
+So how do we define a **problem**? I think we can consider some problems to be generalisable. So, say for examle, you specified two different decision-problems mathematically, and you arrived at the same specification, then for both contexts you have the same problem. 
+
+You could then define a **problem-context** as being a specific instantiation of a general problem. Perhaps you have a landuse planning problem with different sets of stakeholders, decision-makers, and even analysts in charge of seeing through the decision-making process. After stepping through the problem specification process... you result in the same problem specification e.g. perhaps you mathematically specify each context, and arrive at the point where you have some knapsack algorithm problem and you have the same objective functions. Thus you could therefore describe these two contexts, as sharing the same **problem**.
+
+So a problem-context then involves the set of constraints or conditions in this problem-domain. These might typically include things such as budget, the state or configuration of the system, maybe even the unique processes / functioning of the system (maybe we have the same problem in two instances, but the underlying system is completely different - APPLES AND ORANGES!). You could therefore describe those unique circumstances as comprising a particular **problem-context**. Perhaps the "problem-context" is akin to what Pattil et al [-@Patil:2016tm] term the "population"? There is some slippage here, however, with the term population... because I think in ecological terms we might be talking two populations of a single species, where as  statistically this is equivalent to two samples of a broader population (and it's the statistical usage that Pattil et al are using here). So i guess where you define the 'statistical population' depends on your level of inference / question. So bringing this back to decision-problems, what level of inference are we working at?
+
+Could we have different problem-contexts, but the same system, for a given problem? So a true replication might result in the same process model and decision model being generated. But not necessarily the same decision?? I think it depends on what we're including under the banner of decision-contexts. Keep the same DM, same stakeholders, same method of identifying the goals, objectives and performance measures, perhaps vary the budget constraints. Analyst has got to be different for it to count as replicable or reproducible. I think that's ok, because you could generate decision-curves over a range of budgets. But that's more akin to reproducing, I think that's keeping too much of the context the same. 
+
+Now what about we maintain the problem-context, but have different systems, and a given problem? Well this could depend on the problem specification. Perhaps you have two completely different systems... but respond the same way to some suite of threats, such that you end up with the same process-model. So what do I mean as a system even? Ecological terms: ecosystem, ecological community, species, populations, individuals....
+I think you can vary the system between two replications as long as the underlying "true" causal model is the same. So statistically you would count each of those systems as two 'samples' of some broader population ('problem-domain' ?). So this would mean that a second replciation of some original study on a different system would have to *hypothesise* that the two systems behave in the same manner, given the **problem** at hand. So, do we therefore include **hypothesis** as another departure point, as Pattil et al have done, or do we include this point of variation under the "problem-context"? Is it a hypothesis, or an assumption? because a failed replication might be able to tell us about the hypothesis being false... Again, I think I need to consider WHY we would want to replicate a DST in the first place. Might help with this.
+
+Trying to derive the elements of a decision-problem that must be constrained so we can define what constitutes a reproduction and a replication for a DST.
+
+So a replication counts when we vary the:
+- analyst
+- problem-context
+and we maintain the:
+- problem
+- system (?)
+
+
+### Why even?
+
+Why even would we want to replicate a decision-tool?
+Why even would we want to reproduce a decision-tool?
+
+What are the goals / aims of each of these? What do they tell us? Thinking Nakagawa and Parker 2015, validity vs. scope of generality.
+
+So what elements of a decision-tool development process must be held constant in order for us to be comparing apples, with apples, and oranges with oranges?
+
+
+# Reviewing the literature on biases and QRPs
+
+# References
+

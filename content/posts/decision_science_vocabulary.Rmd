@@ -1,0 +1,47 @@
+---
+title: "Decision Science Vocabulary"
+author: "Elise Gould"
+date: '2018-05-16'
+bibliography: ../../static/files/citations/research_proposal.bib
+slug: decision_science_vocabulary
+categories: 
+  - synthesis
+tags: 
+  - decision science
+header:
+  caption: ''
+  image: ''
+---
+
+Decision Making: " p.56: For the purposes of this paper, we define decision-making as the process of identifying options and selecting a feasible solution, based on evidence combined with the decisionmaker’s values and experience (DeFries & Nagendra, 2017).  -- Highlighted 21 May 2018" [@Mukherjee:2018cb]
+
+When is a tool a tool or a system? See heading "decision support systems" in [@Dicks:2014gf] Dicks, L. V., Walsh, J. C., Sutherland, W. J. (2014) Organising evidence for environmental management decisions: a ‘4S’ hierarchy. Trends in Ecology & Evolution. 29, 607–613.
+
+NOTE: see the [@McIntosh:2011ew] paper for a good discussion on the taxonomy and history of decision processes in environmental decision-making
+
+The language of decision science or formal approaches to guding conservation decision making is very confused. It is clear that authors use the same term but with different meanings. It is also clear that they understand the relationships between terms and ideas in different ways.
+
+So when a decision tool a tool, and when is it a framework, or a system? Is it generic, or specific, has it been populated and adapted to a particular problem-context or domain? What is a process, and what is a framework?
+
+People tend to view the same thing in different ways, too.
+
+For example, Bower et al [-@Bower:2017im] call structured decision making a framework. And offer it as one of three potential choices of 'frameworks' for conservation decision making (Systematic Review, SDM, and systematic conservation prioritisation). But really, you can implement systematic conservation prioritisation into a structured decision making framework. I wouldn't say that these two things are on the same level.
+
+
+I agree with using the term 'framework' for Structured Decision Making. You could describe it as a generic set of setps to making a decision that can be applied to any decision problem / domain / context.
+
+Tools can be used at verying stages of the process.
+
+Both tools and frameworks are generic in form and the product of their adaption to the case is a decision support system.
+
+Conroy [-@Conroy:2013tc] refers to tools as the set of concepts, procedures or methods developed for accomplishing a particular step or element of a step in the decision making process. The TOC in this book is revealing. Conroy seems to use the term 'tool' to refer to techniques like the 'delphi method' or 'optimization techniques'.
+
+Conroy et al [@Conroy:2008jg] calls "formal optimisation proceduers, such as non-linear and dynamic programming, simulation, and heuristic methods such as genetic algorithms" tools.
+
+"There is a fundamental ontological difference between the process of deciding and its outcome - a decision. Moreover, allowing more elastic boundaries of decision-making (see above) can result in single decision-making having more than one decision as its outcome." https://www.w3.org/2005/Incubator/decision/XGR-decision-20120417/Sample_Decision_Ontology.html
+
+Perhaps then a Decision Support System is the instantiated / adapted framework. So a framework is constituted to become a DSS by a) the particular suite of tools used at each stage in the process, and b) when the tools are also adatped / instantiated to the problem-context at hand. A DSS results in a decision. It can be a one-off decision or a recurring decision, such that the DSS is used repeatedly.
+
+PVA's as decision support tools Morrison et al 2018. [@Morrison:2016cd]
+
+# References

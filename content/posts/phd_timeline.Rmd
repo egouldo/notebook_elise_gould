@@ -1,0 +1,44 @@
+---
+title: "PhD Timeline and Milestones"
+author: "Elise Gould"
+date: '2018-02-28'
+output: html_document
+slug: phd_timeline
+categories: 
+  - planning
+tags: 
+  - project
+  - timeline
+---
+
+# Timeline
+
+<iframe src="https://egouldo.shinyapps.io/shiny_phd_timeline/" style = "border: none; width: 900px; height: 1000px></iframe>
+
+# Milestones
+
+Milestones are documented in the RHD manual, page 4: [https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf](https://app.lms.unimelb.edu.au/bbcswebdav/pid-6166800-dt-content-rid-24849943_3/orgs/COM_01654/RHD%20Handbook%20v%202017%2008%2016%20LMS%20version%202.pdf)
+
+
+## Candidature and Confirmation:
+
+```
+Probationary Candidate:
+You start your PhD as a probationary candidate and within 12 months (we recommend the ideal time of 9 to 10 months) you will go through the confirmation procedure, formalising your candidature.
+ 
+Purpose of Confirmation:
+The main purpose of the confirmation process is to determine if you have developed a detailed research plan together with your supervisor(s), to assess whether this research plan meets the requirements of the degree, and to assess if adequate progress has been made. The confirmation process is also a chance for an open and constructive discussion about your research plan.
+
+ 
+Within the first 3-6 months:
+- In consultation your Supervisor, setup your Advisory Committee. Email committee membership details to ASO at rhd-biosciences@unimelb.edu.au
+- Prepare a written Research Proposal in consultation with your supervisor(s) and send it to all members of your Advisory Committee
+- Hold initial meeting with your Advisory Committee to discuss your Research Proposal
+- You must also complete the Research Integrity Online Training (RIOT) http://orei.unimelb.edu.au/content/research-integrity-training
+ 
+From 6 to 12 months (we recommend 9 to 10 months as ideal):
+- You must submit a written report to your Advisory Committee
+- Confirmation Seminar - you should prepare a 20 minute presentation to be made in an open forum that can be attended by any members of the School in addition to your Advisory Committee (please contact the Client Services Officer for room booking)
+- Confirmation meeting with your Advisory Committee
+- At 9 months, you will receive your Graduate Research Confirmation form from RHS Science. This form has to be completed and signed by you, your supervisor, your Advisory Committee and the Head of School of BioSciences then returned to RHD Science.
+```

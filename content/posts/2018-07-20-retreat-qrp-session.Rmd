@@ -1,0 +1,111 @@
+---
+title: Retreat QRP session
+author: ''
+date: '2018-07-20'
+slug: retreat-qrp-session
+categories:
+  - workshop
+tags:
+  - QRP
+header:
+  caption: ''
+  image: ''
+---
+
+# Summary and purpose of the workshop:
+
+We ran a workshop where we hosted small discussions attempting to propose questionable research practices that arise in ecological and conservation research using non-frequentist and/or non hypothetico-deductive inquiry.
+
+The purpose of the workshop was two-fold:
+
+1. To bring awareness to our research group of QRPs for the types of work relevant to the group, and to consider how reproducibility issues might affect us, even if reproducibility research seems irrelevant.
+2. To inform future work where we plan to survey the broader ecology community to measure the prevalence of non-frequentist QRPs. The goal was to brainstorm as many QRPs as possible.
+
+Hannah Fraser presented a summary of her recent research on the prevalence of questionable research practices in ecology. 
+I proposed a working definition of QRPs for non-frequentist / non-hypothetico deductive research, as these methodological frameworks are commmon in applied ecology and conservation decision-making.
+
+# Exercise methods:
+
+- Gave proposed definition to participants and asked them to refer back to this definition during their discussions and when trying to list QRPs.
+- Supplied a list of NHST QRP examples, for participants to consider direct analogues with statistical significance thresholds other than p-values.
+
+People divided into different groups depending on their research expertise and interests. The four discussion groups were:
+
+1. Bayesian statistics
+2. Species Distribution Modelling
+3. Multiple models: model dredging and model selection
+4. Field study design and data collection
+
+We asked participants in each group to do the following:
+
+- list as many QRPs applicable to your group as possible
+- Describe the QRP, 
+- provide a reason as to why or why not those practices might be questionable. If the questionability of those practices is context-dependent, provide a reason as to why and how it is questionable.
+- Don't focus on trying to reach consensus among the group, note down the point of disagreement and move on.
+
+Were assigned a facilitator each.
+
+# Results
+
+```{r, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+dat <- readr::read_csv("../../public/files/data/retreat_qaeco_qrps.csv")
+
+first_last <- dat %>% dplyr::mutate(num = row_number()) %>% dplyr::group_by(Group) %>% dplyr::summarise(first = first(num), last = last(num))
+
+dat %>% knitr::kable()
+
+```
+
+
+## Summaries / key points and other information
+
+**Multiple Model selection:**
+
+Key issues were the absence of well-specified a priori hypotheses / dredging. And Post-hoc changing of random effects.
+
+Proposed solution: if you report it is it ok? You must be explicit with what you did and how you made your decisions.
+
+**study design and data collection**
+
+1. Seeking strongest signal
+2. Confirmation bias
+3. Inappropriate use of data
+4. Not reporting methodological decisions /realities
+
+**SDM**
+
+"A lot of the issues with mechanistic modelling apply to PVAs."
+
+The top 3 QRPs were: 
+
+1. Fitting everything available, 
+2. cherry picking case studies, 
+3. and HARKing the narrative due to sexy variable importance.
+
+Then I wonder if the PVA reproducibility paper might have some QRP content we can bring over into the SDM domain?
+
+**Bayesians**
+
+1. "will debug if results are unexpected. Might not of results are 'expected' or 'exciting'. Relevant to choice of priors and MCMC convergence."
+2. "Checking the influence of priors: failing to report, and not doing at all."
+3. "Weighting: post-hoc rationalisation, and how to weight if from other locations, or sources, for inference."
+
+### Designing the survey for the QAECO group, and also for the paper:
+
+Exercise two was abandoned, but the design of the next exercise will be an ongoing task for me over the next week or so.
+
+PV: Need to give the voting exercise a bit more thought: want to ensure that I capture the multi-factorial aspects in the voting, don't lose those finer nuances of information.
+Fiona: we need to separate out impact vs. commonality. I.e. some QRPs might have a low impact in terms of their severity in causing a type I error, but are very common (easy target in terms of trying to change research culture, low-hanging fruit?). I guess the cause for concern would be if we identify relatively common practices that some weight as severe.
+
+The other aspect that we need to be careful about considering in the voting exercise is the particular context that shapes the questionable nature of the practice. For example, if some practices are only questionable
+
+### later chapters: replication case study
+
+DD suggested a case-study for testing the problem of replicating a DSS, specifically in an expert elicitation setting.
+
+### Tasks to follow up:
+
+- Jane had a few ideas, and Andrew also. Fiona would like to be present for both of those discussions.
+- Human Ethics Sub-committee (HESC) Meeting submission deadlines: 24 August and 21 September. I can't see when the HEAG (Human Ethics Advisory Group; first port of call) submission deadlines are, access problem. Hannah, can I please see your Human Ethics application for the survey, as a guide?

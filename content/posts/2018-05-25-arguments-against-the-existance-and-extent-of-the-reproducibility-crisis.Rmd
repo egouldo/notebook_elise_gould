@@ -1,0 +1,22 @@
+---
+title: Arguments against the existance and extent of the reproducibility crisis
+author: ''
+date: '2018-05-25'
+slug: arguments-against-the-existance-and-extent-of-the-reproducibility-crisis
+categories:
+  - synthesis
+tags:
+  - reproducibility crisis
+header:
+  caption: ''
+  image: ''
+---
+
+Despite a growing body of large-scale meta-analyses across many different disciplines, debate as to whether there is a “crisis” persists. Fanelli et al. (2018) use a failed replication of a large-scale meta-analysis to argue that the “crisis” is mistaken, and should instead be re-branded as a narrative of “epochal changes and empowerment of science” (Jamieson 2018). In a ‘post-truth’ era of ‘alternative-facts’, how scientists communicate research on the robustness of science and its self-correcting mechanisms is certainly important (Sutherland and Wordley 2017). 
+
+Hannah (on the sentence about re-branding the narrative): "I think you might need to unpick this idea a little more for people who aren’t as familiar with the literature, unless you change your mind about including it".
+
+ALSO: is reproducibility actually central to science? Many have made the claim but it is surprisingly contested, says Fiona.
+Science is a cumulative process building upon previous research to develop knowledge, however, this process requires that the findings are both real, and replicable (Nakagawa and Parker 2015). 
+http://blogs.discovermagazine.com/neuroskeptic/2018/01/02/is-reproducibility-central-science/#.WweT8y9L2Rs
+

@@ -1,0 +1,60 @@
+---
+title: "Retreat Reproducibility Session"
+author: "Elise"
+date: '2018-05-14'
+header:
+  caption: ''
+  image: ''
+slug: retreat-reproducibility-session
+tags:
+- transparency
+- reproducibility
+- research practice
+- QRP
+categories:
+- meeting
+---
+
+# Session Planning
+
+Focus: Reproducibility in practice - QRPs.
+
+Session aim: To help spread awareness among Qaecologists and Cebranalysts about reproducibility issues in our research practices. And then possibly provide people with the tools / solutions to overcome some of these issues.
+
+Format: not a lecture, not an unstructured discussion.
+
+Length 90 minutes.
+
+### Introduction: `15 minutes`
+
+Introductory talk with a few slides . Led by Fiona and Hannah.
+
+Intro by Fiona, perhaps talking about why reproducibility is important to us as ecologists, the state of reproducibility in eco/evo, an in the context of other dsciplines? Then onto Hannah highlighting the findings in the pre-print? Highlighting common QRPs in broader biological science and in ecology. OR whatever it is they want to discuss!
+
+I might like to add a slide discussing an aspect of my research - on QRPs for non-NHST type research in ecology. A lot of people in the group might think that reproducibility doesn't really apply to them because they doin't work in the realm of NHST and p-values. They build predictive models, or use some other type of model, for example. So I want to highlight this gap, and get the group thinking about how QRPs might manifest in these types of research.
+
+Another point that Jian raised is that there are lots of Bayesians in the gorup who might not think that reproducibility issues affect them... important we bring their awareness to the fact that it does.
+
+### Examples of self-confessed QRPs `4 x 1-2 mins = 10 mins`
+
+Approximately four senior researchers giving rexamples of times that they have done any of these QRPs.
+
+### Break-out discussion groups: `TBD: 35 mins?`
+
+Next we will break into smaller discussion groups to talk about QRPs in ecology. The aim is to identify QRPs that are relevant to us, identify possible solutions and ways for getting around them. These might be ideas for group training, approaches to analyses, or even cultural shift (that might seem too hard, but worth identifying).
+
+We will pre-identify some areas of focus and divide the break-out groups along those lines. Perhaps we can also take suggestions from the floor and add / remove any more that are relevant. The groups will be lead by the researchers who spoke earlier (And possibly, Hannah / Fiona / Elise, if we are short on facilitators). People can be involved in any break-out group they'd like to.
+
+### Summary and Group Discussion: `TBD: 30 mins?`
+
+Come back together to summarise. How do we facilitate this, and synthesise the findings of the session in a way that will tangibly benefit the group?
+
+# What can I extract for my research? 
+
+What can research outputs can I obtain for my PhD from this? Decided that the retreat should not be research-output focused, but instead should be focused on providing value to the group as a whole. So if the session aligns with my objectives for my PhD, then this should be OK. But can't dictate too heavily the direction of the session purely based on my research output needs.
+
+- Could be just about collating ideas.
+- Survey? What are the ethics of this.. Can we modify Hannah's ethics approval?
+- Discussion piece?  Flow on issue with group collaboration is Authorship.
+
+

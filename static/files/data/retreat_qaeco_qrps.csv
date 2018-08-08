@@ -1,0 +1,124 @@
+QRP,Group,Questionable,"Reasoning"
+selection of prior: weighting.,Bayesian,Yes,Questions on how to weight if from another location for inference. Post-hoc rationalisation of weighting is a QRP
+selection of prior: weighting.,Bayesian,No,
+selection of prior: weighting.,Bayesian,Depends,
+Selection of prior: checking influence.,Bayesian,Yes,
+Selection of prior: checking influence.,Bayesian,No,
+Selection of prior: checking influence.,Bayesian,Depends,"Is it often done? Is it reported?, QRP if not reported."
+"Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.",Bayesian,Yes,
+"Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.",Bayesian,No,
+"Selection of prior: are priors measured on the same scale / units of likelihood? If the result is interesting, you might keep the result.",Bayesian,Depends,
+"MCMC convergence - is it checked thoroughly, is a wide range of initial values used?",Bayesian,Yes,
+"MCMC convergence - is it checked thoroughly, is a wide range of initial values used?",Bayesian,No,
+"MCMC convergence - is it checked thoroughly, is a wide range of initial values used?",Bayesian,Depends,
+Use of a model as source of priors,Bayesian,Yes,
+Use of a model as source of priors,Bayesian,No,Consensus that not questionable.
+Use of a model as source of priors,Bayesian,Depends,
+"Priors, MCMC convergence: will debug if results are unexpected, but might not if results are ""expected"" or ""exciting"".",Bayesian,Yes,
+"Priors, MCMC convergence: will debug if results are unexpected, but might not if results are ""expected"" or ""exciting"".",Bayesian,No,
+"Priors, MCMC convergence: will debug if results are unexpected, but might not if results are ""expected"" or ""exciting"".",Bayesian,Depends,
+Failing to report influence of prior.,Bayesian,Yes,
+Failing to report influence of prior.,Bayesian,No,
+Failing to report influence of prior.,Bayesian,Depends,"Must be reported, otherwise is QRP."
+Model selection: failing to report all models.,Bayesian,Yes,Equivalent to NHST issue of failing to report all covars etc.
+Model selection: failing to report all models.,Bayesian,No,
+Model selection: failing to report all models.,Bayesian,Depends,
+Interpreting credible intervals in NHST framework,Bayesian,Yes,
+Interpreting credible intervals in NHST framework,Bayesian,No,
+Interpreting credible intervals in NHST framework,Bayesian,Depends,potential P-hacking issues.
+HARKing,Bayesian,Yes,This is still an issue with Bayesian methods.
+HARKing,Bayesian,No,
+HARKing,Bayesian,Depends,
+Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.,Bayesian,Yes,
+Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.,Bayesian,No,
+Large computational burden might disuade full / thorough analysis / checking of results if an interesting result appears.,Bayesian,Depends,
+Combining categories of an independent variable: regrouping post collecting,Multiple models,Yes,
+Combining categories of an independent variable: regrouping post collecting,Multiple models,No,
+Combining categories of an independent variable: regrouping post collecting,Multiple models,Depends,Done if not enough data per category. Bad if the recategorisation is done to impose fit.
+Post-hoc change of random effects: removing extra random effects after looking at model results.,Multiple models,Yes,"If study has a nested structure, then that is your model!!"
+Post-hoc change of random effects: removing extra random effects after looking at model results.,Multiple models,No,
+Post-hoc change of random effects: removing extra random effects after looking at model results.,Multiple models,Depends,"BUT, if you report that, is it still a QRP if you still remove the random effects?"
+Univariate to start: exploring single variable models to choose which rain data.,Multiple models,Yes,
+Univariate to start: exploring single variable models to choose which rain data.,Multiple models,No,
+Univariate to start: exploring single variable models to choose which rain data.,Multiple models,Depends,Maybe necessary if computationally complex
+Dredging across many models but only reporting a subset,Multiple models,Yes,
+Dredging across many models but only reporting a subset,Multiple models,No,
+Dredging across many models but only reporting a subset,Multiple models,Depends,OK if put in supplementary materials.
+Shape testing: univariate GAMs for variable shape,Multiple models,Yes,
+Shape testing: univariate GAMs for variable shape,Multiple models,No,
+Shape testing: univariate GAMs for variable shape,Multiple models,Depends,What is an alternative?
+"Post-hoc variation additions: ""why not collect this too""",Multiple models,Yes,
+"Post-hoc variation additions: ""why not collect this too""",Multiple models,No,
+"Post-hoc variation additions: ""why not collect this too""",Multiple models,Depends,Is it still bad if you do it before looking at your data?
+"Absence of well specified a priori hypotheses: ""let's test this too!""",Multiple models,Yes,
+"Absence of well specified a priori hypotheses: ""let's test this too!""",Multiple models,No,
+"Absence of well specified a priori hypotheses: ""let's test this too!""",Multiple models,Depends,"Inference vs. prediction, or both?"
+Not reporting exceptions,Study design and data collection,Yes,
+Not reporting exceptions,Study design and data collection,No,
+Not reporting exceptions,Study design and data collection,Depends,
+Not reporting / looking into limitations of data appropriateness,Study design and data collection,Yes,
+Not reporting / looking into limitations of data appropriateness,Study design and data collection,No,
+Not reporting / looking into limitations of data appropriateness,Study design and data collection,Depends,
+"Non-random site selection (look for species, choose strongest example)",Study design and data collection,Yes,
+"Non-random site selection (look for species, choose strongest example)",Study design and data collection,No,
+"Non-random site selection (look for species, choose strongest example)",Study design and data collection,Depends,
+Falsely claiming adaptive design / management,Study design and data collection,Yes,
+Falsely claiming adaptive design / management,Study design and data collection,No,
+Falsely claiming adaptive design / management,Study design and data collection,Depends,
+Confirmation bias,Study design and data collection,Yes,
+Confirmation bias,Study design and data collection,No,
+Confirmation bias,Study design and data collection,Depends,
+Not reporting who surveyed what,Study design and data collection,Yes,Potential for the identify of the surveyer / data recorder to contribute to noise.
+Not reporting who surveyed what,Study design and data collection,No,
+Not reporting who surveyed what,Study design and data collection,Depends,
+Design based on costs / external factors [instead of??],Study design and data collection,Yes,
+Design based on costs / external factors [instead of??],Study design and data collection,No,
+Design based on costs / external factors [instead of??],Study design and data collection,Depends,
+Choosing which list to make species sound more threatened,Study design and data collection,Yes,
+Choosing which list to make species sound more threatened,Study design and data collection,No,
+Choosing which list to make species sound more threatened,Study design and data collection,Depends,
+Presenting / cherry picking best example (e.g. sites),Study design and data collection,Yes,
+Presenting / cherry picking best example (e.g. sites),Study design and data collection,No,
+Presenting / cherry picking best example (e.g. sites),Study design and data collection,Depends,
+"Simplifying methods [for write up], omitting modifications [minor].",Study design and data collection,Yes,
+"Simplifying methods [for write up], omitting modifications [minor].",Study design and data collection,No,
+"Simplifying methods [for write up], omitting modifications [minor].",Study design and data collection,Depends,
+Cherry picking data to use,Study design and data collection,Yes,
+Cherry picking data to use,Study design and data collection,No,
+Cherry picking data to use,Study design and data collection,Depends,
+"Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)",Study design and data collection,Yes,
+"Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)",Study design and data collection,No,
+"Not reporting data conversion (e.g. changing conditions to discrete, ambiguous condensing / collapsing, -retrofitting response groups)",Study design and data collection,Depends,
+Filling in missing data with best guess,Study design and data collection,Yes,
+Filling in missing data with best guess,Study design and data collection,No,
+Filling in missing data with best guess,Study design and data collection,Depends,
+shifting sites for an outcome or need (but not stating),Study design and data collection,Yes,
+shifting sites for an outcome or need (but not stating),Study design and data collection,No,
+shifting sites for an outcome or need (but not stating),Study design and data collection,Depends,
+Partial covariate reporting,SDM,Yes,
+Partial covariate reporting,SDM,No,
+Partial covariate reporting,SDM,Depends,
+Fitting everything available,SDM,Yes,"Unthinking, inflates the chance of finding a significant model"
+Fitting everything available,SDM,No,Necessary?
+Fitting everything available,SDM,Depends,"Depends on what your aim is? Do you want a good map, or do you care about what's driving the distribution? [is this the same binary as the prediction vs. explannation inference binary?]"
+Cherry picking case studies,SDM,Yes,confirmation bias
+Cherry picking case studies,SDM,No,isn't this just science?
+Cherry picking case studies,SDM,Depends,Just don't pretend it was random chance
+Using inappropriately scaled data,SDM,Yes,not made for scale of your point data
+Using inappropriately scaled data,SDM,No,"But could send results either way, so is it a QRP?"
+Using inappropriately scaled data,SDM,Depends,
+HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.,SDM,Yes,e.g. throwing out old records or trying different lab study values in mechanistic modelling
+HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.,SDM,No,
+HARKing: narrative due to sexy variable importance. Adjusting which values you use based on results.,SDM,Depends,
+AUC rate hacking,SDM,Yes,similar to p-hacking
+AUC rate hacking,SDM,No,
+AUC rate hacking,SDM,Depends,
+checking / changing map based on decision-maker expert opinion,SDM,Yes,
+checking / changing map based on decision-maker expert opinion,SDM,No,"You don't want a crap map, why not use expert opinion?"
+checking / changing map based on decision-maker expert opinion,SDM,Depends,
+Cherry picking which papers / maps you publish,SDM,Yes,
+Cherry picking which papers / maps you publish,SDM,No,
+Cherry picking which papers / maps you publish,SDM,Depends,
+Overfitting models to improve ability to cross-validate,SDM,Yes,
+Overfitting models to improve ability to cross-validate,SDM,No,
+Overfitting models to improve ability to cross-validate,SDM,Depends,We're always using a subset of our data because we have too little data to hold some out entirely.

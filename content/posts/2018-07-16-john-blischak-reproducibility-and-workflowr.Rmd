@@ -1,0 +1,57 @@
+---
+title: John Blischak reproducibility and workflowr
+author: ''
+date: '2018-07-16'
+categories:
+  - talk
+tags:
+  - reproducibility
+  - reproducible research
+  - software
+  - computational reproducibility
+slug: john-blischak-reproducibility-and-workflowr
+header:
+  caption: ''
+  image: ''
+---
+
+Institutional road blocks against full reproducibility - methods sections are insufficient.
+But good software practice is helpful for future you, your labmates when you leave.
+
+Lowndes et al (2017)
+Peng et al (2011)
+
+## Strategies for computational repro
+
+
+1. Record computing environment
+
+```{r}
+sessionInfo()
+```
+
+2. Set the seed! want to ensure exact / direct computational reproducibility before someone can extend your analyses. Ensure point estimates / outputs are the same no matter the computing environment.
+
+3. Organizing into subdirectories
+
+code, data, figures, into distinct subdirectories
+
+using relative paths - whatabout getting around Rmarkdown paths vs. script paths. 
+
+4. Run code in clean environment
+
+But won't remove attached packages:
+```{r, eval = FALSE}
+rm(list = ls())
+```
+
+So better to restart your R session in RStudio.
+
+Best practice: produce final results from command line:
+
+```{bash, eval = FALSE}
+Rscript -e 'rmarkdown::render("fit_model.R")'
+```
+
+
+

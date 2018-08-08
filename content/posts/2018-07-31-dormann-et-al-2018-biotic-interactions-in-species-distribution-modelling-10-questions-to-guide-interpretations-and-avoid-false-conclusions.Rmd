@@ -1,0 +1,28 @@
+---
+title: 'Dormann et al (2018) Biotic interactions in species distribution modelling\:
+  10 questions to guide interpretations and avoid false conclusions'
+author: ''
+date: '2018-07-31'
+slug: dormann-et-al-2018-biotic-interactions-in-species-distribution-modelling-10-questions-to-guide-interpretations-and-avoid-false-conclusions
+categories:
+  - reading
+tags:
+  - QRP
+  - SDM
+  - modelling
+  - peer-review
+  - research practice
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+**Problem** The authors aim to address the problem of false conclusions arisng during inference of joint species distribution models -- specifically, false conclusions of biotic interactions.
+
+**Approach** The authors conduct a review of joint species distribution modelling to identify (from caveats and other issues ear-marked in the source papers) potential factors that confound interpretation of analyses. Next, they develop a series of questions that can be asked by the analyst and also the reviewer to guide interpretation of conclusions -- are the conclusions about biotic interactions plausible? 
+
+**Point in analysis where QRP might arise**
+
+**Domain, Problem, Method**

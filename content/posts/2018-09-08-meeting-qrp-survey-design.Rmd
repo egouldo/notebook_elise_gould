@@ -1,0 +1,53 @@
+---
+title: 2018-09-08 meeting QRP survey design
+author: ''
+date: '2018-08-08'
+slug: meeting-qrp-survey-design
+categories:
+  - meeting
+tags:
+  - QRP
+---
+
+**Themis, Ethics**
+
+- [ ] Location / public / private
+- [ ] Named Researcher credentials and experience
+
+## Survey Design
+
+### Estimating Prevalence and Risk of QRPs
+
+$Risk = Likelihood \times Consequence$
+
+**Risk**
+
+% `papers` or `researchers` engaging in the practice.
+
+If `researchers`:
+
+- can compare the number of estimated vs. self-reported? Some interesting questions about whether self reporters estimate the prevalence to be greater than non-self reporters, is the self reported rate lower than the estimated rate?
+- In the discussion section, might be able to interpret in the context of other QRP papers, like Fraser et al. Directly comparable measures (minus the sample of course).
+
+If `papers`, might be able to measure directly some of these, e.g. during the systematic review. This would only work for some particular QRPs, namely the "failure to report" practices.
+
+
+**Consequence**
+
+How to estimate or elicit judgments about this?
+
+1. Use the proportion of those who say it is "definitely" unacceptable, (and/or) "maybe" unacceptable, as a proxy for the severity of the practice (e.g. the voting exercise we discussed last time).
+
+> Do you consider the practice defensible? (Yes, No, Maybe or Depends, Unsure?).
+
+- But this doesn't really get at the degree to which the practice is likely to cause a type I error. Some practices might be more severe than others in how they skew the model to a positive signal/finding.
+
+2. Elicit judgment about how likely it is that the practice will result in a false positive.
+
+> What is the chance (0 - 100%) that the practice will artificially skew the model/analysis to a positive signal / finding?
+
+### question order and truth-telling
+
+Plain language statement: using the term "questionable", as in "questionable reserach practices"? Does that prevent participants from being forth-coming in their self reporting of engaging in these practices?
+
+Question order: Ask participants to estimate the prevalence of these practices first? "If everyone else is doing it, then it must be ok".

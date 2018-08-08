@@ -52,9 +52,22 @@ library(tidyverse)
 library(kableExtra)
 dat <- readr::read_csv("../../public/files/data/retreat_qaeco_qrps.csv")
 
-first_last <- dat %>% dplyr::mutate(num = row_number()) %>% dplyr::group_by(Group) %>% dplyr::summarise(first = first(num), last = last(num))
+first_last <- dat %>% 
+        dplyr::mutate(num = row_number()) %>% 
+        dplyr::group_by(Group) %>% 
+        dplyr::summarise(first = first(num), last = last(num))
 
-dat %>% knitr::kable()
+dat %>% 
+    dplyr::group_by(Group, QRP) %>% 
+        tidyr::spread(key = Questionable, value = Reasoning) %>% 
+        dplyr::arrange(Group, QRP) %>% 
+        dplyr::ungroup() %>%
+        dplyr::select(-Group) %>%
+        kable() %>% 
+        group_rows("Bayesian", 1, 11) %>% 
+        group_rows("Multiple models", 12, 18) %>%
+        group_rows("Study Design and Data Collection", 19, 27) %>%
+        group_rows("SDM", 28, 41)
 
 ```
 

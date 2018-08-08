@@ -1,0 +1,62 @@
+---
+title: John Blischak reproducibility and workflowr
+author: ''
+date: '2018-07-16'
+categories:
+  - talk
+tags:
+  - reproducibility
+  - reproducible research
+  - software
+  - computational reproducibility
+slug: john-blischak-reproducibility-and-workflowr
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>Institutional road blocks against full reproducibility - methods sections are insufficient. But good software practice is helpful for future you, your labmates when you leave.</p>
+<p>Lowndes et al (2017) Peng et al (2011)</p>
+<div id="strategies-for-computational-repro" class="section level2">
+<h2>Strategies for computational repro</h2>
+<ol style="list-style-type: decimal">
+<li>Record computing environment</li>
+</ol>
+<pre class="r"><code>sessionInfo()</code></pre>
+<pre><code>## R version 3.5.0 (2018-04-23)
+## Platform: x86_64-apple-darwin15.6.0 (64-bit)
+## Running under: macOS Sierra 10.12.6
+## 
+## Matrix products: default
+## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+## 
+## locale:
+## [1] en_AU.UTF-8/en_AU.UTF-8/en_AU.UTF-8/C/en_AU.UTF-8/en_AU.UTF-8
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] compiler_3.5.0  backports_1.1.2 bookdown_0.7    magrittr_1.5   
+##  [5] rprojroot_1.3-2 tools_3.5.0     htmltools_0.3.6 yaml_2.2.0     
+##  [9] Rcpp_0.12.18    stringi_1.2.4   rmarkdown_1.10  blogdown_0.8   
+## [13] knitr_1.20      stringr_1.3.1   digest_0.6.15   xfun_0.3       
+## [17] evaluate_0.11</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Set the seed! want to ensure exact / direct computational reproducibility before someone can extend your analyses. Ensure point estimates / outputs are the same no matter the computing environment.</p></li>
+<li><p>Organizing into subdirectories</p></li>
+</ol>
+<p>code, data, figures, into distinct subdirectories</p>
+<p>using relative paths - whatabout getting around Rmarkdown paths vs. script paths.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Run code in clean environment</li>
+</ol>
+<p>But won’t remove attached packages:</p>
+<pre class="r"><code>rm(list = ls())</code></pre>
+<p>So better to restart your R session in RStudio.</p>
+<p>Best practice: produce final results from command line:</p>
+<pre class="bash"><code>Rscript -e &#39;rmarkdown::render(&quot;fit_model.R&quot;)&#39;</code></pre>
+</div>

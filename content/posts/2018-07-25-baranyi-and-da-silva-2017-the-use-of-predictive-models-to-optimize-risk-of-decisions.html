@@ -1,0 +1,99 @@
+---
+title: Baranyi and da Silva (2017) The use of predictive models to optimize risk of
+  decisions
+author: ''
+date: '2018-07-25'
+slug: baranyi-and-da-silva-2017-the-use-of-predictive-models-to-optimize-risk-of-decisions
+categories:
+  - reading
+tags:
+  - accuracy
+  - decision-science
+  - decision support
+  - decision analysis
+  - optimisation
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>Application domain: Microbiology decision support for predicting food borne Bacteria growth and reduce the need for microbiological testing. Approach/framework: risk assessment and decision-analytic framework.</p>
+<p>Aims and objectives of the paper:</p>
+<blockquote>
+<p>The focus of this paper is not the above interpreted risk, assigned to an a-posteriori event, but the risk of an a-priory decision, that we also call choice or bet in what follows.</p>
+</blockquote>
+<blockquote>
+<p>In this paper we explain, backed by examples, why predictive models should be used in combination with a cost-bene fit assessment. We point out that a correct strategy does not necessarily focus on the most probable event, but on mitigating the implications of wrong decisions that can randomly and/or sooner or later inevitably occur.</p>
+</blockquote>
+<blockquote>
+<p>We will suggest and exemplify a formal mathematical de finition for the risk of a decision. Its construction aims at the use of predictive microbiology in decision making, when for example a risk assessor needs to provide a recommendation or a regulatory unit or a health worker needs to choose: against what possible future events should be protective measurements introduced.</p>
+</blockquote>
+<div id="reliability-of-predictions" class="section level1">
+<h1>Reliability of predictions</h1>
+<p>They define three sources of error in predictions:</p>
+<ol style="list-style-type: decimal">
+<li>Biological and environmental variability</li>
+<li>Uncertainty of information (observations) on which predictions are based.</li>
+<li>Inaccuracy of mathematical models and assumptions used.</li>
+</ol>
+<p>They areise because:</p>
+<p>Predictive models are based on simplifying assumptions and also on observed data. There are questions around how to decide if assumptions are valid, and allowed?</p>
+<p>modellers should accept them if: a. observations validate them ( empirical reasons) b. They can be embedded in fundamental theories of scientific (mechanistic reasons)</p>
+<p>In terms of extrapolation, mechanistic reasons are better than empirical, but all models are technically extrapolations. Applications to future scenarios are inferences, because experimental conditions on which models are based can rarely be repeated exactly.</p>
+<blockquote>
+<p>“panta rai”, Herraclitean principle of “one cannot step into the same water twice”.</p>
+</blockquote>
+<div id="modelling-decisions" class="section level2">
+<h2>modelling decisions</h2>
+<div id="resolution-vs.robustness" class="section level3">
+<h3>resolution vs. robustness</h3>
+<p>The higher the resolution (greater number of explanatory factors and outputs over wider ranges), the less robust the predictive model and the more prone to errors it is.</p>
+</div>
+<div id="assumptions-in-observations" class="section level3">
+<h3>Assumptions (in observations)</h3>
+<ul>
+<li>It is difficult to decide on whether observations on a proxy system can be ap[plied to the “real one”</li>
+<li>are external conditions negligible? What details of an experiment should be used for a practical predictive tool?</li>
+</ul>
+</div>
+</div>
+<div id="decision-makers-using-the-tools-face-more-complex-considerations" class="section level2">
+<h2>Decision makers using the tools face more complex considerations</h2>
+<ul>
+<li>For example, conservative decisions are best when the cost of a predictive error is high.</li>
+<li>should a decision rely solely on predictions, which normally represent the expected value of a response variable? OTher factors include:</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>the accuracy (variability and uncertainty) of observations used for developing the model (unknown, not easy to estimate)</li>
+<li>Available software programs are based on empirical models, and generate markedly different predictions especially those closed to the prediction regions</li>
+<li>how to measure dissimilarity beteen the actual response, and the prediciton? E.g. there might be financial costs, or other non-numeric costs, such as damage to reputation, severity of outcome or a decrease in the influence of power. These have mixed and assymetric scores, so that combining optimisation is difficult.</li>
+</ol>
+</div>
+</div>
+<div id="finding-the-optimal-decision" class="section level1">
+<h1>Finding the optimal decision</h1>
+<p>They aim to:</p>
+<blockquote>
+<p>find the “best bet” that minimizes the risk of the decision.</p>
+</blockquote>
+<p>And show how change in the cost function <span class="math inline">\(c\)</span> influence the optimal decision.</p>
+<p>Their main finding is that if the cost function is generated by the “L1-norm”, then the best strategy is to bet on the most probable event. However, if the cost function is generated by the “L2-norm”then the best bet is a compromise, the mean value.</p>
+<p>However, they don’t really demonstrate in what circumstances might the cost function generated be different…. so how do you know? I guess the takeaway is that decisions about how to define the cost function are important, and change the optimal decision. Thus, if a modeller or decision-maker chooses the wrong cost function, then they’re not choosing the true optimal decision, and they’re making a false bet.</p>
+<p>The next key point they make is that if risk is defined in the L1-sense, then it’s not always the case that we bet on the median for one-dimensional events…. they show that because the median is not a continuous function of the probability weights, and if for example, the probability of an outcome is gradually increasing, then the median of all (discrete) outcomes can suddenly change from one point to the other. This step-wise optimality of different bets is something probably super common in ecology.</p>
+</div>
+<div id="synthesis-and-relevance-to-my-research" class="section level1">
+<h1>Synthesis and relevance to my research</h1>
+<p>The question for my research is, how can this idea of the risk of an <em>a priori</em> decision being wrong be applied to my problem of how do you replicate a decision, and questionable research practices / type I errors?</p>
+<p>I found their framework and mathematical exposition of the problem relevant: this is similar to the QRP definition problem when in decision making you don’t know the outcome, but you are predicting it and on that basis, choosing a decision, making a <code>bet</code>. They set out a mathematical exposition of this situation / task for researchers. This is probably the key use of the paper for me, all other issues here are important to my general interest in decision analysis, however.</p>
+<p>The notion of the “cost of being wrong” was also useful to me, so was the notion that the cost function for under and over estimating a value is assymetric. The idea of considering uncertainty and other factors in the decision making process, rather than just the probability of the decision, is not new to me. And a lot of work has been done in the SDm literature with lots of applications in ecology / conservation, especially in conservation planning / spatial prioritisations. So it’s not clear to me how this paper makes a unique contribution…. perhaps it’s neovelty is based on providing mathematical theory / proofs for this problem.</p>
+<p>THe other unique aspect of decision-making that they proove mathematically is that the least risky decision in terms of predictive accuracy is not just based on the probabilities of the respective outcomes. But is also based on the cost of being wrong, and also how you measure the distance between the actual outcome and the predicted outcome.</p>
+<p>They don’t disucss how bias in <span class="math inline">\(g(x)\)</span> may influence the optimal decision, but they assume that it must be largely free from bias and do note that it can definitely influence the optimal decision.</p>
+<p>I think what they’re getting at is cool, they’re trying to focus on the step in decision-making where people are using the predictive outputs of a model to make decisions, not just on the process of modelling.</p>
+<div id="type-i-and-ii-errors" class="section level3">
+<h3>type I and II errors</h3>
+<p>So the main reason I read this paper was for a small discussion on type I and II errors. However, it seems a bit off the mark for my purposes in terms of trying to define what these errors are for decision models.</p>
+<p>They come at the discussion in terms of trying to determine what the significance level threshold should be. And the decision is whether you accept the Null or reject it. One interesting idea is that the cost of the type I or type II errors is assymetrical. They talk about how in forensic sciences and inwestern democracies, the level is set very low because “unjust sentencing is considered much more serious an error than setting guilty people free”. I’m going to hold this thought, because a consideration of the costs and implications of different types of decision errors in conservation and ecology is going to be an important aspect of the discussion in the thesis.</p>
+</div>
+</div>

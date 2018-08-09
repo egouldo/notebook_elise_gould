@@ -11,8 +11,12 @@ tags:
 
 **Themis, Ethics**
 
-- [ ] Location / public / private
-- [ ] Named Researcher credentials and experience
+- [x] Location / public / private
+- [x] Named Researcher credentials and experience
+
+```
+RIOT accreditation counts for the training question. Just give one sentence spiel for the other questions.
+```
 
 ## Survey Design
 
@@ -27,11 +31,27 @@ $Risk = Likelihood \times Consequence$
 If `researchers`:
 
 - can compare the number of estimated vs. self-reported? Some interesting questions about whether self reporters estimate the prevalence to be greater than non-self reporters, is the self reported rate lower than the estimated rate?
-- In the discussion section, might be able to interpret in the context of other QRP papers, like Fraser et al. Directly comparable measures (minus the sample of course).
+- In the discussion section, might be able to interpret in the context of other QRP papers, eg Fraser et al and most other QRP survey papers. Directly comparable measures (minus the sample of course).
 
 If `papers`, might be able to measure directly some of these, e.g. during the systematic review. This would only work for some particular QRPs, namely the "failure to report" practices.
 
+I think this gives a better or more accurate estimate of "risk", though. Since people are authoring many papers etc.. Estimating the likelihood of the QRP across studies gives a better sense of how distorted the literature is.. type I error rate across whole field. And ultimately, our main concern is about the overall bias present in the evidence-base / literature.
 
+```
+HF thinks that a comparison of impersonal estimates vs. self-reporting of QRP engagement is not really important. Because it really only tells you how good people are at estimating overall prevalence, and maybe provides some information about how forthcoming people are... So asking people to estimate the number of papers / studies in which people engage in a QRP provides complementary information.
+```
+
+*Framing the question*
+
+```
+When asking people to both self-report and also to estimate the prevalence of these practices, it's important to make sure that we're not eliciting how *common the method is* but rather, of the times that people are using this method, how prevalent is the method?
+```
+
+*Frequency of engagement*
+
+```
+HF suggests not to bother. She used this measure in her paper (Never, occasionally, often, etc.), but apart from presenting the frequency of these, doesn't think it reveals a great deal of useful information. Also, it might be difficult to disentangle the frequency of engaging the questionable practice from the frequency you use the particular method / practice.
+```
 **Consequence**
 
 How to estimate or elicit judgments about this?
@@ -46,8 +66,52 @@ How to estimate or elicit judgments about this?
 
 > What is the chance (0 - 100%) that the practice will artificially skew the model/analysis to a positive signal / finding?
 
+```
+LR thinks the second option is the best, namely because people make different value judgments, and might draw the line differently. So, we will need to unpack this a bit further. One method to do so is to provide a visual / scenario. We discussed the working definition of QRPs for non-NHST research, such as providing model outputs. We can formulate the question in one of two ways:
+
+1. Provide some model output and position it as if there was 100% best practice in terms of reporting and other practices marked as questionable. Then we ask participants "How much would the uncertainty around this model output be reduced if you engaged in this practice?" Instead of just asking for a single estimate, we can ask them to provide the *worst* it could be, the *best* it could be, and on average, what it would be.
+
+2. The second option is to ask them, :"if you *didn't* engage in this QRP, how much would the uncertainty around the model outputs increase?" Again, we elicit the worst, best, and on average estimates.
+
+We can use a slider to capture their estimated distributions. HF says the slider in Qualtrics is crap. We could use a shiny app instead of qualtrics, and then we might have better control over the shape of the output dataset too (qualtrics outputs are terrible, most definitely not tidy).
+
+After getting them to estimate the consequences of the practice, next we ask them to make value judgments about the practice... Is it defensible? "Yes", "No", "possibly or depends". This will provide some interesting analysis because people might draw the line differently!!! You would assume that people who don't think the practice is questionable will say that it *won't* skew the model's output in any way... Another benefit of asking this question this way, is that we ensure people are really centreing on our working definition of the QRP when trying to elicit the consequences.
+
+Another very important point that LR raised, was about tieing in the impact of the uncertainty on the management decision under consideration... in my working definition of the QRP this is a realy important facet. So we need to frame in the scenario description that the uncertainty around the model outputs as a result of the research practice is that it pushes the DM or the manager to either a) a decision at all, or b) a particular decision.
+
+But the tolerance to uncertainty will affect the decision... So do we have a decision rule provided in the scenario about what the decision is based on the model outputs? OR do we leave this up to the experts? There is a sliding scale of tolerance to uncertainty, e.g. when knowing which decision you're in... if massive uncertainty, some people wouldn't want to make a decision...
+
+but it definitely affects the decision... two options. leave in the question.. two, put onto participants to make this judgment. 
+
+BUT. Most people might be reluctant to think about this because they will say that it's up to the managers, so could be worth providing the decision rules, and stating that the managers have said the decision rules are XYZ.
+
+IMO and as an aside it's a QRP if in as an analyst or researcher you fail to have a systematic method for choosing between alternatives based ont the system model outputs (or perhaps just bad practice, "decision blindeness", and B) definitely questionable if you fail to report your systematic method for choosing between alternatives. SO, it's perhaps just worth having this in the description.
+
+How to frame as a question... e.g. "would it be advisable to thin or not".. what would your decision be if you did this particular QRP.
+
+```
+
+But coming back to this definition of QRPs... it's not just about uncertianty... it might also be about the direction or the estimate...
+
+### Comparing Expert and non-expert estimates
+
+```
+Instead of funnelling people to asnwer only the methods on which they are an expert on, we can get participants to answer for fields on which they aren't experts. For example, we can ask that non-Bayesians answer the Bayesian questions. By doing this we can try to get a sense of the bias that experts have towards tolerance to questionable practices within their own disciplines.
+
+In terms of avoiding instances where people who have no idea what the research practice actually is but are answering for that question, we can have a bail out / skip option, where if people don't know what the method is that we are asking about, they can skip the question.
+
+LR says this is a common sort of question done in expert elicitation / judgment research.
+```
+
+> What methods do you have the most experience in? Which of these fields do you have experience in?
+
 ### question order and truth-telling
 
 Plain language statement: using the term "questionable", as in "questionable reserach practices"? Does that prevent participants from being forth-coming in their self reporting of engaging in these practices?
 
 Question order: Ask participants to estimate the prevalence of these practices first? "If everyone else is doing it, then it must be ok".
+
+```
+HF and LR agree that framing the study is really important for ensuring that people truthfully self-report. HF used the term 'traditional' research practies in her PLS for the consent forms. The location of where we elicit people's value judgments on the defensibility of particular practices is therefore also important.
+```
+In the design of the survey, will also need to provide an example or description of the research practice, perhaps in a pop-up text box to reduce textual information overload to participants. Some qrp's might need this, and others probably won't.

@@ -30,8 +30,8 @@ enableEmoji = true
   # Enables the topmenu, which pulls from categories
   topmenu = "categories"
   
-  #MathJaxCDN = "//cdn.bootcss.com"
-  #MathJaxVersion = "2.7.1"
+  MathJaxCDN = "//cdn.bootcss.com"
+  MathJaxVersion = "2.7.1"
 
 [params.logo]
   url = "notebook.png" 

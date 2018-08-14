@@ -75,7 +75,6 @@ If we wish to obtain accurate estimates, then framing the question in a way that
 So why is a question easy or difficult to answer? We can help enable the expert to keep all factors influencing the elicited variable of interest:
 This cognitive heuristic is termed 'availability'. 
 
-
 We want to minimise the impact of this heuristic on the experts ability to quantify their best-considered judgment. We can do so by using graphical aids, for example:
 
 > The best experts have comprehensive mental models of all of the various factors 
@@ -110,6 +109,27 @@ But we need to be careful when interpreting the results of the elicitation... On
 > elicitation system that they clearly do when responding to a well-developed 
 > protocol during a face-to-face interview with attentive and technically 
 > knowledgeable interviewers sitting with them in their office.
+
+Further support for the use of graphical / information aids during elicitation:
+
+> Most of the elicitations my colleagues and I have performed have been conducted 
+> using face-to-face interviews in experts’ offices where the expert can readily 
+> access relevant data and analytic and model results. In many cases, we have 
+> prepared concise literature summaries or other materials and have used card 
+> sorting and other tasks to encourage experts to systematically identify all 
+> relevant factors that may influence a value of interest or contribute to its 
+> uncertainty. Although well-informed experts obviously know and have thought 
+> about all of these things, it is important to make sure that they do not 
+> overlook any of them when they are asked to make quantitative judgments.
+
+Why?
+
+> Because experts are human, there is simply no way to eliminate cognitive bias 
+> and overconfidence. The best one can hope to do is to work diligently to 
+> minimize its influence. It is important to acknowledge this, brief experts on 
+> the issue, and design elicitation procedures that work to achieve this 
+> objective.
+
 
 ## Objectives of the task and expert selection
 
@@ -155,6 +175,30 @@ Should be thoughtful, well-considered. Go through several iterations of developm
 > to develop a quality study. However, one needs to be careful not to encourage 
 > the development of “quick and dirty” expert elicitations.
 
+## Presenting results
+
+**Capturing alternative schools of thought**
+
+![Figure 8 from Morgan (2014): An example of visualising differences in alternative underlying causal models](../../static/posts/2018-08-14-morgan-et-al-2017-use-and-abuse-of-expert-elicitation-in-support-of-decision-making-for-public-policy_files/Morgan-2014-Fig_8-expert_elicitation.png)
+
+- [ ] It could be interesting to look at how assessment about the severity of the practice vary depending on value judgments (i.e. about whether the research practice under consideration is defensible or not).
+
+## Combining Expert Judgments
+
+When considering if and how to aggregate, it's important to consider that some participants may have different underlying causal models informing their estimates, and so should not be combined:
+
+> While Cooke’s method has been used in a number of applications (8, 49), it is 
+> potentially problematic in situations, such as the assessment of health damage 
+> functions or various quantities in climate science in which different experts 
+> make very different assumptions about the nature of the underlying causal 
+> mechanisms. As noted above, depending on how the results will be used, combining 
+> the judgments of experts (by any procedure) may not be appropriate. It would 
+> also be problematic if one were to exclude some experts who represent plausible 
+> but poorly represented alternative views about the science. The history of 
+> science is replete with examples in which the minority opinion about uncertain 
+> science ultimately proved to be correct.
+
+In the case of the QRP study... the underlying conceptual models refer BOTH to the model / scenario used in the survey, the interpretation of that information by the survey participant, and also their understanding of research practice and its influence on the model output / result at hand.
 
 # QRP Elicitation Protocol Development Tasks
 
@@ -173,4 +217,4 @@ Should be thoughtful, well-considered. Go through several iterations of developm
 # References
 
 - Lichtenstein
-- knol
+- knol: Example of how to select experts in systematic manner.

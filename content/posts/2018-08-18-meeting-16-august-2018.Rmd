@@ -1,0 +1,89 @@
+---
+title: Meeting 16 August 2018
+author: ''
+date: '2018-08-18'
+slug: meeting-16-august-2018
+categories:
+  - meeting
+tags:
+  - QRP
+  - expert judgment
+---
+
+## Survey Sampling Design
+
+FF queried elicitation of non-experts about the prevalence of QRPs across methods they were familiar with, but hadn't implemented themselves. Encouraged solid justification for doing this. The only reason that comes to mind for her is if increasing the sample size is the aim. But otherwise, QRP research seems to show that people are particularly forthcoming when it comes to self-reporting. So any arguments about issues around self-reporting affecting the prevalence estimates are basically moot.
+
+LR noted that there is some recent work within the expert elicitation literature encouraging increasing the diversity of participants, and also that people tend to be more confident / trust in the scientific rigour of the disciplines in which they work.
+
+- [ ] This point about eliciting judgments from non-experts is to be resolved.
+
+## Impact / severity elicitation
+
+### Precision in framing the scenario questions
+
+Bayesian prior weighting questions, don't need to be so precise, because otherwise you arejust eliciting information about people's intuition of the influence of checking priors, when really you could very easily simulate this sort of thing to gain a true estimate of the impact of QRP's around prior selection and prior-weighting selection. Being too precise doesn't really capture any interesting information here.
+
+That's not to say that being more precise in framing the questions around might not make sense for the other methods under consideration....
+
+### Measures that we will be eliciting?
+
+Distribution of uncertainty? But the mean could move. 
+
+Talk to Heini about what to do for SDMs. For example, what do we do when the outputs of SDM's are maps? Is there a single measure or metric that can summarise this information?
+
+We might not be able to compare across question sets if we do this...
+
+FF suggests thinking about what conclusions can be drawn from the quantitative elicitation problem... And then thinking about whether it's even worth doing this at all.
+
+### Question set
+
+HF: this is going to take a hell of a lot of work in getting this survey set up properly. Especially because we want to ensure that when it comes time to aggregating across individuals, we want to make sure that any patterns we observe are not artefacts of the way we have framed or stated the questions.
+
+Consequently it might be worth having a reduced set of questions across each of the different fields / methods.
+
+### Questions around the impact of the QRP
+
+Might be worth asking some non-quantitative questions about their impact. For example, asking before eliciting the quantitative estimates of the QRP. "If you had found out someone had used this QRP would it impact on people's trust or confidence / belief in the outcome of the model"? We want to get at whether this would change or not.
+
+We want to get at how it impacts on the overall bias in the literature. How much does the QRP impact on the strength of evidence of the particular study in question. (What would be the SCALE of the "HOW MUCH")? "Would you believe it half as much"? LR HF reminds that this is very similar to the swing-weighting problem.
+
+How do you think a study that had engaged in the QRP might impact on the results of a meta-analysis (what would a meta-analysis of decision support papers look like in the first place though)? How would the results of a meta-analysis be impacted if EVERYBODY was doing this QRP... (this links the role of prevalence to the severity of the QRP).
+
+LR questions what the impact of QRPs on bias at the overall literature level might be in terms of decision support research? 
+- One thing that comes to mind is that the QRP might lead people to place undue faith in the effectiveness of a particular management action.
+- For system models, might cause "zombie ideas" about the functioning of some given community / ecosystem / whatever the ecological unit under consideration is. Might promulgate / maintain false models. Might downweight alternative system models.
+- Thinking about methodological papers, which I think are pretty common in the decision support literature (lots of one off examples where people demonstrate the effectiveness of particular decision support tools / systems for solving particular decision problems). This links particularly well to our definition of QRPs, especially around uncertainty.... The decision tools should be able to solve the decision problem pretty well, meaning that there is enough of lack of uncertainty for there to be a clear decision.
+
+- [ ] Write the implications of QRPs paragraph to clarify this. Should focus efforts in thinking about individual studies. But then thinking about cumulative evidence at the broader literature scale.
+
+Unpacking the problem a little more. Some important facets:
+
+- QRP at level of individual study - severity.
+- QRP at level of broader study
+- Linking prevalence to severity of individual study to consider the risk of the QRP across the body of evidence / discpline.
+
+Lastly FF suggested framing the question from the other point of view - If the QRP had been reversed or changed, how much would you have to do that QRP to get a change in the decision / model outputs.
+
+Then there's the issue of what if you did the QRP multiple times for a particular study?
+
+## Sampling strategy
+
+How to sample the literature to build the sample? 
+
+- No more than 5 years. Otherwise dead emails. 
+- Don't want to over-sample from one lab-0group's journal. But this is pretty difficult to account for. 
+- Specify the journals manually. ISI Ecology list... ther are some real dodgy journals out there. Particularly at the edges of ecology. Limit the journals I want to sample from first. Mainstream ecology journals. Generalist journals.
+
+### Moving forward
+
+*Survey Design*
+
+- Work on the list of QRPs across all methods. Figure out what is general between each of the methods. Then come up with a list of QRPs specific to the method under consideration. Also think about the overarching decision / analytic process for each of the methods. Could the QRP occur at multiple points along the workflow / model building pipeline? I reckon spend about a day working on this.
+- Decide on the sampling protocol and attempt to write some code to return a dataframe on which I can filter results.
+- Elicitaiton Measures.. This will be clearer once I've narrowed down the subset of QRPs.
+
+*Writing*
+
+- Implications of type I error rates for decisions (literature level, individual study level, then: users of the model / method, other researchers, managers)
+

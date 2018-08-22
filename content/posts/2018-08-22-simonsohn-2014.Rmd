@@ -1,0 +1,117 @@
+---
+title: 'Simonsohn (2014) '
+author: ''
+date: '2018-08-22'
+slug: simonsohn-2014
+categories:
+  - reading
+tags:
+  - accuracy
+  - false positive
+  - Bayesian
+  - confidence interval
+  - Bayes factor
+  - p-value
+  - QRP
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+## Relationship to frequentist analyses, and the potential for P-hacking
+
+Simsonohn [-@Simonsohn:2014ka] ran two computational experiments looking at the effects of p-hacking practices on the chance of a type I error for both Bayesian confidence intervals and Bayes Factors. He compared the Bayesian methods to the frequentist methods for each.
+
+Bayesian confidence intervals are mathematically equivalent to frequentist confidence intervals. The only real difference is that their philosophical interpretation is different (and under both inference frameworks, normality is assumed). Bayesian confidence intervals are equally susceptible and invalidated to the same degree by p-hacking practices as frequentist confidence intervals. The same finding applies for p-hacking Bayes-Factors.
+
+### Bayesian Estimation
+
+> Bayesian estimation involves the kind of calculations most people imagine when 
+> they think of Bayesian statistics. We set a prior, we collect some data, and we 
+> update the prior arriving at a posterior.
+
+**Equivalence to confidence intervals**
+
+> Advocates of Bayesian estimation typically propose starting from uninformative 
+> priors so as to let the data speak for themselves. This approach leads to 
+> Bayesian confidence intervals that are mathematically equivalent to the 
+> traditional confidence intervals we are currently computing (Lindley, 1965, pp. 
+> 76-79; Rouanet, 1996, pp. 150151).
+
+> That is to say, if one were to run a traditional two-sample t-test, say, and 
+> build a confidence interval for the difference means, one would obtain the same 
+> results as if one had conducted Bayesian estimation instead. Same numbers, 
+> different philosophical interpretation (Berger, 2003, p. 1).1 This well-known 
+> and uncontroversial equivalence, presented in many textbooks, is obtained 
+> assuming normality.
+
+Simsonohn [-@Simonsohn:2014ka] adapts the experiment reported in Simmons et al [-@Simmons:2011iw], where they demonstrated the effects of p-hacking to obtain absurd results. I.e. That college undergraduates randomly assigned to listen to the song "When I'm 64" became younger. They used data-peeking, dropping a condition, and choosing one of many covariates. In this article, Simsonohn [-@Simonsohn:2014ka] repeats the same procedure, but also using Bayesian estimation, in addition to the frequentist t-test. He found that:
+
+> P-hacking is equally effective at fooling traditional and 
+> Bayesian confidence intervals
+
+### Bayes Factors
+
+> When computing Bayes factors we don’t set priors and we don’t compute 
+> posteriors. We ask, instead, how compatible the data are with different 
+> hypothesis. The key difference with traditional hypothesis testing is that 
+> instead of assessing only how incompatible the data are with the null (the 
+> p-value), we assess if the data are more compatible with the null vs. a specific 
+> alternative hypothesis (see e.g., Dienes, 2011; Jeffreys, 1961; Rouder, et al., 
+> 2009; Wagenmakers, 2007). The ratio of compatibility is the Bayes factor. It 
+> leads to conclusions that read like: “The evidence is five times more likely 
+> under Hypothesis 2 than under Hypothesis 1.”
+
+**Near-equivalence to p<0.1**
+
+> Bayesian advocates have proposed concluding an experiment supports the existence 
+> of an effect when the data are at least three times more compatible with a 
+> default alternative hypothesis as they are with the null hypothesis of a 0 
+> effect (Jeffreys, 1961; Rouder, et al., 2009; Wagenmakers, 2007).3,4 Despite its 
+> elegant philosophical foundation and advanced mathematical derivation, for 
+> sample sizes typically used in psychology experiments, this approach is 
+> virtually identical in consequence to computing the traditional p-value and 
+> setting p<.01 as the cutoff for significance.
+
+
+> In the absence of p-hacking inferences are very similar when using p<.01 vs. 
+> Bayes factor >3.
+
+Simsonohn [-@Simonsohn:2014ka] ran 15,000 simulations looking at the impact of four different types of p-hacking (as well as their combinations) on the probability of finding an inexistent effect:
+
+- data peeking
+- dropping dependent variables
+- dropping conditions
+- dropping outliers
+
+> Figure 3 reports the percentage of simulated studies where a researcher obtains 
+> false-positive evidence consistent with an effect, with p<.01 and a Bayes factor 
+> >3 respectively. The figure shows that by selectively adding 10 observations to 
+> samples of size n=20, a researcher can increase her false-positive rate from the 
+> nominal 1% to 1.7%. The probability that such data peeking obtains a Bayes 
+> factor >3 is estimated at a comparable 1.8%. As this form of p-hacking is 
+> combined with others, the ease with which a false finding is obtained increases 
+> multiplicatively (Simmons, et al., 2011).
+
+> A researcher willing to engage in any of the four forms of p-hacking considered, 
+> has a 20.1% chance of obtaining p<.01, and a 20.8% chance of obtaining a Bayes 
+> factor >3.
+
+# Key Findings
+
+> This paper demonstrates that p-hacking invalidates Bayesian inference as much as 
+> it invalidates p-values. This does not mean going Bayesian is inconsequential. 
+> It merely means that remedying p-hacking is not one of the consequences.
+
+Running Bayesian analyses is not a remedy for p-hacking and selective reporting because it cannot overcome motivated reasoning:
+
+> The root cause of p-hacking, instead, lies in a conflict of interest. As 
+> scientists we are tasked with collecting evidence to learn about the truth, but 
+> obtaining evidence consistent with certain truths is more rewarding that 
+> obtaining evidence consistent with others; when facing ambiguity we choose the 
+> evidence consistent with the more rewarding type.
+
+> When we go from focusing on p-values to focusing on effect size, confidence 
+> intervals, posteriors, or Bayes factors, we change the question we are asking. 
+> When we engage in selective reporting we invalidate the answer we give to all of 
+> these questions.
+
+# References

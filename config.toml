@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Electronic Lab Notebook"
+title = "Elise Gould: PhD Research Notebook"
 theme = "temple"
 # If not set, it will not appear. Otherwise it will show below your footer links
 copyright = "(c) 2018 -- All rights reserved."
@@ -13,7 +13,7 @@ enableEmoji = true
 
 [params]
   subtitle = "Elise Gould's Electronic Research Notebook"
-  description = "A website built through Hugo and blogdown, used as an Electronic Lab Notebook (ELN)."
+  description = "A website built through Hugo and blogdown, used as an Electronic Lab Notebook (ELN) for my PhD."
   
   # Enables syntax highlighting
   highlight = true 

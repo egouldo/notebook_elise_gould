@@ -1,0 +1,113 @@
+---
+title: Bayesianism and questionable research practices
+author: ''
+date: '2018-08-22'
+slug: bayesianism-and-questionable-research-practices
+categories:
+  - synthesis
+tags:
+  - accuracy
+  - false positive
+  - transparency
+  - confidence interval
+  - p-value
+  - practice
+  - QRP
+bibliography: ../../static/files/citations/posts_read.bib
+---
+
+- *What are the different model types / applications used in ecology / conservation?*
+- *what is the process for deriving, evaluating, and reporting these models?*
+- *At what point in the process might QRPs arise?*
+- *Can the same QRP arise at different points during the analysis?*
+
+**Next actions**
+
+- read the stopping rules paper I just imported into papers
+- add prior selection / weighting and other qaeco retreat points to the table below
+- can we generalise overarching workflows across methods? Can we generalise QRPS across different points in a workflow?
+
+# Types of Bayesian methods / analyses
+
+- Bayesian Hierarchical Models: further sub-types used in ecology include spatial regression, N-mixture models, and Hidden Markov Models [@Conn:2018hd]
+- Bayesian estimation [@Simonsohn:2014ka] *is this used in ecology?*
+- Bayes factors [@Simonsohn:2014ka] *is this used in ecology?*
+- Bayesian P values (and other metrics used in model checking) [@Conn:2018hd]
+
+```{r bayesian_qrps, message=FALSE,warning=FALSE}
+suppressPackageStartupMessages(library(tidyverse))
+read_csv("../../static/files/data/Bayesian_qrps.csv") %>% knitr::kable()
+```
+
+Bayesian vs. frequentist.The generic form of the QRPs are common across frequentist and Bayesian methods (e.g. selective reporting, and even P-hacking). E.g. the failure to report or selctive reporting problem can occur in both frequentist and Bayesian analyses, but the set of required things to report and the overarching workflow in reporting differs between Bayesian and frequentist methods. For example, in Bayesian methods, reporting of diagnostics around MCMC convergence is an additional reporting element.
+
+Moreover, more complex modelling methods such as Bayesian Hierarchical Modeling are potentially more prone to QRPs, simply because "there are more places where things can go wrong" [@Conn:2018hd]. This is known as researcher degrees of freedom. Simply because there are more decision points in the overall workflow, AND at each decision point there are so many *potential* choices of analyses to implement. Potentially, the magnitude is more when there are more than one QRP in a study / model, or the same QRP arises at multiple points in the model development workflow.
+
+## Bayesian methods equally suscpetible and invalidated by p-hacking as frequentist methods
+
+The probability of finding a type I error increases substantially due to undisclosed flexibility in data collection [@Simmons:2011iw]. Bayesian methods have been proposed as a remedy to these questionable research practices: "We have diverse views about how best to improve reproducibility, and many of us believe that other ways of summarizing the data, such as Bayes factors or other posterior summaries based on clearly articulated model assumptions, are preferable to P values" [@Benjamin:2018gh]. However Simonsohn [-@Simonsohn:2014ka] demonstrates that this misconception is false, finding that both Bayesian confidence intervals and Bayes factors are equally suscpetible and invalidated to the same degree by "p-hacking" practices as their frequentist inference equivalents.
+
+The p-hacking practices included in Simonsohn [-@Simonsohn:2014ka] were: data-peeking, dropping dependent variables, dropping conditions, dropping outliers.
+
+## Criticisms of Bayesian P values used in model checking
+
+**type II error rates**
+
+> Posterior predictive checks are straightforward to implement. Unfortunately, 
+> Bayesian P values based on these checks tend to be conservative in the sense 
+> that the distribution of P values calculated under a null model (i.e., when the 
+> data generating model and estimation model are the same) is often dome shaped 
+> instead of the uniform distribution expected of frequentist P values (Robins et 
+> al. 2000). This feature arises because data are used twice: once to approximate 
+> the posterior distribution and to simulate the reference distribution for the 
+> discrepancy measure, and a second time to calculate the tail probability 
+> (Bayarri and Berger 2000).
+
+> As such, the power of posterior predictive Bayesian P values to detect 
+> significant differences in the discrepancy measure is low. Evidently, the degree 
+> of conservatism can vary across data, models, and discrepancy functions, making 
+> it difficult to interpret or compare Bayesian P values across models. In an 
+> extreme example, Zhang (2014) found that posterior predictive P values almost 
+> never rejected a model, even when the model used to fit the data differed 
+> considerably from the model used to generate it.
+
+## Failure to report model checking / evaluation diagnostics
+
+### Implications of failure to report model checking
+
+*The role of model-checking in assessing model reliability of inferences:*
+
+The goal of model checking is not to "develop a model that fits perfectly, but rather to probe models for assumption violations that result in systematic errors" [@Conn:2018hd]. Fitting models is a tricky business in ecology, because "we expect lack of fit in our models" (due to simplistic processes in ecology being rare, and environmental hetereogeneity manifesting in individuals, patchy responses, and always some persisting variation that can never be explained by all covariates). However, a goal of modeling should be to "minimise biases attributable to poor modeling assumptions." 
+
+"Ultimately, the reliability of inference from a fitted model (Bayesian or otherwise) depends on how well the model approximates reality. There are multiple ways of assessing a model’s performance in representing the system being stud- ied. A first step is often to examine diagnostics that compare observed data to model output to pinpoint if and where any systematic differences occur. This process, which we term model checking, is a critical part of statistical inference because it helps diagnose assumption violations and illumi- nate places where a model might be amended to more faith- fully represent gathered data. Following this step, one might proceed to compare the performance of alternative models embodying different hypotheses using any number of model comparison or out-of-sample predictive performance met- rics (see Hooten and Hobbs 2015 for a review) to gauge the support for alternative hypotheses or optimize predictive ability (Fig. 1)." [@Conn:2018hd].
+
+And the implications of the presence of systematic errors in our models differ depending on the use context of the model, Conn describe two examples:
+
+1. When the models are used to underpin management decisions
+2. Basic-science
+
+In the first context, if for instance a model is deployed and is underdispersed because the wrong distribution has been used (Poisson instead of -ve Binomial, or normal instead of the *t* distribution), estimates are often too precise, and predictions less extreme than in the real world. The effect of such a model used to inform environmental policy would "tend to make decision makers overly confident in their projections." [@Conn:2018hd]. In the second context, "overconfidence can have real ramifications for confirmation or refutation of existing theory."
+
+
+
+### Reasons giving rise to failure to report model checking / evaluation results
+
+Conn et al [-@Conn:2018hd] posit two reasons as to why Bayesians fail to report (and hence possibly undertake at all) model checking results:
+
+1. A misunderstanding of the information conveyed in MCMC convergence diagnostics
+
+> Perhaps there is a mistaken belief among authors 
+> and reviewers that convergence to a stationary distribution, combined with a 
+> lack of prior sensitivity, implies that a model fits the data. In reality, 
+> convergence diagnostics such as trace plots only allow us to check the algorithm 
+> for fitting the model, not the model itself.
+
+2. Structural disensitive / burden to engage in model evaluation
+
+> Finally, it may just be a case of fatigue: it takes considerable effort to 
+> envision and code complex hierarchical models of ecological systems, and the 
+> extra step of model checking may seem burdensome.
+
+- [ ] I believe the TRACE papers and other "Good Environmental Modeling Practice" papers discuss this same problem for non-Bayesian ecological models. Perhaps the technical burden of fitting Bayesian models is even more cumbersome than for other ecological modelling practices? This point is something to follow up on.
+
+# References

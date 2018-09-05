@@ -1,0 +1,36 @@
+---
+title: Meeting 23 August
+author: ''
+date: '2018-08-23'
+slug: meeting-23-august
+categories:
+  - meeting
+  - planning
+tags:
+  - QRP
+  - Bayesian
+---
+
+# Tasks from last week:
+
+1. Develop QRP list across all methods. Figure out what is general between each of the methods. Then come up with a list of QRPs specific to the method under consideration. Also think about the overarching decision / analytic process for each of the methods. Could the QRP occur at multiple points along the workflow / model building pipeline?
+2. Sampling protocol - begin writing code, journal selection.
+3. Think about elicitation measures, what they could be, and how they could be the same across each of the methods
+
+Other things to discuss today:
+
+- HF supervision (responsibility, reason for requesting change)
+
+# Follow up:
+
+- Write up QRPs for Bayesians literature review section.
+- create a plot / diagram with the QRP table . list
+- review what Bayesian methods are used in ecology, does this general model hold up for all types of bayesian analyses, e.g. for Bayes Factors, and are they even used in Ecology?
+- repeat the same review process for SDMs, and then Model Dredging.
+- Fiona to send the stopping rules paper
+- The structure of the paper will have a literature review section, where I present diagrams of the workflows and points where researcher degrees of freedom arise. The aim is to highlight the potential decision points in the analysis process, and also to illustrate what QRPs arise where - and broadly to give an overview of all the different types of QRPs that might occur.
+- Then I will select a subset of QRPs for each method, based on suspected and / or documented prevalence, degree of controversy documented in the literature, and suspected / demonstrated consequence.
+
+Survey design: include a question aout what type of Bayesian methods people use, provide examples. (Bayes Factors, BIC in model dredging, etc.)
+Writing the paper: framing as undisclosed flexibility rather than as QRPs, shifts the 
+Model literacy: this is a problem, and this paper should make a contribution to 

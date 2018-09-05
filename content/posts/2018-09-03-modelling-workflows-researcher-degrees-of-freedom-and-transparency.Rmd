@@ -17,14 +17,13 @@ output: html_document
 ---
 
 **Abstract:**
-
-
 Initial meta-science research in ecology and evolution suggests that the discipline is not immune to the sorts of reproducibility issues highlighted in other scientific disciplines, such as Psychology and Medicine. A recent study has revealed  rates of self-reported Questionable Reserach Practices (QRPs) in ecology and evolution comprable to other disciplines. QRPs include practices such as cherry-picking, *p*-hacking and hypothesising after results are known (HARKing), and result in low rates of reproducibility, contributing to biased accounts of the subject domain in the body of literature.
 
 While nearly all QRP research is focussed on Null Hypothesis Significance Testing, in applied ecology and conservation decision making we often utilise non-frequentist statistical analyses and analytic approaches outside of the classical hypothetico-deductive model of science. The risk of QRPs in ecologial modelling is arguably heightened due to the sheer number of 'researcher degrees of freedom' inherent in these approaches: researchers make numerous choices during model development, fitting, claibration, validation and reporting. Moreover, these degrees of freedom are typically undocumented due to institutional and editorial disencentives for full and transparent model reporting practices.
 
 In this talk I expand the concept of QRPs to ecological modelling for decision support. I present a summary of the group discussions held at the QAECO/CEBRA lab retreat, where we brainstormed QRPs in four areas of applied ecological research: Bayesian statistics, multiple models and model selection, species distribution modelling, and field data collection. Finally I overview work in progress to develop a survey aimed at measuring the prevalence and potential impact of QRPs in ecological and conservation decision support.
 
+*This post represents a written version of the content of the presentation, which can be found here: INSERT LINK* 
 
 -------
 
@@ -42,7 +41,21 @@ In this talk I expand the concept of QRPs to ecological modelling for decision s
 
 Motives / aims of this talk: feedback.
 
+Preamble:
 
+Present some preliminary work from the first chapter of my PhD.
+Hope to test out some ideas, so I welcome any feedback. Invite people to save their questions for a brief discussion at the end.
+Some content might be familiar, but I'll try and cover the background material.
+In particular seeking feedback around the design of the survey, as well as the model of QRPs.
+
+Talk Strucutre:
+
+1. Problem Background - 5 mins
+2. Report Results, and what we did - 5 mins
+3. What's next - QRP study - 5 mins
+4. Discussion - 15 mins
+
+---
 
 ### Researcher degrees of freedom
 
@@ -72,23 +85,6 @@ Arguably more fraught / prone to bad reporting practice because of the myriad of
 ### barriers to transparent reporting practices
 
 
----
-
-Preamble:
-
-Present some preliminary work from the first chapter of my PhD.
-Hope to test out some ideas, so I welcome any feedback. Invite people to save their questions for a brief discussion at the end.
-Some content might be familiar, but I'll try and cover the background material
-
-Talk Strucutre:
-
-1. Problem Background - 5 mins
-2. Report Results, and what we did - 5 mins
-3. What's next - QRP study - 5 mins
-4. Discussion - 15 mins
-
----
-
 # Problem Background
 
 - repro crisis and meta-science research in ecology
@@ -106,6 +102,18 @@ Failing to provide all analyses undertaken prevents readers from making proper e
 
 Those other papers looking at problems of model documentation and model evaluation reporting in ecology.
 
+## A quick tour of QRP Research
+
+# Expanding QRP research to non-NHST research
+
+## Problems
+
+I have some reservations about this definition, chiefly:
+
+1. Models are necessarily abstractions, simplifications of systems and shared theories or expectations. The notion of a true model doesn't actually make sense? (King 1991, De Vos 2011). "All models are wrong, but some are useful" (SO HOW DO WE accept this understanding and put forth a definition / conceptual model of the influence of QRPs, TRY AND CONCEPTUALISE THE EFFECT OR INFLUENCE OF QRPs ON A MODEL?) We Need some baseline representing the model and its outputs as if there were no impact of the QRP
+2. What about in a Bayesian Framework -- The idea of a 'true' model conflicts with the philosophical underpinnings of Bayesian probability theory --is there even any notion of a 'true' model? 
+3. Parsimony - prediction vs. fit, and model purpose. What do we care about? This definition is arguably centred around modelling in a predictive capacity, but what about explanatory models (where we care less about the outputs of the model, and more on the form and fit of the model). We've taken 'signal' in the above definition to be a signal in the outputs. Perhaps this focus is ok, given that predictive models are often the backbone of formal decision support systems.
+
 # QAECO Retreat Discussions
 
 ## *Reminder: what we did*
@@ -121,19 +129,17 @@ What i did with the results:
 
 ### Summarising, what are the key themes from this?
 
-NHST vs. non-NHST in ecological research
-
 1. Each of these issues is able to be distilled into the same class of QRPs common to NHST research (Cherry picking, HARKing, p-hacking -- except with other test-statistics etc). 
 2. It's just that the particular form they take is unique to the type of method under consideration (e.g. SPARKing), and moreover, that the same general QRP can occur at multiple points in a modelling / analytical workflow, because there are many sub-components. (Demonstrate using the workflows)
 
-selective actions, only if interesting or if a strong result... even if deviate from expectation, or else just
+For each of the four groups, I mapped the QAECO generated QRPs onto an overarching workflow representing discrete steps in the modelling process. I then searched the literature to add others onto this process. Then I attempted to code each of the QRPs according to the broad classes of QRPs already identified for NHST-research.
 
-see online notebook.
+1. Cherry-picking
+2. HARKing
+3. Test-statistic hacking
+4. Failing to report assumption violations or methodological flaws that alter or invalidate conclusions
 
-
-
-
-```{r workflow-bayesian}
+```{r workflow-bayesian,fig.keep='all'}
 suppressPackageStartupMessages(library(DiagrammeR))
 
 DiagrammeR("graph LR
@@ -148,7 +154,7 @@ E--> F(Robustness<br />Analysis)
 ```
 
 
-```{r workflow-multi-model}
+```{r workflow-multi-model,fig.keep='all'}
 DiagrammeR("graph LR
 subgraph Hypothesis and Model Generation
 A(Generate candidate<br />biological hypotheses<br />as candidate models)-->
@@ -168,3 +174,33 @@ end
 
 ```
 
+Examining each of the research practices reveals that the same broad classes of QRPs applicable to NHST research still hold for non-NHST research. The primary difference in terms of the classes is that practices falling under the banner of P-hacking are applicable to other test-statistics. 
+
+*Key Take-aways of the workflow mapping exercise:*
+
+1. Researcher degrees of freedom - There are many many choices and tests that a modeller must make and undertake throughout this process. When to stop collecting data, what prior to select, was their convergence when fitting the model, what model checking or robustness tests should be undertaken? What thresholds should be used?
+2. QRPs can occur multiple times in the entire process, at each of these decision points
+3. The same class of QRP can also occur at multiple points in the modelling process
+
+*Discussion of key themes and summary of issues:*
+
+Does reporting remedy the issue? Looking at the reasoning about the questionability of the practices, it seems to be the case that most people consider the practice not to be questionable if it is reported. (Give example from the list) This sentiment is mirrored in the published literature also, with calls for QRP's to be changed to questionable reporting practices (INSERT PAPER). However,  arguably reporting doesn't rectify the issue (what's the issue) for all practices. Arguably the case for model dredging (especially in a predictive or confirmatory inference application), and potentially also for the selective debugging case (selective analysis, only when results are interesting or there appears to be a big problem)
+
+Is failing to undertake particular analyses, such as checking the influence of priors, model checking or other forms of model evaluation, a questionable practice, or just 'bad' practice? (paper reviewing bayesian model checkign papers and found that most people don't check their *Bayesian* models). 
+Arguably failing to undertake any or give thorough treatment to proper model evaluation gives a false impression of the quality of the model? selective actions, only if interesting or if a strong result... even if deviate from expectation.
+Where do we draw the line in defining the boundaries of QRPs?
+
+This leads to the next issue, some practices questionable only under particular types of inference. So the purpose of the model is an important moderator of the questionability of these practices. Give example from the list.
+
+Bayesianism is *NOT* a remedy for QRPs... as has been argued in reproducibility literature!
+- cite example saying Bayesianism is a remedy
+- then point to the workflow model here
+- then cite evidence as 
+
+
+# Designing the Study
+
+- GOALS
+- QUESTIONS
+
+measuring prevalence: [@Fiedler:2015dt] two components of prevalence.

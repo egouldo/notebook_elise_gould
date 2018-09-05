@@ -43,6 +43,41 @@ Bayesian vs. frequentist.The generic form of the QRPs are common across frequent
 
 Moreover, more complex modelling methods such as Bayesian Hierarchical Modeling are potentially more prone to QRPs, simply because "there are more places where things can go wrong" [@Conn:2018hd]. This is known as researcher degrees of freedom. Simply because there are more decision points in the overall workflow, AND at each decision point there are so many *potential* choices of analyses to implement. Potentially, the magnitude is more when there are more than one QRP in a study / model, or the same QRP arises at multiple points in the model development workflow.
 
+**Data Collection**
+
+- stopping rules (optional or not, v. controversial)
+
+**Model Development and fitting**
+
+- report all covariates
+- report all conditions
+- report if outliers dropped and justify, but report model results for both.
+
+**Model Development: Prior selection**
+
+- Do not peek at data. Rationalise choice before fitting model.
+- Check influence and report
+- Do not selectively debug (e.g. if results look interesting / unexpected)
+- Ensure measured on the same scale as likelihood
+
+**MCMC Convergence**
+
+- check and report ALL attempts
+- perform for Null model and all alternative models
+- do not selectively debug
+
+**Model Checking**
+
+- Check and report all diagnostic analyses
+- do not selectively debug
+- ensure assumptions of model are not violated, report.
+
+**Model Selection and Comparison**
+
+- report all models, including the null model and alternative models
+- Do not interpret in frequentist framework (remember that the relative plausibility of different models should be interpreted as conditioned on the data... not on some "hypothetical truth" [@Rouder:2014jf]).
+
+
 ## Bayesian methods equally suscpetible and invalidated by p-hacking as frequentist methods
 
 The probability of finding a type I error increases substantially due to undisclosed flexibility in data collection [@Simmons:2011iw]. Bayesian methods have been proposed as a remedy to these questionable research practices: "We have diverse views about how best to improve reproducibility, and many of us believe that other ways of summarizing the data, such as Bayes factors or other posterior summaries based on clearly articulated model assumptions, are preferable to P values" [@Benjamin:2018gh]. However Simonsohn [-@Simonsohn:2014ka] demonstrates that this misconception is false, finding that both Bayesian confidence intervals and Bayes factors are equally suscpetible and invalidated to the same degree by "p-hacking" practices as their frequentist inference equivalents.
@@ -109,5 +144,7 @@ Conn et al [-@Conn:2018hd] posit two reasons as to why Bayesians fail to report 
 > extra step of model checking may seem burdensome.
 
 - [ ] I believe the TRACE papers and other "Good Environmental Modeling Practice" papers discuss this same problem for non-Bayesian ecological models. Perhaps the technical burden of fitting Bayesian models is even more cumbersome than for other ecological modelling practices? This point is something to follow up on.
+
+## Optional Stopping Rules and Bayes Factors
 
 # References

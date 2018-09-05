@@ -1,0 +1,170 @@
+---
+title: 'Choose your own adventure: researcher degrees of freedom and questionable research practices in ecological modelling for decision support'
+author: ''
+date: '2018-09-03'
+slug: modelling-workflows-researcher-degrees-of-freedom-and-transparency
+categories:
+  - synthesis
+tags:
+  - modelling
+  - open science
+  - transparency
+  - computational reproducibility
+  - reproducibility
+  - QRP
+bibliography: ../../static/files/citations/posts_read.bib
+output: html_document
+---
+
+**Abstract:**
+
+
+Initial meta-science research in ecology and evolution suggests that the discipline is not immune to the sorts of reproducibility issues highlighted in other scientific disciplines, such as Psychology and Medicine. A recent study has revealed  rates of self-reported Questionable Reserach Practices (QRPs) in ecology and evolution comprable to other disciplines. QRPs include practices such as cherry-picking, *p*-hacking and hypothesising after results are known (HARKing), and result in low rates of reproducibility, contributing to biased accounts of the subject domain in the body of literature.
+
+While nearly all QRP research is focussed on Null Hypothesis Significance Testing, in applied ecology and conservation decision making we often utilise non-frequentist statistical analyses and analytic approaches outside of the classical hypothetico-deductive model of science. The risk of QRPs in ecologial modelling is arguably heightened due to the sheer number of 'researcher degrees of freedom' inherent in these approaches: researchers make numerous choices during model development, fitting, claibration, validation and reporting. Moreover, these degrees of freedom are typically undocumented due to institutional and editorial disencentives for full and transparent model reporting practices.
+
+In this talk I expand the concept of QRPs to ecological modelling for decision support. I present a summary of the group discussions held at the QAECO/CEBRA lab retreat, where we brainstormed QRPs in four areas of applied ecological research: Bayesian statistics, multiple models and model selection, species distribution modelling, and field data collection. Finally I overview work in progress to develop a survey aimed at measuring the prevalence and potential impact of QRPs in ecological and conservation decision support.
+
+
+-------
+
+1. Repro crisis in ecology
+2. HF's work, QRPs in ecology.
+3. But, QRP work and broader repro research is focussed almost exclusively on frequentist statistics and a hypothetico-deductive model of science.
+4. In ecology, especially in applied ecology and conservation, we often employ non-frequentist methods: Bayesian statistics, decision theoretic approaches, etc. etc.
+5. Given the prevalence of NHST QRPs (Fraser), and the inherent researcher degrees of freedom involved in developing complex models in ecology, it is likely, that there is a QRP problem in the work we do too. (Give little choose your own adventure spiel to tie into the title).
+5.a. What are the consequences / implications for irreproducibility of decisions?
+6. However, the very definition of QRPs has been developed in an NHST framework. I overview a proposed/working expansion of the concept of QRPs to non-frequentist and non-NHST methods, and present the findings from the QAECO retreat where we generated lists of QRPs for four areas / methods in ecology and conservation.
+7. I then discuss next steps for investigating the prevalence and impact of QRPs across the discpline.
+8. If we have time we might engage in a voting exercise.
+
+**Choose your own adventure: resesarcher degrees of freedom and questionable research practices in ecological modelling for decision support**
+
+Motives / aims of this talk: feedback.
+
+
+
+### Researcher degrees of freedom
+
+What's special about ecological modelling, why does it warrant investgation of QRPs? Number of decision points, choice of analytical methods and statistics at each point. 
+What is the relevance of this, why is it important? I.e. what is the relationship of QRPs to Reproducibility / replicability of ecological models? Just like a choose your own adventure book, 
+With more and more decision points should the procedure be replicated, the likelihood of arriving at a different story increases. There's the potential for the system to be 'gamed' either wittingly, or unwittingly.
+
+Arguably *such approaches* are subject to great*er* risk of questionable research practices because of the sheer number of 'researcher degrees of freedom' involved in ecological modelling: from data collection to the reporting of results researchers make numerous choices during model development, fitting, calibration, validation and reporting. Moreover, the risk of QRP occurrence is potentially amplified due to institutional and editorial disincentives to thoroughly and transparently document the full model development process: these decision points and their justification and assumptions behind the choices remain undocumented and hidden from scrutiny -- much like a "Choose your own adventure" book where the choice has been made for you -- if not everything is reported then you're potentially getting a different story.
+
+
+## Transparency and Modelling Reporting Practices - what are the issues?
+
+What exactly are the transparency problems for environmental models, as opposed to other NHST-based research? With an emphasis on models used to inform management and policy decisions...
+
+I propose that the set of conditions fostering QRPs is somewhat particular to environmental models due in part to the inherent properties of environmental models (greater complexity and number of analytical steps result in greater researcher degrees of freedom) and also because there are clear institutional disincentives to fully transparent model documentation and reporting practices (active discouragement of full and thorough model reporting practices).
+
+As well as the general set of conditions that apply
+
+Arguably more fraught / prone to bad reporting practice because of the myriad of modelling choices that remain undocumented.
+
+### issues
+
+- publication bias: modeling papers are focused on scientific novelty, rather than on model documentation (de Vos, Alexandrov 2011, Schmolke 2010).
+- No consensus on standards / agreed upon reporting of environmental models (de Vos)
+- daisy-chaining - parts of the model are documented separately in separate papers that cross-reference each other (de Vos).
+
+### barriers to transparent reporting practices
+
+
+---
+
+Preamble:
+
+Present some preliminary work from the first chapter of my PhD.
+Hope to test out some ideas, so I welcome any feedback. Invite people to save their questions for a brief discussion at the end.
+Some content might be familiar, but I'll try and cover the background material
+
+Talk Strucutre:
+
+1. Problem Background - 5 mins
+2. Report Results, and what we did - 5 mins
+3. What's next - QRP study - 5 mins
+4. Discussion - 15 mins
+
+---
+
+# Problem Background
+
+- repro crisis and meta-science research in ecology
+- outline thesis goals and chapters - then zoom in on the QRP one.
+- Outline QRP research... grey areas, disagreement because *is* inherently uncertain whether they are okay or not.
+- Researcher degrees of freedom, what are they, why are they important in ecological modelling.
+        -> modelling approaches have many components to them!
+Ambiguity and cognitive fallacies human biases (SEM paper?) Good this leads on nicely to Jian and Ralph's recent paper:
+"There is no universally agreed-upon measure for the goodness-of- fit of a model to data. The amount of variance (or deviance) that needs to be explained or predicted to make a model “good” is sub- jective, and depends on the ecological question and the intended use of the model." Mac Nally et al. (2018). These are exactly the conditions that the ambiguity notion describes!!
+- Defining QRPs - trust and belief, given assumptions (that paper?!?)
+
+Failing to provide all analyses undertaken prevents readers from making proper evaluations of a model:
+
+"Such measures allow editors, reviewers and ultimately readers to make their own judgements of: (1) whether the nominal best model is a meaningful fit to build data; and (2) model inferences, especially on the relative importance of predictor variables." Mac Nally et al. (2018).
+
+Those other papers looking at problems of model documentation and model evaluation reporting in ecology.
+
+# QAECO Retreat Discussions
+
+## *Reminder: what we did*
+
+
+## *Results: here's the lists*
+
+Give the data collection list in the interests of everyone at the lab, but otherwise don't focus on. Just want to think about modelling for now (but can some of the QRPS from the other areas go into this, afterall there is an interplay between data collection and analysis that is often a problematic research practice)
+
+What i did with the results:
+- then consulted the literature to build upon the lists for each area, and mapped them onto modelling or analysis workflows identified in the literature (this is a work in progress).
+- the objective was to identify all the points in the analysis where the same *class* of QRP can occur.
+
+### Summarising, what are the key themes from this?
+
+NHST vs. non-NHST in ecological research
+
+1. Each of these issues is able to be distilled into the same class of QRPs common to NHST research (Cherry picking, HARKing, p-hacking -- except with other test-statistics etc). 
+2. It's just that the particular form they take is unique to the type of method under consideration (e.g. SPARKing), and moreover, that the same general QRP can occur at multiple points in a modelling / analytical workflow, because there are many sub-components. (Demonstrate using the workflows)
+
+selective actions, only if interesting or if a strong result... even if deviate from expectation, or else just
+
+see online notebook.
+
+
+
+
+```{r workflow-bayesian}
+suppressPackageStartupMessages(library(DiagrammeR))
+
+DiagrammeR("graph LR
+A(Data Collection)-->B(Model<br />development)
+B--> C(Test for convergence<br />of MCMC chains)
+C--> |Fail | B
+C--> |Pass | D(Model<br />Checking)
+D--> |Fail | B
+D--> |Pass | E(Model<br />Comparison)
+E--> F(Robustness<br />Analysis)
+        ")
+```
+
+
+```{r workflow-multi-model}
+DiagrammeR("graph LR
+subgraph Hypothesis and Model Generation
+A(Generate candidate<br />biological hypotheses<br />as candidate models)-->
+B(Translate all models<br />into mathematical models)
+end
+subgraph Model Fitting and Evaluation
+B-->C(Fit Global Model)
+C-->
+E{Goodness of fit <br />test for global model}
+E-->|Pass|F(Fit models to data)
+end
+D(Data Collection)-->C
+subgraph Model Selection
+F-->G(Calculate model selection criterion,<br />compute scores for each model)
+end
+           ")
+
+```
+

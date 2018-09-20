@@ -77,6 +77,53 @@ Moreover, more complex modelling methods such as Bayesian Hierarchical Modeling 
 - report all models, including the null model and alternative models
 - Do not interpret in frequentist framework (remember that the relative plausibility of different models should be interpreted as conditioned on the data... not on some "hypothetical truth" [@Rouder:2014jf]).
 
+```{r bayesian-reporting-workflow}
+library(DiagrammeR)
+library(tidyverse)
+nodes <- DiagrammeR::create_node_df(7, label = c("Data Collection", 
+                                                 "Model Development and Fitting", 
+                                                 "Test for Convergence", 
+                                                 "Model Checking", 
+                                                 "Pass", 
+                                                 "Model Comparison", 
+                                                 "Robustness Analysis"))
+from <- 1:length(nodes$label[-7])
+to <- lead(from,default = length(nodes$label))
+edges <- DiagrammeR::create_edge_df(from = from, to = to)
+
+#Add in Yes / No
+nodes <- nodes %>%
+        bind_rows(create_node_df(2, label = c("Yes", "No")) %>%
+                          dplyr::mutate(id = id + 7))
+edges <- edges %>%
+        bind_rows(create_edge_df(from = c(3,9,5,9,3,8,4,8), to = c(9,2,9,2,8,4,8,5)))
+
+graph <- DiagrammeR::create_graph(nodes_df = nodes, edges_df = edges)
+DiagrammeR::render_graph(graph, layout = "tree")
+##### ggdag
+library(ggdag)
+ggdag::dagify(robustnessanalysis ~ modelcomparison,
+              modelcomparison ~ pass,
+              pass ~ modelchecking + yes,
+              modelchecking ~ testforconvergence + yes1,
+              testforconvergence ~ modeldevelopmentandfitting,
+              modeldevelopmentandfitting ~ datacollection + no,
+              yes1 ~ testforconvergence,
+              yes ~ modelchecking,
+              no ~ testforconvergence,
+              labels = c(
+                      "robustnessanalysis" = "Robustness\n Analysis",
+                      "modelcomparison" = "Model Comparison\n and Selection",
+                      "pass" = "Pass?",
+                      "modelchecking" = "Model\n Checking",
+                      "modeldevelopmentandfitting" = "Model Development\n and Fitting",
+                      "yes1" = "yes",
+                      "yes" = "yes"
+              )) %>% 
+        ggdag(use_labels = "label", edge_type = "link", layout = "tree")
+
+```
+
 
 ## Bayesian methods equally suscpetible and invalidated by p-hacking as frequentist methods
 

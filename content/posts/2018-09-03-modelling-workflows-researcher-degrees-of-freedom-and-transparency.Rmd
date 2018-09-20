@@ -57,6 +57,8 @@ Talk Strucutre:
 
 ---
 
+The Presentation for this post can be found `LINK IS NOT WORKING... to update![here](/blog/html/QAECO-seminar/index.html).`
+
 ### Researcher degrees of freedom
 
 What's special about ecological modelling, why does it warrant investgation of QRPs? Number of decision points, choice of analytical methods and statistics at each point. 
@@ -75,6 +77,8 @@ I propose that the set of conditions fostering QRPs is somewhat particular to en
 As well as the general set of conditions that apply
 
 Arguably more fraught / prone to bad reporting practice because of the myriad of modelling choices that remain undocumented.
+
+p.268: The general thesis of these papers is very simple: the inherent flexibility of empirical research (e.g., sample size, operationalizations, controls, data management) provides a near limitless number of opportunities for the data to support a researcher's prior theory—or any story, for that matter. -- Highlighted 5 Sep 2018 [@Jebb:2017kn].
 
 ### issues
 
@@ -129,9 +133,6 @@ What i did with the results:
 
 ### Summarising, what are the key themes from this?
 
-1. Each of these issues is able to be distilled into the same class of QRPs common to NHST research (Cherry picking, HARKing, p-hacking -- except with other test-statistics etc). 
-2. It's just that the particular form they take is unique to the type of method under consideration (e.g. SPARKing), and moreover, that the same general QRP can occur at multiple points in a modelling / analytical workflow, because there are many sub-components. (Demonstrate using the workflows)
-
 For each of the four groups, I mapped the QAECO generated QRPs onto an overarching workflow representing discrete steps in the modelling process. I then searched the literature to add others onto this process. Then I attempted to code each of the QRPs according to the broad classes of QRPs already identified for NHST-research.
 
 1. Cherry-picking
@@ -176,6 +177,9 @@ end
 
 Examining each of the research practices reveals that the same broad classes of QRPs applicable to NHST research still hold for non-NHST research. The primary difference in terms of the classes is that practices falling under the banner of P-hacking are applicable to other test-statistics. 
 
+1. Each of these issues is able to be distilled into the same class of QRPs common to NHST research (Cherry picking, HARKing, p-hacking -- except with other test-statistics etc). 
+2. It's just that the particular form they take is unique to the type of method under consideration (e.g. SPARKing), and moreover, that the same general QRP can occur at multiple points in a modelling / analytical workflow, because there are many sub-components. (Demonstrate using the workflows)
+
 *Key Take-aways of the workflow mapping exercise:*
 
 1. Researcher degrees of freedom - There are many many choices and tests that a modeller must make and undertake throughout this process. When to stop collecting data, what prior to select, was their convergence when fitting the model, what model checking or robustness tests should be undertaken? What thresholds should be used?
@@ -184,18 +188,44 @@ Examining each of the research practices reveals that the same broad classes of 
 
 *Discussion of key themes and summary of issues:*
 
-Does reporting remedy the issue? Looking at the reasoning about the questionability of the practices, it seems to be the case that most people consider the practice not to be questionable if it is reported. (Give example from the list) This sentiment is mirrored in the published literature also, with calls for QRP's to be changed to questionable reporting practices (INSERT PAPER). However,  arguably reporting doesn't rectify the issue (what's the issue) for all practices. Arguably the case for model dredging (especially in a predictive or confirmatory inference application), and potentially also for the selective debugging case (selective analysis, only when results are interesting or there appears to be a big problem)
+Does reporting remedy the issue? Looking at the reasoning about the questionability of the practices, it seems to be the case that most people consider the practice not to be questionable if it is reported. (Give example from the list) This sentiment is mirrored in the published literature also, with calls for QRP's to be changed to questionable reporting practices (INSERT PAPER). However,  arguably reporting doesn't rectify the issue (what's the issue) for all practices. Arguably the case for model dredging (especially in a predictive or confirmatory inference application), and potentially also for the selective debugging case (selective analysis, only when results are interesting or there appears to be a big problem).
+
+Ralph MacNally (2018). AUC is susceptible to poor choices of model formulation...
+Johnson et al. 2014.
 
 Is failing to undertake particular analyses, such as checking the influence of priors, model checking or other forms of model evaluation, a questionable practice, or just 'bad' practice? (paper reviewing bayesian model checkign papers and found that most people don't check their *Bayesian* models). 
 Arguably failing to undertake any or give thorough treatment to proper model evaluation gives a false impression of the quality of the model? selective actions, only if interesting or if a strong result... even if deviate from expectation.
 Where do we draw the line in defining the boundaries of QRPs?
 
+---
+
+Model or data dredging practices, are not inhrently questionable. 
+
+Can yield meaningful insight.
+
 This leads to the next issue, some practices questionable only under particular types of inference. So the purpose of the model is an important moderator of the questionability of these practices. Give example from the list.
+
+Inference: Confirmatory 
+vs. Exploratory Analysis -> Model Purpose: Explanatory 
+vs. Predictive Models
+
+Model Purpose: Sheueli (2010), Explanatory vs. predictive modelling.
+
+Problem occurs when we cast exploratory work as confirmatory: “Confusion might arise because the same behavior can be either EDA or p-hacking depending on how it is reported.” Jebb et al.
+“Thus, “EDA as CDA” is harmful because the results are given an inflated degree of credibility; it breaks the cardinal rule that a result cannot be discovered and validated using the same data.” Jebb, A. T., Parrigon, S., Woo, S. E. (2017) Exploratory data analysis as a foundation of inductive research. Human Resource Management Review. 27, 265–276.
+
+“Current practices with many journals that all but required a deductive approach have led to authors positioning papers as de- ductive even when the underlying research was not. This masking of inductive and abductive research is at the heart of the de- bate on questionable research practices” Woo, S. E., O'Boyle, E. H., Spector, P. E. (2017) Best practices in developing, conducting, and evaluating inductive research. Human Resource Management Review. 27, 255–264.
+
+Then see discussion on inductive, abductive inference and and EDA / CDA.
+
+
+
+---
 
 Bayesianism is *NOT* a remedy for QRPs... as has been argued in reproducibility literature!
 - cite example saying Bayesianism is a remedy
 - then point to the workflow model here
-- then cite evidence as 
+- then cite evidence about invalidation
 
 
 # Designing the Study
@@ -204,3 +234,51 @@ Bayesianism is *NOT* a remedy for QRPs... as has been argued in reproducibility 
 - QUESTIONS
 
 measuring prevalence: [@Fiedler:2015dt] two components of prevalence.
+
+--------
+
+Review: 
+
+Not even aware of when you're doing it or not - how do you measure? That is the same for non-NHST and NHST work.
+--> show the actual questions that were used in Hannah's and 
+What kind of question lead to those bars on the graph. help with imagining how to get from general issues to a question.
+
+Don't get bogged down in debate about whether you disclose or not.
+Undisclosed flexibility -> makes it more straight forward. Interesting question, but zooms in on the scope of the chapter.
+
+Eliciting the impact isn't going to work... too soon. Poeple don't believe they have an impact or cause a type I error.
+
+Option to tick "yes i did it, but I think it was justified when I did it" From Hannah's research.
+
+--> When give the Brisbane and HPS talk. Manifesto for Reproducibility --> juxtapose my Bayesian one against frequentist, this is what we know about how frequentist QRPs and how they influence 
+
+Confusion around prevalence and impact (chance that there is type I error) but then there's the value judgment of your intent.. How bad given the consequence and impact.
+
+Elicitnig quantitative: people thinks there is no impact. Don't yet have quantitative benchmark.
+Maybe there's one QRP where can benchmark against.
+
+Threatened Species: Deciding whether to list or delist, might be a good case study. Threatened Species Committee.
+
+How reproducible? National Energy Guarantee. Experiment.
+
+How bad is it? 
+
+HPS: What's the equivalence of a false positive? Can be a range of things. SOmetimes immediate translation: whereever there is a threshold, it translates. Sometimes no equivalent.
+
+model fit statistics not as wedded to publication bias. Sometimes really obvious (just take out .05 and substitute).
+THEN show diagram demonstrating drive for certainty.
+
+working definition -> doesn't capture ALL the things that are QRPs. Doesn't capture HARKing... there's an extra step of perceptions or belief about the model.
+
+
+```{r}
+DiagrammeR::DiagrammeR("graph LR
+A(Generate &<br /> Specify Hypotheses)-->B(Design Study)
+B--> C(Collect Data)
+C-->D(Analyse Data &<br /> Test Hypotheses)
+D-->E(Interpret Data)
+E--> F(Publish or Conduct<br /> Next Experiment)
+F-->A
+        ")
+```
+

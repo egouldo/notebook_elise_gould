@@ -2,7 +2,7 @@
 title: 'Meeting 20 September 2018'
 author: ''
 date: '2018-09-20'
-slug: meeting
+slug: meeting-2018-sep-20
 categories:
   - meeting
   - planning

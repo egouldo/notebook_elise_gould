@@ -1,0 +1,43 @@
+---
+title: 'Meeting 20 September 2018'
+author: ''
+date: '2018-09-20'
+slug: meeting
+categories:
+  - meeting
+  - planning
+tags: []
+---
+
+Present: HF, LR, EG.
+
+# Divying up the Thesis
+
+Stepping back after a couple of talks and much RA-ing... Today we discussed the division of the QRP research material I have been working on in terms of research outputs / papers. We then discussed the overall plan for the thesis, and reflected back on the original plan discussed at the pre-confirmation meeting.
+
+**The QRP material** is to be divided into two papers:
+
+1. The QRP survey paper, aimed at measuring the prevalence, and potential impacts, of a select set of QRPs for several key methodological areas within ecology and conservation. This remains largely as planned, with the scope of the paper being much smaller and very well defined, limited to giving background of QRP research and small background on potential QRPs in ecology and conservation / non-hypothesis testing.
+2. A Literature Review: this work is to build off the preliminary discussions from the QAECO/CEBRA retreat, and aims to put forth the types and locations of different QRPs in the modelling process for three key methodological areas in ecology and conservatino: Bayesian Modelling, Species Distribution Modelling, and Multiple Models / Model Slection. The three areas are not necesarily distinct. The aim of this paper is not to be fully comprehensive, but to provide a good and thorough initial treatment of the problem of researcher degrees of freedom and the garden of forking paths for some common application in ecology and conservation. Essentially, it is a grounded instantiation of a broader conceptual paper to come (see below). Some of this work currently exists in the form of e-notebook entries and talks: [https://egouldo.github.io/posts/modelling-workflows-researcher-degrees-of-freedom-and-transparency/](https://egouldo.github.io/posts/modelling-workflows-researcher-degrees-of-freedom-and-transparency/), [https://egouldo.github.io/posts/bayesianism-and-questionable-research-practices/](https://egouldo.github.io/posts/bayesianism-and-questionable-research-practices/).
+
+**Conceptual / Theoretical Paper**
+
+This paper aims to provide a formal definition of QRPs as well as their impacts suitable for use in conservation and applied ecological modelling / decision making. It will also put forth a definition of reproducibility suitable for decision support systems. Given the novel nature of this research, it is probably important that Jutta and I come to some form of agreement on this definition. A rough abstract describing the purpose and scope of the  paper is here: [https://github.com/egouldo/EcolModellingQRPs](https://github.com/egouldo/EcolModellingQRPs).
+
+We then discussed the working definition of QRPs, thinking about the consequences and implications of errors for applied ecological problems. Holding only loosely onto an equivalent concept of type I and type II errors for ecological modelling / decisions, some feedback from Brendan Wintle after the QAECO seminar was that focusing on just type I errors might not be so useful in this context -- there are other sorts of errors that are relevant to decision-makers. This got me thinking about some statistical decision theory / utility theory that I've been reading up on in trying to come up with a formal definition of the reproducibility of decisions (TBC). Both Type I and Type II decision errors are important in terms of decisions -- there are different *costs* associated with different types of errors. For example, Chen et al. [-@Chen:2013gq] describe $\alpha$ and $\beta$ risk, which is risk to the decision-maker and risk to the environment (my interpretation in this context, Chen is talking about the business realm), respectively. In the case of $\alpha$-risk or type I error, the risk is that there is wasted money, opportunity costs, potentially some cause or decline or negative detrimental problem, but probably not. Whereas in the case of type II errors or $\beta$errors, the risk is borne by the system of interest - environmental decline, loss of biodiversity. This has bothered me about the working definition of QRPs, where we are only focussed on type I errors -- I feel like we're missing an important element of the decision-making context if we're only focussing on 'type I' errors.
+
+**Case Study / Replication**
+
+This remains the same, TBC. But can't really proceed with this work until the definition of reproducibility has been formalised.
+
+# Timeline and Approach
+
+Thinking ahead.
+
+Because both the QRP paper and the literature review can be published as standalone material, it is not important that I wait to work on / publish this. Currently, the goal is to have a pre-registration report for the QRP written during the thesis bootcamp on the 19th of October. The next 2 - 3 weeks will be focussed on getting the ground-work ready.
+
+The conceptual paper is going to need more time and reflection to fully develop and test the suitability / robustness of these ideas. It probably won't be ready until at least half way through next year.
+
+Parts of both the conceptual paper as well as the literature review I aim to have written up come confirmation time.
+
+## Refs

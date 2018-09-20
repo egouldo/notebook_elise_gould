@@ -1,0 +1,28 @@
+---
+title: Thesis Bootcamp
+author: ''
+date: '2018-09-19'
+slug: thesis-bootcamp
+categories:
+  - planning
+tags:
+  - QRP
+---
+
+Date of the Bootcamp: 19th - 21st October
+[https://gradresearch.unimelb.edu.au/preparing-my-thesis/writing-the-thesis](https://gradresearch.unimelb.edu.au/preparing-my-thesis/writing-the-thesis)
+[https://gradresearch.unimelb.edu.au/preparing-my-thesis/thesis-with-publication](https://gradresearch.unimelb.edu.au/preparing-my-thesis/thesis-with-publication)
+
+**Please provide a brief description of your research area/interests as relevant to your thesis: **
+
+PhD Title: Transparency and Reproducibility of Decision Support Tools in Ecology and Conservation. This includes fields, such as: meta-research / meta-science, open science, conservation decision-making, structured decision making and decision theory / decision analysis, as well as ecological modelling. 
+
+**Why would you like to participate in the Thesis Boot Camp? What do you hope to achieve during the Thesis Boot Camp? Please be specific e.g. chapter number, word count**
+
+My goal in attending the boot camp is to make some progress towards producing research outputs suitable for confirmation time (late November this year). I hope to write up some preliminary work I have been doing on Questionable Research Practices (QRPs) in applied ecology and conservation decision-making. This work will be divided into two parts: 
+1. A pre-registration submission to PLOS for an upcoming survey of ecological modellers on the prevalence and impacts of relevant QRPs (2000-3000 words)
+2. A literature review of QRPs for non-hypothetico deductive research, focussing on three methodological areas in applied ecology and conservation decision-making: a. Bayesian modelling, b. Species Distribution Modelling, c. Multiple models and model selection (~5000 words).
+
+**How many chapters or sections of your thesis have you written so far? Please be specific e.g the actual chapter, word count**
+
+So far I have no complete chapters written up. I do have ~5500 word research proposal report written up from the 6-month pre-confirmation meeting. Sections of this include several short literature reviews, which can be included (with some changes) into the final thesis.

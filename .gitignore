@@ -9,3 +9,4 @@ blogdown
 /content/project/*.html
 /static/files/citations/posts_read.bib.bak
 /content/posts/*.html
+.httr-oauth

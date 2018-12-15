@@ -1,0 +1,62 @@
+---
+title: Ropensci
+author: Steve K, Saras, Elise
+date: '2018-11-15'
+categories:
+  - planning
+tags:
+  - open science
+  - computational reproducibility
+  - data science
+  - containerisation
+  - informatics
+slug: ropensci
+output: html_document
+---
+
+# Problem
+
+**Replication effort:**
+
+There are many sources of error (as to why claim is not supported, or approximate result[significance in same direction, effect size]):
+
+- actual data is not reflected in code files
+- Can't match the environment: Missing packages
+- etc, etc, etc
+
+One model of addressing these issues is using Docker: 
+
+Docker goes some way to solving this.... BUT: It's *really* hard to get docker up and running - you need specialised knowledge of how to get your code and data etc. into docker, and it's really hard to implement it.
+Also people don't know about it so people are using this other model:
+
+Dryad + code + etc. downloading separately....
+
+# Proposed solution
+
+The fundamental objective is to create some sort of a tioe-capsule:
+
+*The output:*
+Some version of a "docker-like" system where you can:
+
+a) match the environment such that you can at least get the code to run
+b) run the code, in a make-like manner
+
+*The Process*
+
+Let's make going from code, data, packages and instructions to -> docker EASY!! Time capsule your R project.
+
+Analogy: Blogdown for Hugo.
+
+Features of the output `<dockerfile>`: painless for independent analysts to 1. obtain, 2. re-run.
+Defining "re-run": starting step, black box -- just output, next steps: the environment is accessible to the independent analyst so they check for implementation validity of the code, check for intermediate outputs, etc. etc.
+
+Consumer perspective, grey box edition:
+
+
+# Expected Outputs
+
+1. R package - set of commands akin to blogdown for hugo in Rstudio. The user can timecapsule their R project.
+2. Shiny App - This package will be loaded so that the functions are available for implementation in a shinhy app, where the user can simply upload their data + code + etc etc and then hit "TImecapsule my R project", and the app using the package creates a `<docker file>`, that the user can then download.
+
+
+

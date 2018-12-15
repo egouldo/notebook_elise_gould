@@ -1,0 +1,252 @@
+---
+title: open science in applied and use-inspired basic research
+author: 'Sakinah Alhadad, Rachel Searston, Jason Lodge.'
+date: '2018-09-24'
+slug: open-science-in-applied-and-use-inspired-basic-research
+categories:
+  - workshop
+tags:
+  - decision support
+---
+
+Stokes, D.E. (2011) Pasteur's quadrant: Basic science and technological innovation. Brookings Institution PRess.
+
+Pre-registration difficult when doing research outside of traditional confirmatory research, qualitative methods, exploratory research. How to make *a priori* hypotheses as transparent as possible. 
+
+Transparency is not enough. Problem of how to communicate your research to outsiders... how to ensure that they can make appropriate inferences.
+Translational value --> how do we incorporate practices that maximise this value? Not necessarily the formal use of research outcomes.. 
+
+
+----
+
+ a priori decisions....
+ 
+ barriers to uptake? Resource burden - arduous, time-consuming.
+ 
+ Jennifer noted that the human ethics stuff 40 years ago was similar... arguments against it because of the time burden.
+ 
+ Issue of if your analysis plan changes... not really an issue, just need to ensure that you document the decisions. Benefits to yourself!!
+ 
+"Thinking fast, walking slow."
+
+"Frozen copies" using the OSF.
+
+- Measuring the benefits / impacts of pre-registration.... Pre-registration can't be too general because you can't make inference about whether the pre-registered report matches the published report.
+- Developing norms / standards around how we report what was pre-registered in the published study.
+
+[w3.org](w3.org) Data standards
+
+----
+
+Nick Tierney: ROpenSci
+
+R-Open-Scie:
+"Reproducibility culture"
+Technical infrastructure
+Discoverability
+Code Review: peer-review for your code, non-adversarial, welcoming way.
+
+[ozunconf18.ropensci.org](ozunconf18.ropensci.org)
+
+
+Citations of R packages is REALLY important. It's a scholarly output - could you undertake that research without the package?
+
+-----
+
+Implementing Open Science, Karl Sassenberg
+
+This is actually an organisational change problem.
+
+People are concerned that replications will be hard for their own work, but that replications will be easier of other people's research.
+People's responses to fact that original finding might not hold? 
+People *do* respond to change. Must consider people's responses to avoid negative outcomes.
+
+-----
+
+Jennifer Beaudry HDR supervisors + students on board with Open Sci
+@ drjbeaudry
+OpenScience Fridays - talking about recent controversies and solutions on twitter.
+Supervisors need to be on board with open sci (circle of influence).
+
+------
+
+**Machine Learning for Scientists**
+
+Machine Learning: there is no pre-determined equation as a model. They learn information directly from data.
+
+How we can use machine learning to understand our datasets better. assess relationships between variables, to assess different hypotheses.
+Look to understand where differenc emight arise, and then test whether the hypothesis is true or not (i.e. in exploratory research to generate hypotheses).
+Train on two different datasets - does one variable hold more information than another.
+
+Machine Learning on datasets where Null is not rejected.... use to understand what is going on... looking for more complex patterns. Use ML to look for what patterns are present.
+
+**ML types**
+
+Unsupervised learning: massive dataset, no inforamtion / labels about treatments etc. Just looking for patterns that can be dug into furhter. Clustering.
+Supervised: can be broken into classification and regression. Do know what labels match your data. Know what kind of data fits with what kind of condition, and you want the computer to learn the pattern. Train an algorithm to classify or do a regression on data. Classifcation of discrete variables or of a continuous variable tha tyou are trying to discretise.
+
+**WORKFLOW**
+
+1. Load in thee data
+2. Pre-process the data
+3. Derive features and labels (features are things you want the algorithm to learn about how to label, i.e. how to classify based on the features).
+3.a. Dimensionality reduction
+4. separate and train test data decide how
+5. pick algorithm
+6. iteratively train and test
+7. hyperparaater selection
+8. collate results, determine accuracy
+
+Feature Extraction: (see sldes)
+
+Supervised ML algorithms: trained on labels and features.
+Lavels are your conditions
+Dimensionality reduction Get the most amount of information from the least amount of information to improve model parsimony.
+
+- correlation matrix: if two vars are highly correlated, throw out because it's redundant information
+- principal compoent analysis: create a new sub set of features
+
+4. Separate train and test data
+
+Does our algorithm generalise?
+
+- leave one out cross-validation or
+- K-fold cross validation
+
+Algorithm Choices
+
+K Nearest Neighbour: figure out the multi-dimensional distance between each of your features. When you get new data, it figures out which group in your training group it is closest to, based on its features. 
+Simple and interpretable, but high memory use / potentially long computation time.
+
+Linear / Quadratic Discriminant Analysis
+Fits gaussian distributions to your features.
+Assumes normality and consistency across conditions. All features should be normally distributed.
+
+Support Vector Machines (SVM)
+Similar concept - draw a hyper plane between outgroups of features to separate them. it doesn't assume normality. Deals better with overlapping groups of data.
+But most deal with only a binary classification problem - class A, Class B. Longer training time than KNN, and others above.
+
+Naive Bayes
+Assesses the likelihood of new cases belonging to each class. assuming that each feature is independent of the others.
+
+Neural Network (MUlti-layer perception)
+Multiple networks of nodes, that are connected to each other, by weights.
+Can detect complex patterns, but hard to ID what the pattern IS, and HOW it separated your data.
+
+Hyperparameter Selection
+ML algorithms have settings that have to be set manually. Can optimise using Gradient Descent, etc.
+
+Assess and Visualise Performance
+
+Lots of people are doing t-tests against chance, but this is problematic - don't know how chance is distributed.
+Other methods build up a distribution of what chance performance is, and then you can
+
+----
+
+Project Free our Knowledge
+zero risk until the switch is flipped - no behaviour change until the list is released.
+
+----
+
+Questionable Measurement Practices - Abby Nydam
+
+This is essentially QRP's but focussed on pre-analysis / pre-statistical analysis.
+Pyramid illustrates the propagation of error / uncertainty up into analysis.
+
+QMP - a decision that lacks justification or transparency. can be anywhere in the process.
+
+"Guide to quality of  measures" outcome of today.
+
+Psychology - not directly observable.
+
+Ontologies are present in some fields but not others. what is the role of an ontology in the context of QMPs / QRPs?? snd reproducibility??
+What is the role? WHO is contributing to the ontology.
+
+Researcher Degrees of Freedom - MANY measurement choices.
+
+----
+
+
+QRP == "a practice that increases the chance of spuriously finding a type I error."
+
+How does a QMP relate to this definition? Does this definition still hold, is it simply.
+
+Problem of proxy vs. direct measures == also a problem in ecology, just like psychology.
+Want to consider which practices *matter*?? 
+
+
+Transparent reporting: 
+
+----
+
+Felix and Steve:
+
+Articles that have claimed to be open sci are included in the sample (convenience sample)
+Open Data, and Open Materials == scripts (but not always, just often).
+
+APS - american journal of political science. Code is peer-reviewed (computational reproducibility).
+
+incentives: there is technology and approaches (software engineering, Rmd), why aren't people using them??
+Onus? Who's responsibility is it to ensure that the 
+
+standardisation is necessary.
+name variables reasonably
+comment your code
+
+
+Training and upskilling necessary
+Debugging -> shouldn't just selectively debug.
+
+Documenting packages we use (and versions).
+
+Lack of skills and training. But it's not good enough. We need to set standards, just like in referencing, we can all follow the APA, why can't we follow some style guide and some general set of standards. 
+
+We *might* be trained in programming, but not necessarily in reproducible programming, and software engineering. Should we be expected to? Have to set the expectation and then strive for it, or will things change?
+
+How do we deal with errors that we find in computational reproductions? There is no mechanism to correct those kinds of things. A correction is kind of a big deal, it's not nothing, a scary thing to happen to you. No culture for dealing with these. The current model presents work as *final*, and mistakes are very serious. Do we transition to a model of the "living" document?
+
+The kind of computational error you care about is linked to the action. Worth documenting if you are compiling all of the errors acros smultiple papers in a journal, you could tell the editor, smaller mistakes where the mean is slightly off (e.g. 10.38 vs. 10.41).
+
+But journals are a LONG way off living papers / research.
+
+-----
+
+Faye Nitschke -- Developing a checklist to assess reliability of  research
+
+Downes anbd Black - the feasibility of creating a checklist .... health care interventions.
+non-randomised tests of health-care interventions -->> Could this checklist be useful for assessing the internal validity or the quality of a study itself. Could be useful in basic research in applied ecology... when trying to synthesise this material into models??
+
+See photos - cochrane review of biases in health-care intervention research.
+
+Cochrane handbook - non-randomised control tests of interventions, reference the balck and downes checklist, (chapter 12, 13). Has been recent criticisms... Poor interrelator reliability. Make sure to check the commentary, esp. by Strang.
+
+What would you like people to do as a sort of guideline?
+
+-----
+
+Dealing with distributional assumptions in preregistered research
+
+statistical assumptions, e.g. additivity and linearity. Assumption checking in psychology, people have confused ideas about what assumptions their test have. Assumptions are made about the error terms, not about the dependent variables, etc.
+
+Error term:
+
+"True" model: is the model with the parameters we would obtain if we estimated with the full population.
+Error: difference between the value of the dependent variable for one obs, and true model.
+Error term: what would the error be if same study was replicated infinitely.
+
+Difficult to make inferences about true distribution of error terms. We can only calculate residuals because we have a single sample. 
+
+On the basis of the distributional assumption checks, you may or may not change your main analysis strategy. 
+Stat tests are available for testing that the errors are normally distributed. Also plots, of course. residuals vs. predicted, e.g. checking for linearity.
+
+LOTS of different alternatives, when we realise there is a problem with the main analysis method we had planned. By encouraging folk to check distributional assumptions, we may have been providing researchers with p-hacking (and perhaps cherry picking with so many analyses available). All these decisions about data analysis are being made *after* the fact.
+
+How do we deal with distributional assumptions in a pre-registration world?
+
+1. Decision tree - describes your analysis plan, and what to do when assumptions are not met.Decisiosn are contingent on the data but are structured and objective. Problems? Useful only when you have a clear idea of what sorts of problems might arise, and have clear idea about what sorts of tests can be used when the assumptions are not met. Not ideal. Small sample size, distributional assumption violation is likely an issue, but then the test of normality etc., isn't going to be very powerful. Can you reject null that a particular assumption is met? Use visualisations. CAN be quite sophisticated, BUT is very subjective. Value for people who know what they are doing.
+2. robust primary analysis strategy - pick ONE main analysis method, but go super conservative. To the maximum  extent possible limit the assumptions that the test applies (e.g. bootstrapping to aviod normality of residuals). Reduce the scope of distributional assumptions... Obvs can't envision every single problem that arises. Make things more robust from the get go.
+3. the multiverse - reporting multiple versions of your main analysis that rely on different distributional assumptions, and which on model specification tends to be a little different. Gellman recommends this approach. LOTS of work, LOTS to write up. Perhaps in some special cases, where you are expecting that your readership is concerned about particular assumptions arend are going to disagree about what the appropriate model specification is, then i tmight be very suseful.
+4. exploratorty assumption checks - Pre-register exploratory assumption checks, and then don't say at preregister them.
+
+-----
+

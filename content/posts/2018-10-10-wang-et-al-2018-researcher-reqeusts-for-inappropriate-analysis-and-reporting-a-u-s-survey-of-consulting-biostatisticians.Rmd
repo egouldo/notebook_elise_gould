@@ -1,0 +1,36 @@
+---
+title: 'Wang et al 2018 Researcher Reqeusts for Inappropriate Analysis and Reporting:
+  A U.S. Survey of Consulting Biostatisticians'
+author: ''
+date: '2018-10-10'
+slug: wang-et-al-2018-researcher-reqeusts-for-inappropriate-analysis-and-reporting-a-u-s-survey-of-consulting-biostatisticians
+categories:
+  - reading
+tags:
+  - QRP
+---
+
+See this twitter post: [https://twitter.com/EricTopol/status/1049448246894948352](https://twitter.com/EricTopol/status/1049448246894948352)
+
+The list of QRPs that were included in the survey is as follows, [Table 1][@Wang:2018ba]
+
+- Falsify the statistical significance (such as the P value) to support a desired result
+- Change data to achieve the desired outcome (such as the prevalence rate of cancer or another disease)
+- Remove or alter some dta records (observations) to better support the research hypothesis
+- Interpret the statistical findings on the basis of expectations, not the actual results
+- Do not fully describe the treatment under study because protocol was not exactly followed
+- Do not report the presence of key missing data that could bias the results
+- Ignore violations of assumptions because results may change to negative
+- Modify a measurement scale to achieve some desired results rather than adhering to the original scale as validated
+- Report power on the basis of a post hoc calculation, but make it seem like an a priori statement
+- Request to properly adjust for multiple testing when "a priori, originally planned secondary outcomes" are shifted to an "a posteriori primary outcome status"
+- Conduct too many post hoc tests, but purposefully do not adjust alpha levels to make results look more impressive than they really are
+- Remove categories of a variable to report more favourable results
+- Do not mention interim analyses to avoid "too much testing"
+- Report results before data have been cleaned up and validated
+- Do not discuss the duration of follow-up because it was inconsistent
+- Stress only the significant findings, but underreport nonsignificant ones
+- Do not report the model statistics (including effect size in ANOVA or $R^2$ in linear regression) because they seemed too small to indicate any meaningful changes
+- Do not show plot because it did not show as strong as an effect as you had hoped
+
+The table illustrates that QRPs with a lower proportion of people who thought the practice was "most severe" increase in prevalence (general trend). I'm still interested in measuring this pattern in my QRP study, but I also want to measure the effect of the practice on some risk of decision error... Does the perceived severity match with the "actual" severity of the practice? As FF was saying, QRPs have only recently been brought to researcher's attention, if you had undertaken the surveys a while ago, you would have seen different patterns in people's perceptions of the severity of the practices - i.e. less people would say that the practices are questionable.

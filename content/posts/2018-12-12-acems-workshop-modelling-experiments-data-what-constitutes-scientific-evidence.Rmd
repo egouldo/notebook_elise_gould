@@ -1,0 +1,178 @@
+---
+title: 'ACEMS workshop: modelling, experiments, data - what constitutes scientific
+  evidence?'
+author: ''
+date: '2018-12-12'
+slug: acems-workshop-modelling-experiments-data-what-constitutes-scientific-evidence
+categories:
+  - workshop
+tags: []
+---
+
+## James McCaw: How models change the value of observational data?
+
+### Empirical vs. theory driven research
+
+Physics is quintessential example of theory driven area. 
+Psychology, if completely empirical and basic laws are unknown, psychology is trying to discover what the law is.
+Mathematical laws are used to analyse the data
+
+Immunology - also a deeply theoretical or conceptually driven field.
+But the way that the science is done is completely empirical. Theory motivated, qualitative, conceptual model, analyse the data using ANOVA etc. but don't come back to the conceptual model. Then try and re-interpret the results of the p-values etc. and re-cast the conceptual model.
+
+Epidemiology - systems are complicted, hard to know what the underlying processes are. Thus the field is very empirically driven.
+
+### Good scientific evidence?
+
+Pyramid, with increasing quality, and decreasing risk of bias as you move up the pyramid. But they are relative statements.
+What's good? we want absolute not relative scale. Not done.
+
+Don't have tot be at top!
+Hypothesis: theories change our relationship with data
+
+Newton's law of motion. 
+
+Because we have a mechanistic model of law of gravity it changes our relationship to the data.
+Because we believed Newton, took on board his laws about accelleration and mass, and went to the moon. Even though n = 0. None of the tension was about the physics, it was about the success of engineering.
+
+We can only observe, we cannot manipulate.
+
+Epidemiology - as soon as I know process, it changes my relationship with data. Brought process to study of data.
+
+How much should we rely on theory? 
+
+If no idea about process, have to be up the top. But if have stronger and stronger understanding of the process. Then there is a minimum level of sufficient data. Going up still helps, but shouldn't be required.
+
+Long-term: goal of science should be posession of a well-tested theoretical model.
+
+RCT or meta-analysis is often the right and best way to study a problem. No tbecause is pinnacle of scientific methodoogy. ut because it's a clever statistical way to defend against our naivity, our lack of knowledge of how some aspect of thte universe works.
+
+### influenza
+
+At the moment, stats models outperform mechanistic models.
+If the methcniastic models are constrained by theory then the theory isn't good enough.
+
+But which model is preferred? Mechanistic. want to know what the underlying processes are.
+
+Biostatistics and epidemiology there is a focus on identifying causal relationships. Butdifferent to how cause and effect is thought of in physics. Theory based mechanistic model inevitibly captures cause.
+
+Causal statistical models establish a causal relationship based on empirical evidence, but does it model the actual mechanism?? But statistical models are not true models of the underlying process.
+
+### how to encourage change in research culture?
+
+Transition from empirical to theory driven resarch?
+When do mechanistic models add value? 
+
+## Fiona Fidler -- Replication crisis is an opportunity not a threat
+
+Only focusses on those sciences, *like* immunology -- science where conceptual models are rpesent but tested using ANOVAs or t-tests etc. etc.
+“Credibility revolution” re-brand.
+
+Until we have large-scale crowd-sourced replication studies, we basically have no replication.
+
+Correction has to be done by people, not magically going to happen on its own.
+
+Greater significant result rate does not mean closer to the truth, but are actually just suffering from publication bias.
+
+No one reports power analysis, but independent researchers can back-calculate. And power is generally less than 50% (an overestimaet). If no publicaiton bias, then proportion of statistically significant results should be much closer to the average power.
+
+This bias seems to be growing over time. Proportion of significant resultts is increasing over time. Mean increase over last 5 years is 22 percentage points!
+
+Seeral platforms for supporting pre-registration. OSF, and a couple of others, will have to ask Fiona. Partly protection against deliberate p-hacking etc. But mostly protetction against re-writing story in own head.
+
+https://osf.io/8mpji/wiki/details
+
+Chris Chambers' fig. highlights where idealised cycle is intterrupted by these practices. But how much of our time is spent doing work in this circle?
+MOST scientific activity is outside of this. And so the movement is not ready or prepared to look att how underlying problems might apply in other places.
+But some people in mathematical psychology have had work rejected because they didn't pre-register.
+
+Adverserial collaboration: How does pre-reigstration apply or fail ot a matthemaical model generation?
+
+## Julie Simpson -- Research design: hte forgootten parent of science
+
+Can we answer the question we want to with the data that we have?
+
+Causal Diagrams -- are they semi-mechanistic?
+
+Selection bias in graph structure of causal diagrams.
+
+Confounder: common cause of exposure and disease
+Intermediate: on the pathway (mechanism of how you get from exposure to disease)
+Collider: Common effect of the exposure and he disease.
+
+Knowing which things are which, can guide analysis to what should be done in erms of adjusting in our empirical regression or which eveer framework we are using.
+
+Can't conttrol for collider. Will cause some selection bias problems.
+
+Randomised control trials. Causal inference: population average of causal effects of an intervention on an outcome in the experimental/study population.
+
+Can't get individual causal effects. So calculate the population average causal effect. Difference in average potential outcomes if all the population received tthe intervention versus all the population receied the control.
+Can estimate tthis difference in the observed outcomes.
+
+Alot of the time we know the processes, and might have data for those intermediate pathwasy from phase I and Phase II studies. But do we have to model that?
+
+Measured and unmeasured variables. How can we be sure that its the exposure it tis we are predicting, and not some unmeasured variabeles?
+Propensity scores -- probability of being exposed. Balancing score so that for individuals with same propensity score,s the disttributions of the measured confounders are the same for the exposed and non-exposed.
+
+Can do sensitivity analyses to determine how much bias.
+
+Selection bias: causal diagrams can protect against.
+
+Pre-specifying a priori causal diagram of design. In observational studies we need to show causal diagram in the beginning -- potential for pre-registration. By publishing DAG's are completely transparent.
+
+
+dagitty.net package in R for drawing.
+
+
+To read:
+Paper: causality: statistical perspectives and applications, eds. Berzuini, Dawid, Bernardinelli. 2012.
+
+
+-----
+
+if process model is not reproducing the data, then we reproduce the data. If can't refine the model.
+Pre-registration is not a prison. That it will kill exploratory work. But need to think about what the standards for publishing confirmatory or Hypoth testing research. 
+Crisis of replicability: 
+
+How do you create research culture that is conducive to the mechanistic gold-standard model of science.
+
+## Matthew Page - Evidence synthesis
+
+Systematic reviews - whole point of them is to synthesise a body of work to save people from having to sift through a bunch of research.
+
+How to do systematic reviews of mechanistic studies... the guidance in this talk only relatets to guiding health interventions.
+
+## Janet McCalman: The Freedom of numbers: using demographic prosopography, blending the qualitative and the quantitative
+
+Prosopography: witthin population narratives.
+Barker Hypothesis: low birthweight predisposes people to coronary disease later in life.
+Why was this hypothesis that rested on shaky evidence, so popular? lots of research money.
+
+Look to broader cultural politics of the tiem: left was out of fashion. Looking to biological causes rather than socio-cultural causes.
+Bristol: life-course epidemiology. Repeated experiences of stress without recovery time, the cumulative effects are greater than individual effects of stress.
+
+Amazing dataset from late 1800s. mother's status. baby length, weight, etc. Found The deaths of all those babies. More than half of them died as infants. Women's hospital was a charity hospital. So the sample population was as an impoverished white one. 
+Found no link between birth weight and coronary disease. Why? small babies died - intimately related to mother's social situation - level of protection of that wom,an in preganncy (father present, listed on birth certificate).
+
+## Tim Brown -- why do experiments if you've got a good model?
+
+Different ways of weightin two objects - obvious way and statistical way. But statistical way gives you more bang for your back so to speak.  Design matters. The statistical way gives you half the error.
+
+Machine Learning and AI. suffer from lack of consideration of error, and thinking about the domain of applicability.
+
+Andrew Leigh: "Randomista's". Whole chapter on randomised experiments that orgs like google and coles amazon etc are doing.
+
+Designed experiments are not always possible nor practical to do so. But desireable when you can.
+
+----
+
+Comments + Discussion:
+
+Model is essentially your prior. And a bayesian method would be to iteratively test and update your model. Bayesian belief networks.
+
+
+
+
+
+
+

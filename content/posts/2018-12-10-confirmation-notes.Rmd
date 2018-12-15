@@ -1,0 +1,49 @@
+---
+title: confirmationnotes
+author: ''
+date: '2018-12-10'
+slug: confirmation-notes
+categories:
+  - planning
+  - meeting
+tags: []
+---
+
+Here are my notes of the issues raised during the confirmation meeting to be followed up, and some initial thoughts / responses to them.
+
+## 1. Scope: reproducibility of decisions vs. reproducibility for decisions.
+
+PV took issue with the framing / scope of the PhD -- namely that tackling reproducibility of decisions is too big of a task for the PhD. Need to first evaluate reproducibility for decisions first.
+
+I agree with PV's point that looking at reproducibility of decisions is too big of a task for this PhD. However, I still think that retaining this broader framing of the problem, is important. I'll argue this below some more, but I need to explicate this point more clearly -- in my mind, zooming in on ecological models still constitutes a focus on "reproducibility *of* decisions"; modelling is one (big!) element in the decision-process.
+
+My intuition is that, in failing to consider that the models are used in a decision-making context, important information about the extrinsic causes of QRPs will be lost. I can't think of a concrete example right now, but I think the classification of a practice as questionable or not might be dependent on whether the model is being build for a decision-context or not.
+
+In terms of extrinsic conditions -- in addition to publication bias towards novel modelling techniques, or novel applications of existing modelling approaches, in a decision-making context, there are a large number of agents with the potential to thwart the objective, best-practice development of the model. For example: decision-makers who have engaged the analyst or modeller may push model development down a particular path, rejecting the original decision in favour of their preferred decision, and may make requests of the modeller that are QRPs.
+
+I also think there are some particularities in the ways models are reported and evaluated in the published literature when modelling for decision-support. For example, scenario testing is commonly used to model predictions under uncertain future conditions, but is also used to demonstrate model performance or utility. It has been pointed out before [@Law:2017ia], that model performance can be misrepresented by inappropriate scenario selection. I think that you can skew the reader's perception of the model by chery-picking a suite of scenarios that bolster the apparent performance of the model.
+
+So, in short, the two examples above illustrate that there are particularities in both the technical application of ecological models and extrinsic pressures faced by ecological modellers that at least warrant framing the scope of the thesis on "ecological modelling for decision-support." I think these are some particular things that we do in ecological modelling for decision-support, that might be missed if you just frame the problem as one of "ecological models".
+
+## 2. Measuring Prevalence of QRPs
+
+PV raised the concern that, as the QRP survey questions are currently framed, we're not really able to estimate the 'background rate' of QRP engagement, and therefore, can't really measure the prevalence of a given QRP within the body of literature. To overcome this, PV suggested modelling QRP engagement as a binomial process (frequency: never or $\ge 1$). In asking this question in conjunction with eliciting how times respondants have engaged in a given QRP (within a bounded timeframe), we can then estimate the background rate. And potentially get at the proportion of published literature affected by a given QRP, if we are able to estimate the number of papers using each modelling method. 
+
+FF noted that this would be an underestimate of the true background rate, while CH noted that it will be difficult for some researchers to estimate the number of papers published in which they've used that practice, especially with increasing time since PhD / number of papers published.
+
+I think this is a great idea, and one that I'd like to consider in more depth. Earlier this year, we had briefly discussed doing something similar, where we elicit frequency of engagement ([link to notes](https://egouldo.github.io/posts/meeting-qrp-survey-design/)) but hadn't considered using a continuous measure of an individual's frequency (we talked about binned, ordinal categories). Let's talk about this soon.
+
+## 3. Structuring the QRP work
+
+So just the QRP roadmaps has turned out to be a pretty big task in its own right. We talked about splitting the QRP work into 2, or even 3 chapters.
+
+1. QRP survey.
+2. The literature review resulting in the QRP roadmaps.
+3. (??) Same as 2, but only focussing on SDM.
+
+I think the split between the survey and the roadmaps is definitely a natural one, and one that has become more apparent as the first two roadmaps near completion. Splitting off the SDM QRP roadmaps would also help in making the task more tractible, while also allowing this work to reach SDM people specifically. Also, the SDM literature is a minefield. Lots of issues, lots of voices (often conflicting), lots of problematic practices, with conflicting views about their defensibility. Probably need a whole paper's space to think about QRP's in this context, to properly give them the necessary air-time? 
+
+
+
+
+

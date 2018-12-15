@@ -1,0 +1,29 @@
+---
+title: 'pre-print Sound Inference in Compliacted Research: A Multi-Strategy Approach'
+author: ''
+date: '2018-11-25'
+slug: pre-print-sound-inference-in-compliacted-research-a-multi-strategy-approach
+categories:
+  - reading
+tags:
+  - reproducibility
+  - QRP
+---
+
+Whole article: addresses the problem of people categorically dismissing pre-registration, especially in ecology.
+
+Pre-reg can address all sorts of biases, examples of complicated research and what this might mean were good.
+
+
+Conceptual Framework: 
+Also good, liked their use of Loken and Gelman. Have been leaning towards this thinking for my own rok.
+
+
+
+What do you think about trying this in a case study paper? A demonstration of pre-reg for 'complicated research' would that be a useful contribution? Want to illustrate how some of these ideas could be used in eco/evo. Or should my work be more empirical?
+
+Although I think the paper makes important headway in extending pre-registration to what it calls 'complicated research', I think that --at least in ecology -- researchers will still be largely  skeptical of the applicability of pre-registration. What do you think about the idea of 
+
+The multi-strategy approach is a good suggestion, and the paper proposes a collection of strategies that researchers can implement in order to achieve pre-registration.
+
+I'd be interested in leading a discussion at QAECO's reading group early next year. 

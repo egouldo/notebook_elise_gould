@@ -1,0 +1,382 @@
+---
+title: from Replication Crisis to Credibility Revolution
+author: ''
+date: '2018-11-14'
+slug: from-replication-crisis-to-credibility-revolution
+categories: []
+tags: []
+---
+
+# Simine Vazire
+
+Credibility Revolution -- 2008 economic paper.
+
+## Self-correction
+
+Simine's meta-science research: How to become more credible science? What does that mean?
+
+Demarcation problem - science diff. from pseudo-science, how? Merton's norms:
+- self-correction
+- how do you know? What does that mean? How would you design a self-correcting system? what values, priorities to be instilled?
+
+1. Universalism
+        - claim validity should not depend on status of person making it.
+2. Communality
+        - open access, no secrecy.
+3. Disinterestedness
+        - should report what ever they find regardless of whether it harms yourself or other sceintists
+4. Organised skepticism
+        - nothing sacred. everything is up for being scrutinised.
+
+All values that don't come naturally to humans! How do we help people live up to these values?!
+
+Self-reporting vs. other reporting -- Simine's other research. behavioural evidence requiredto support (Neil's ideas about demonstrating lack of transparency / irrepeatability of decision support tools).
+
+## Progress review (on self-correcting mechanisms)
+
+1. False discovery rate is unacceptably high
+        - many studies difficult, impossible to replicate
+        - p-vbalue distribution unrealistic
+
+How did it happen?
+2. Common research practices violate rules of NHST and increase false positive rate.
+
+Common confusion that rate of false positives among all positive findings (false discovery rate) is 5%. But actually it's when there is no effect, but you find an effect (column-wise in the type I / type II error diagram).
+
+### False discovery rate
+
+46% replicability rate (high quality replications). 54% False discovery rate (is false positive rate actually higher? Optimistic take?). but put wide confidence interval around that.
+
+Pre-registration, removing publication bias: recent study assessing all registered reports (mostly in psychology). When you remove publication bias null finding rate increases. 
+
+Consistent with survey asking scientists whether there is a replication crisis (were they saying in their field or in other fields ?!?!).
+
+### Distribution of p-values
+
+decent power + real effect, most effects should be detected.
+
+P-values just below the threshold *should* be rare!
+
+When you reject the null you are in theory drawing from H1 distribution... and it should be RARE that you land on .04.
+
+no scenario where consistently getting p-values between .01 - .05. SO if you observe that, which we are, then likely that some form of bias is going on -- not drawing from H1 (as we should be).
+
+### Common practice violates rules of NHST
+
+If you follow rules, you should be in the left-column.
+MAKE PREDICTION, and THEN TEST!!! Not taught in statistical education.
+
+Common problem: cannot test the hypothesis using data that you generated the data from!
+By violating this rule, you're pushing things from top row to bottom row.
+
+Did you get effect you predicted? Y- publish, N, test something else and then HARK.
+
+Arguments justifying these QRPs
+- Theories are constraining
+- E.G. ANdrew Gelman's blog (feb 2018)
+
+Not a conscious act!!!
+
+
+Correllational research has own way to p-hack. Self-logic: amplifying signal and muting the noise (using outcome of analysis to decide which was the right analysis). Some decisions are justified -- but the key is if the decision is amde after seeing the data, then it removes the error-control properties of NHST.
+
+If we followed the rules we would know how much type I and type II error we are willing to tolerate. But when QRPing, we push results into the bottom row. How big a problem depends on which column we're in (true or false real effect, but we don't know!). "Les Miller: Under-substantiated positives" EVEN if really true. Have true belief, but it's not justified. Exaggerated effect size. Not replicated with same sample size. 
+
+## Credibility revolution
+
+Motivated by bad news. But strong incentive to change things. Humans are the bug, we are introducing the counter-norms (i.e. to Merton's). 
+
+1. Transparency.... but not enoguh
+- credibility depends on it.
+- papers are not the scholarship, but are the "advertising" for the scholarship.
+
+2. Strong methods 
+
+Information assymetry (buyer vs. seller) -- then the buyers lose trust in the entire market. Whenever there is info. assymetry and the consumer *knows* this, they lose trust in science.  Vazire: quality uncertainty erodes trust in science. 
+
+Transparency can lead to criticism and correction, which is necessary for credibility... but doesn't guarantee it. Transparency gives critics ammunition. Exposing shoddiness of work. So we must pair increased transparency with really strong methods. Robust research methods (e.g. construct validity) need to be part of the discussion. If can't test repeatedly (replicate), then your confidence should be lower. If can't provide these things, then claim should be more circumscribed.
+
+Oath for scientists based on Merton's norms?
+
+Importantly ---- the problem is bigger than individuals. Gatekeepers provide the incentives for poor research practice / QRPs.
+
+Gervais et al (2015) SPPS. Comparison of two researchers using different sample size. Researcher A: have HUGE file drawer (83%) -- willing to file draw that or will you p-hack given pressure to publish? But R-A has lower power. There *ARE* techniques to compare different research practices to highlight which studies are more rigorous work.
+
+Changing the way the scorecards are presented.
+key actors are journal editors. Their behaviur influences all the other gate-keepers. Editor level? Such a strong pressure to choose editors who are very well established in that field... don't choose critics of that field, or who are on fringe. So one solution: new journals emerging instead of trying to change existing journals. 
+
+But researcher B never exists! But there is increasing emergence of B, due to open science practices.. improved transparency, etc. But small set of samples is needed to get some diagnostic information from the P-curve, so it's still a pretty good tool for giving you a picture of what sort of practices a researcher is using. Don't just look at the ressearcher who pre-registered, but look at the claims the researcher is making in the pre-registered studiues.
+
+Internal meta-analysis (within papers with multiple studies): LOTS of potential for flexibility and over-fitting across all studies. But that extra aggregation will be even more difficult to understand what exactly the authors did.
+
+Rob: need empirical evidence examining estimation methods.
+
+**(Review bayesian estimation QRP work before tomorrow!!!!!)**
+
+# Kristian Camilleri: Insights from Philosophy of Science and the Turn to Practice
+
+movement ~20-30yrs
+
+Study of HPS -- normative and exegetical rather than descriptive side. Kristian's experience more integrated.
+
+What is a *method*??
+
+1. system of logical or rational inference
+2. sometimes a procedure. sequence of steps one after the other.
+
+Are these what makes science, science? 
+
+Slavish subscription to "*the* scientific method" leads to bad science.
+
+Replicability not in the game of credibility for paleontology, for example. Don't just take replication as the best measure of credibility of a field.. not always applicable.
+
+## Turn to practice
+
+1. science as set of activities, not as set of propositions. Shifts focus away from theories.
+2. Epistemic goals in scientific inquiry?
+3. Strategies employed to achieve those goals? Better word than *methodology*
+4. Skills and capacities are necessary to carry out inquiry -- e.g. staining slides. but some students are better at using it than other (capacity)
+5. What tools are used in the production of knowledge? Not just physical tools. Elaborate systems of mathematics, diagrammatic tools can be considered tools as well (representation as a tool... representation is very important to inquiry).
+6. Spaces - *the* lab, *the* field, *the* clinic, etc. etc. New distinctive practices must be conceived for each new space.
+
+## Hypothesis testing
+
+Generation and justification processes of hypotheses are equally or if not moe important than hypoth testing in some fields.
+
+Multiple experimental methods might yield vastly different findings -- but the methods are both commmonly accepted.
+
+"Methdos"? concerned with nitty gritty rather than broad methodological statements.
+
+Non-hypoth testing 
+- classifying. ordering. (e.g. taxonomy)
+- measuring (astronomer's measuring hubble constant)
+- explaining phenomena
+- modeling and simulating (systems biology, build theory up by simulation)
+- sequencing (genomics) findig patterns in data using dna
+
+Why do we hold on so strongly to the scientific method? Why is saying there is no scientific method so contentious?
+
+1. science is superior to other forms of knowledge -- therefore it must have a method
+- scientists themselves refer to "it" without reflecting on what it might be.
+2. Historical -- "method talk" from Bacon and Descartes. "Scientific revolution"
+Method so difficult to pin down philosophy of science put attention to trying to define.
+3. Generalisations
+
+## how to study practice?
+
+- ethnographic methods e.g. anthropology and social science
+- replication of experiments
+- can no longer do from arm chairs, can't look at published product only.
+
+### Exploratory experiments
+
+A number of experiments, including important ones, do not correspond to what we would call hypothesis testing. It is directed towards particular goals.. e.g. an empirical regularity where there appears to be none.
+not driven by particular well-formed theories... none to be worked on *yet* found in new stages of research in a new field (often)
+
+Friedrich Steinle: "Exploratory experiments".
+
+Aim of experiment is to amplify tthe effect, to demonstrate that it exists. We have phenomena that we can see, but cannot account for it. Concepts that make that phenomena intelligible to us doesn't exist yet... and is hence pre-linguistic.
+
+Is this what a lot of structured decision making / decision analytic papers in conservation sci are doing? demonstrating the benefit of the tool / system?
+
+Rheinberger -- none of the dominant philosophies of science matched up with his experience of experimental science. 
+
+Hypoth testing is not at the centre, or the rule of experimental research. "Epistemic thing" is the object of scientific investigation... which we do not yet fully understand. Thigns which were the object of your study can then become to be used as objects of future studies.
+
+Francois Jacob -- "Day science" and "Night science"
+Darkness --> light. perfect reasoning. no bad decision. **Day-science**
+But examining what scientists do is more like **night-science**. 
+
+### Investigative Pathways
+
+The long-lived venture of research. Not constituted by single experiments but by chains of ongoing activity. Leading the researcher in directions they did not forsee. Studies of lab notebooks e.g. of Krebs demonstrate this! All trace of this vanishes from the article. Scientific inquiry is decision-laden. Not is it true.. what do I do with that? Causes you to re-orient your experimental work in some new direction.
+
+Notion of method is so foreign here.. can't perform the next step until you've made the previous.. but the step does not determine the next.. might suggest one but doesn't tell you exactly the next step.
+
+Medwar "is the scientific paper a fraud?" Travesty of the nature of scientific thought... "Living research"?? Open lab-books.
+
+## Lessons from the Turn to Practice
+
+Scientific inquiry is more strategic than methodological -- (not that methods don't come into play).
+
+Executing a strategy you *use* and *arrange* in a unique way existing methods or techniques. Dictated by the skillset of the scientist, availability of those tools and other extrinsic and intrinsic conditions. Strategy *(should)* provide a means of circumnavigating *or* changing the goals in the course of research. Scientists know where the sources for their mode of inquiry are.. and design their epistemic strategy to get around them. This is what makes science rational. In the course of execution, strategy and ongoing goals are changed in course... We begin with a strategy, but the strategy might evolve. There is no universal scientific method and *this is the hallmark of scientific rationality*.
+
+What if we are decision-making under uncertainty? where does this fit in Kristian's understanding of what science is?
+
+Where does the rationality come into the improvisation of the strategy? i.e. how do you know science is being done well? it cannot be by method. Anyone can hypothesis test... whether you can do it well does not depend on method.. but on practice. Must be immersed in practice. "Primacy of praxis". Those who know how to do, know how to criticise -- plea for strengthening communities of open science within particular disciplines. but can outsider tell if the discipline is credible? 
+
+Why do folk cling to hypothesis testing, and in particular NHST? Is that because it gives them a established, well-accepted method? Hailed as superior mode of inquiry... but sometimes have failed! 
+
+What is a science then?? If no universal scientific method. Not about labels, but whether normative approaches to getting to that knowledge....
+Do we need a set of measures in order to define in the first place? Doesn't matter.. it's more about judgments of epistemic reliability rather than the label of "science".
+
+
+# Lightning Talks
+
+## Shinichi Nakagawa
+
+TEE: Transparency in Ecology and Evolution homepage.
+EcoEvoRxiv. Pre-print services for ecology, evolution and cosnervation.
+Must publish data in 5x most important journals. Editors have power to change, because we are so motivated to change.
+
+## Geof Cumming
+
+Researchers typically have some awareness that there is a problem in statistical practices.
+
+Replications difficult in some disciplines -- e.g. clinical medicine. Millions of dollars to undertake replications and increase sample size, and tkaes *TIME*.
+
+Broadening the replicability conversation: thoughts for and from clinical psychological science.
+
+Introduction to the new statistics -- estimation, open science & beyond. Teach estimation, and *then* p-values. Leads to more satisfying teaching, moreunderstanding, responsive and enthusiastic students. 
+
+## Alex Holcombe -- reward more things
+
+Rewarding research outputs -- typically just rewarded on the article, and then your position on that. But also the results of the article determine how much you're rewarded.
+
+1. data
+2. software
+3. equipment
+4. analysis code
+5. article
+6. peer reviewing
+7. blog posts
+8. meta-data
+
+All these are contributing to the ways science is done. Need more carrots for these things.
+
+What to do? reduce the threshold for authorship? e.g. writing the code, or creating equipment. 
+
+Resume off github -- resume of contributions on github.
+
+## Eric Vanman -- teaching science to first year psychology students
+
+Much of what they know is taught at school. 
+Flipped classroom. 
+
+How do researchers determine sample size? typically not doing power analysis...
+Proliferation of false positives (Simmons et al., 2011).
+Provide things that people should *not* do during statistics. 
+
+Estimating the reproducibility of science paper --> students.
+
+- power pose -- author admitted to a series of QRPs
+- ego depletion effect
+
+## Rachel Searston - Open tools for programming experiments + studies in research
+
+Topic somewhat neglected in credibility and replication.
+Tools (R) and packages that can make our research reproducible. AImed at transforming data analyses.
+Practices for sharing our processes are opaque across labs.
+
+Barriers (at least in cognitive psychology, at least). Reliance on proprietry tools. Can't see under the hood if you don't have access. Can reproduce computationally isn't important if you made an error and it propogates through...
+
+Livecode community: what is it? Open-source software. Free, cross-platform, rapid development envrionment. Can run on any device, and online. based on xTalk language. English language syntax. Natural language code. Does allow heavy backend processing. o
+
+Jury decision-making.
+
+OSF page for sharing examples of projects reporting examples of scripts on the OSF. How to make that part of the research process more transparent?
+
+## Matthew Ling - Propagating Open Practices
+
+How might we approach this in Social Science? 
+
+How does open research relate to research more broadly? Diffuse across disciplines, institutions. We interact with people who don't use these practices. Not a single community within the broader research bubble.
+
+Conversation on twitter is worrying. Bad reactions. Need to improve those contacts.
+
+Melbourne Open Research Network @MelbOpenRes (Twitter)
+[https://morn.netlify.com](https:://morn.netlify.com)
+
+## Jennifer Beaudry - How to engage students and HDR supervisors in engaging in open science?
+
+Swinburne Open Science Task Force. To examine across disciplines, where does education need to be targeted? How do incentive structures at that university need to change?
+
+Researcher focussed point of view. 
+
+## Jason Chin -- Open science in the courtroom (and its role in criminal justice)
+
+(see notes from Jason's talk yesterday).
+
+## 
+
+Data analysis - an experimental science. but they knew how to solve equations. 
+Regimented procedure doesn't really happen for a data analyst. Ad hoc data practices. copying and pasting, manual dragging of files :|
+Millions of dollars worth of research. But data analysis part is really unstructured.
+
+Programmatic barriers to best practice data analysis. 
+
+Bridging the toolchain gap. Gap between proposal of a best practice, and the inmplementation of that method, such that the end-user can use it without a computer science degree. 
+
+Varameta - new estimator for meta-analysing medians. Statistical meta-researfh impressions of intersection between two areas -- reproducibility software dev packaged data analysis ethical data management accessible: code & results.
+
+## Nick Golding -- reproducible code in ecology, from prospective of being associate editor in methods in ecology and evolution
+
+Methods in EcoEvo is only methods journal in EcoEvo.
+Publish papers with code, but also have a special paper for publishing software.
+Having software developed by and for ppl in specific domain, removes need for people writing bespoke data analysis. SO improves reproducibility of a particular analysis (but only if good pieces of software).
+
+How to improve standards of published code? MEE: code MUST be published with data now. It will be reviewed by reviewer, OR editor. 
+
+*Paper to follow up*: Freckleton: Accessibility, reusability, reliability: Improving the standards for publishing code in MEE.
+
+But there's a gap: the guides and requirements for submitting have emerged very quickly -- difficult to find reviewers for code. So have paired up with Ropensci, have an onboarding system for contributed packages, such that if passes onboarding, package passes review.
+
+How to do code review in standardised rigorous way.
+
+## Saras Windecker
+
+Trajectory -- learn a lot about a lot of things, and then narrow down. 
+PhDs and academic careers are more pie-shaped careers. Breadth of knowledge + subject domain + secondary pillar (programming, coding skills, statistics). This last pillar was necessary for Saras to develop due to the research environment in which she worked. Built software package to implement a method she was using to replace a proprietry tool. This pillar is no longer optional. 
+
+Reward structure is not present for the time and energy invested in using these tools and developing these skills. 1. Selfish reasosns. Beneficial to reproducing your own results a year later when redoing the same analysis, e.g. for implementing peer-review feedback. 2. FUN and community. 
+
+## Faraz Zaib Khan -- towards reproducible and interoperable scientific workflows
+
+Twitter: @farahzk03
+
+Bioinformatician. 
+
+Why use workflows?
+- automation
+- scaling
+- abstraction
+- provenance
+
+Provenance: information about who was involved in this analysis, methods, data, defined as:
+
+> "information about entities, activities, and people involved in producing a piece of data or thing, which can be uysed to form assessments about its quality reliability and trustworthiness
+
+Promise: published results, methods are shared and verification can be done by reproducing the workflow anywhere
+Reality: won't always work in other people's computing environmentts
+
+Provenance framework: conceptual framework
+
+[https://w3id.org/cwl/prov](https://w3id.org/cwl/prov)
+
+## Dan Hamilton Brief overview of key ethical issues in the radiation oncology literature
+
+50% of cancer patients receive radiation therapy, breast prostate and lung cancers most commonly treated.
+Most papers concern dosage and how radiation is prescribed. 
+
+Retracted radiation in oncology literature:
+Most common reason was misconduct (plagiarism, data manipulation fraud), followed by methodological error. Retracted papers are supposed to be watermarked with "retracted". Some scholarly platforms did not link to the water-marked retraction. Many papers being cited well after their retraction.
+
+1 in 25 paper images are falsified. 
+
+
+## Michae
+
+Inference - conclusions drawn from evidence. Scientific inferences should include thoughtful integration of existing evidence, and new data. And yet we continue to use NHST and Neyman-Pearson Hypothesis test. P<.05, significantm publish!
+
+Some version of statistical inference is a surrogate and impediment to scientific inference.
+
+95% "Night science" and 5% day science. "Play at the end of the day" obviously exploratory. But most research he did was excploratory, and would construct a paper to test hypothesis that comes up that arrises during the process of mixture of night and day science. 
+
+Solution to many problems: authors to take responsibility for scientific inference. Put your scientific reasoning into paper as primary rationale for making any scientific explanation.
+
+
+
+
+
+
+

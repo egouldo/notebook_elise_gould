@@ -1,0 +1,89 @@
+---
+title: updated-literature-workflow
+author: ''
+date: '2018-10-16'
+slug: updated-literature-workflow
+categories:
+  - planning
+tags: []
+---
+
+# Capture
+
+papers
+annotations
+
+## Highlights workflow
+
+Colours for each different type of annotation
+References to follow up
+Metadata
+
+Summarise .md and exporting to DEVONthink.
+
+# Organise
+
+The two main apps used are Bookends and DEVONthink. The key difference between the material and level of organisation that goes into these two apps is as follows:
+
+- DEVONthink: project / paper specific organisation.
+- Bookends: general organisation, relevant to any writing task. 
+
+Even if a subject area keyword is consistent across both Bookends and DEVONthink, DEVONthink will contain only a subset of those in Bookends - i.e. only those references I wish to cite in a particular paper or project.
+
+## Bookends
+
+### Metadata features
+
+1. label colours - status (To read, reading, RFP in DEVONthink, processed - notes only, processed - annotated bibliography)
+2. keywords - subject area, discipline, field, key themes and content
+3. folders and smart folders - groups of papers with the same keywords or status
+
+### Location of attachments
+
+Attachments folder in Dropbox
+With a subfolder called `/Attachments/annotated_bib` This is for papers who are being, who have been annotated using the highlights app.
+
+## Devonthink
+
+There are two ways that pdf's and highlights / notes can get into DTP:
+
+Different levels and types of materials going into DTP:
+
+- whole pdf. These are indexed automatically by DEVONthink from  `Bookends/Attachments/` (`.pdf`).
+- A raw summary file containing all those quotes and notes (`.md`)
+- An edited and summarised file as an entry in my annotated bibliography / electronic notebook. But only for important papers (`.Rmd`)
+- individual quotes from a pdf, as well as my personal notes (multiple `.md` contained within a folder)
+
+
+1. The pdf is indexed from Bookends' attachments folder
+2. Once I've completed annotating and note-taking in the file, I export a split copy of the file. All the quotes go into their own files, which are grouped together under a single folder, and these appear in the global inbox.
+
+### Create subject area groups and file whole papers
+
+Whole papers will tend to be examples or evidence of a particular category or code within a literature review. These can be organised into groups or folders. The groups or folders within Bookends, will contain all papers falling under a particular keyword, but those in DEVONthink will only be relevant to the specific project or paper being undertaken.
+
+### Organise individual notes into groups
+
+These groups correspond to particular parargraphs, keypoints I wish to make, because they contain very specific pieces of evidence. They might also pertain to a particular code or category within a literature review topic.
+
+Individual quotes and notes from highlights app will be shifted from the global inbox into specific folders. Not all highlights will be organised.
+
+
+### Creating an organised web: linking together in DEVONthink
+
+Would be cool if the keywords in Bookends would also appear in DEVONthink...
+
+# Create
+
+## Omni-outliner for creating paper outlines
+
+This will contain the outline structure for a given paper. Each of the different folders and individual notes in DEVONthink will be organised into a logical and hierarchical structure into a single omni-outliner project.
+
+Individual notes can be dragged across into omni-outliner.
+
+## Write up using text-editor of choice
+
+## Cite with Bookends
+
+Double-tap ctrl to search for the citation, Cmd+Y to copy the citation.
+Getting pandoc citations in Bookends

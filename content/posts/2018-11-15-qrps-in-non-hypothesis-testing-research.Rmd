@@ -1,0 +1,80 @@
+---
+title: QRPs in non-hypothesis testing research
+author: ''
+date: '2018-11-15'
+slug: qrps-in-non-hypothesis-testing-research
+categories:
+  - talk
+tags:
+  - QRP
+  - reproducibility roadmap
+  - reproducibility crisis
+---
+
+# QRP research is NHST focussed
+
+To date, there has been limited research on QRPs and other aspects of reproducibility for non-NHST research.
+
+Partly because:
+The majority of QRP research has been undertaken in Psychology, where almost all statistical testing is NHST.
+But this is not true for other fields eg, in applied ecology and conservation, my area of expertise, where we often use predictive modelling to systematically inform environmental decision-making.
+Instead, we use decision-theoretic frameworks, return-on-investment analyses, Bayesian Network models.
+
+# Painting Positive Findings? Reproducibility issues plague non-hypothesis testing research
+
+Definition of SDM:
+
+
+
+
+
+-> So I think this shows, in conjunction with Hannah's research as well as other initial meta-research in ecology and evolution, demonstrates that we likely have a problem with QRPs in applied ecology and conservation.
+
+# Lack of appropriate conceptual framework?
+
+However, there are objections that some analytical frameworks are immune or less prone to QRPs.
+
+Evidence 1: For example, Bayesian inference is proffered by many as a cure-all for QRPs.
+
+> many of us believe that other ways of summarising the data, such as Bayes factors or other posterior summaries based on clearly articulated model assumptions are preferable to P values.
+
+Evidence 2: Anecdotally, you'll hear a good proportion of applied ecologists and conservation scientists say things like "but pre-registration can't be done for the sort of work that I do, or I don't do hypothesis testing so this doesn't apply".
+
+Why is this the case? I think this is because there is a lack of conceptual framework for thinking about QRPs and their impacts on non-hypothesis testing research. 
+
+This is what my research aims to address.
+
+# QRP Roadmaps
+
+The first chapter of myresearch aims to generate "roadmaps" of potential QRPs in 3 comon modelling tools used to inform ecological managemnet and conservation decisions.
+
+Much like this figure here, which many of you will have seen before. This is an idealised NHST workflow of with the common types of QRP superimposed.
+
+## Generalised workflow
+
+- I used a similar approach to what we saw in the previous slide, where took a:
+	- a generalised workflow for one of the those areas, Bayesian Modelling.
+
+## Mapping QRPs
+
+1. Me + HF ran a workshop with ecologists, generated lists of QRPs for the three methods / analytical approaches common in ecology and conservation. And then I supplemented this list by searching the literature.
+2. And then mapped we mapped QRPs onto the workflow. Then coded each of the QRPs according to the broad classes of QRPs already identified for NHST-research.
+
+Expanded the definition of p-hacking to S-hacking or statistic hacking — there are different types of statistical threshold tests undertaken at various points in the modelling workflow.
+
+# Findings
+
+non-NHST research is just as at risk of QRPs and the associated impacts on reproducibility as NHST research is. 
+
+Many opportunities for undisclosed “Researcher Degrees of Freedom”
+QRPs can occur multiple times in the entire process, at all decision points
+The same class of QRP can occur at multiple decision points
+Multiple QRPs can occur at each decision point
+Direct analogues between NHST and non-NHST research.
+
+# Next Steps
+
+1. How to measure the impact of QRPs on reproducibility when we don’t have an equivalent of a false positive in non-NHST research?
+2. How to measure their prevalence? 
+3. We need to work out what the language is to define QRP impacts in a non-NHST framework.
+Unjustified confidence in the accuracy and the precision of the model outputs?

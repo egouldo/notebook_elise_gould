@@ -1,0 +1,48 @@
+---
+title: Meeting December 13
+author: ''
+date: '2018-12-14'
+slug: meeting-december-13
+categories:
+  - meeting
+tags:
+  - QRP
+---
+
+Present: FF, HF, LR, EG
+
+## Recap, what we talked about
+
+### 1. Scope and framing of the thesis
+
+Agreed that broad framing "reproducibility of decisions" is good to retain. Need to be be careful about explicitly framing the scope of the thesis in this framing, however.
+
+FF reminded me of another (crucial!) point as to why biasing conditions might be unique in a decision-making context: DM under time-constraints -- need to act (quickly)! 
+
+### 2. Estimating Background rate
+
+- Not clear exactly how to do this
+- but also, merits of doing this in the first place are not fully clear:
+
+        - Going to be an under-estimate of the true proportion affected
+        - Related point: are people truly able to even estimate the number of times they've done this?
+
+### 3. Re-structuring the QRP work
+
+Everyone in agreement about new structure and plan.
+
+## Next Steps and short-term timeline:
+
+### Next-week:
+
+Let's talk in more detail about this idea of estimating background prevalence once I've sorted out the mechanics of implementing it, and figured out what this tells exactly, what are the problems with it, and why it might be useful to do.
+
+### Now until early Feb:
+
+- Writing: QRP roadmap chapter
+- Coding: finish scripting the automated sample pool
+- Finalising design of survey questions
+
+Once QRP roadmap chapter is ready, can send out the survey in late jan / early feb, and then return to the SDM-QRP stuff.
+
+I'm away from 27th of December until 23rd Jan.

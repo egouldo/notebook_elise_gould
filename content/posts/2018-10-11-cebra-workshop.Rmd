@@ -12,7 +12,7 @@ tags:
   - reproducibility
 ---
 
-Personal reflections on the CEBRA-SDM (pest-management climate modelling) workshop
+Personal reflections on the CEBRA-SDM (pest-management climate modelling) workshop, emphasis on reproducibility.
 
 ## Discussion with JE and JC
 

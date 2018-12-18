@@ -1,0 +1,60 @@
+---
+title: Meeting-Dec-2018-Jian
+author: ''
+date: '2018-12-18'
+categories:
+  - meeting
+  - planning
+tags:
+  - QRP
+slug: meeting-dec-2018
+---
+
+Really good meeting with Jian, lots of ideas.
+
+Things to look up:
+
+- Near-term forecasting (as a reproducibility / RDF )
+- Multiverse problem ~ are there parallels to the simulation study Neil and I have been talking about?
+
+## Multiverse problem
+
+intra versus inter person variation.
+
+Can you replicate a multiverse for an individual? Get people to come up with 10 models each and then compare.
+
+So there's model uncertainty and then subjective uncertainty (Ray and Burgman).
+
+In such a replication experiment you would hopefully be able to partition the different types of uncertainty (subjective uncertainty, model uncertainty, and then uncertainty in inferences).
+
+Presently because of a lack of transparent practices, subjective uncertainty is encapsulated in model uncertainty and then I think, inflates model uncertainty. I'll need to go back and re-read Mark's paper.
+
+Jian would be available to help for a reproducibility experiment. But only for a day. Then we talked about the issue of when you have longer to work on a model... you might do a more rigorous job, and spend lots of time on it, but is that when QRP's can sneak in because you've got more time to keep tweaking the model?
+
+## Inference versus values -- defining reproducibility for models
+
+One problem Jian talked about was the issue of reproducing values versus inferences. Computational reproducibility is so wrapped up in trying to reproduce the same exact values. But, what if the value didn't matter so much because actually, the difference means that there is broad support for the same inference? Jian raised this in relation to my model-building exercise with Kate's bush heritage data. What if we instead looked at the effect-size rather than using p-values for significance? If, broadly speaking, there was still support for the same inference (that roo's were important in driving variation in chenopod cover), then that is more important on getting hung up on some threshold.
+
+So we could split the criteria for reproducibility into two things one for values and one for inferences (and then decisions).
+
+I think this akin to the definition of reproducibility for decisions I've been working on. The differences in values that the model spits out only matters when you cross some threshold in decision-making.
+
+Another element to consider is the practical side of models and decision-making, an the socio-cultural / psychological side of things. This is important for context, and understanding causes and manifestation of QRPs, but not something I want to focus on directly. 
+
+People have their own mental model in their head when they look at the results of some model, and perhaps only weight the model, say 10 percent. So there are inferences of the reader (or decision-maker!) on top of the reported model outputs, and the author's inferences.
+
+## Modelling proportion of literature affected by QRP
+
+Jian thinks the occupancy-detection modelling approach is a great idea. 
+
+- This is modelling at the observation level of the paper (nested under an individual). So we're going to need some covariates to apportion this variation to. 
+
+The benefit of this approach is that we can properly extrapolate to the broader literature base to make some proper estimate of the proportion of literature impacted by the QRP.
+
+One down-side is that it's going to take careful thought about what those covariates are, and they're going to have to be at th elevel of the study / paper. So think things like imapct-factor -- or other variables that you can web scrape things for that you can measure without reading all studies.
+
+I've only been thinking about things at the level of the individual, so things like attitudes towards defensibility of the practice. If you're more aware are you more open? Or are you more open because you think the practice is fine and therefore have nothing to hide? Both individual level and observation level co-variates are necessary.
+
+Also, Jian confirmed that having different *n* trials for each individual is ok, because this variation (and uncertainty) is subsumed into variation within the aggregated values of proportions of times QRP committed per individual. Variation in *p* can be partly driven by people's uncertainty in their ability to recall the number of papers *n* and also the number of times they committed the QRP across those papers *p*.
+
+

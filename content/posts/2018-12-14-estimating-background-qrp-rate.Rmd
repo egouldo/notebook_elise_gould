@@ -9,6 +9,15 @@ tags:
   - QRP
 ---
 
+
+
+```{r}
+library(tidyverse)
+library(pander)
+set.seed(123)
+```
+
+
 ## WORK IN PROGRESS -- DRAFT ##
 
 Problem:
@@ -21,15 +30,14 @@ This tells us a few things:
 2. If it's a common practice, and/or, if people are doing this repeatedly, then it's likely that this is a more acceptabile practice (THAT person should have rated the practice as being defensible, and it's likely that the broader sample of researchers will also think that the practice is more acceptible).
 3. What it *is* missing however, is that people author multiple papers. So 
 
-
 People might have done this only a handful times, but only authored a handful of papers using this method (so the impact on the literature)
-
 
 But how does this affect the literature? What is the proportion of the literature affected by a given QRP? We would like to know this because it tells us about how much faith, or confidence we can put in the literature. Tells us how severe the problem is.
 
 Authors write multiple papers. We can't really get a sense of how prevalent a practice is within the literature given the way that I plan on asking questions about how often somebody engages in a QRP.
 
 So the problem with usual statistical approaches to estimating prevalence or frequency, is that they...
+
 What we want to do is treat each paper as... Want to estimate a proportion for each individual... rather than asking them the number of times and averaging over the number of people sampled. It doesn't account for the fact that people author multiple papers.
 
 You *could* ask people about the number of papers they've authored, and the number of times in which they've done that practice. You could then arrive at some mean. But this doesn't account for uncertainty in our estimate of the prevalence rate due to our ability to detect with this survey -- whether due to false admissions, or due to other factors causing people to incorrectly answer:
@@ -72,19 +80,92 @@ render_graph(graph, layout = "tree")
 
 Uncertainty in admission can stem from the following:
 
-```{r}
-library(tidyverse)
-library(pander)
+### Example illustrating 
 
-tibble(individual = c(1:4), paper_1 = c(0,1,0,0), paper_2 = c(1,1,0,0), paper_3 = c(1,1,0,0), paper_4 = c(0,1,NA, 0)) %>% pander()
+```{r}
+tibble(individual = c(1:4), paper_1 = c(0,1,1,0), paper_2 = c(1,1,0,0), paper_3 = c(1,1,0,0), paper_4 = c(0,1,NA, 0)) %>% pander()
 ```
 
 
-If the surveys were perfect, all 0's would indicate a true absence or true never having engaged in the QRP.
+If the surveys were perfect, all 0's would indicate a true absence or true never having engaged in the QRP. Hence, we can estimate $\psi$ as the proportion of people with $\ge1$ admission:
+
+$ \psi = 3/4 = 0.75$
+
+From above, if surveys are imperfect, we estimate $p$ from people with greater than one admission:
+
+$p = (0.5 + 1 + 0.3)/3 = 0.6$
+
+So the imperfect detection estimates also ends up accounting for the fact that Some people do it *more* than others?
+
+## Two processes: engagement and admissin
+
+We want to estimate two processes separately:
+
+1. Engagement A person will either engage wiht probability $\psi$  or not engage with probability $1-\psi$.
+2. Detection / admission: If the person hasn't engaged, tthe person will not admit tto the QRP. If a person *has* engaged, then at each article there is some probability of recalling, and thterefore admitting to and detecting the practice.
+
+Admitted $= \psi$
+No admitted = $1 - \psi$ or $\psi(1 - p)$
+
+**Binomial distribution**
+
+$n$ is the number of "trials", or in this case, "papers" which are opportunities for people to engage in the QRP or not. Engaging in the QRP is equivalent to $p$, probability of success, for each "trial" (paper).
+
+*Engagement Process*
+
+${ Z }_{ i }\~ Bin(1,\psi)$
+
+Where ${ Z }_{ i }$ is the unobservable true engagement rate, and is binomially distributed, and $\psi$ is the probability of engagement.
+
+*Observation process*
+
+${ Y }_{ ij}\~Bin(1,{ \quad Z }_{ i }-p)$
+
+Where ${ Y }_{ ij }$ is the observed outcome, ${ Z }_{ i }$ is the unobservable true engagement rate. and $p$ is the probability of admission.
+
+## Why this is a good idea
+
+I think he approach is cool because i accouns for uncertainty in people's self-estimates and admission rates.
+Aside from the merits of doing this in the firs place, estimating the prevalence using an occupancy-deection approach is a modelling method that ecologists will be able to relate to.
+
 
 ## Assumptions and potential problems:
 
+1. Never falsely admit when didn't engage
+2. Admission by an individual is independent from the admission of all other individuals
+3. engagement in QRP does not change over the time period we elicited for
+4. $\psi$ and $p$ are constant across individuals unless heterogeneity in parameters can be explained by covariates.
+
+OK: 1, (3: I believe people use the same method they have been taught.)
+Maybe: 2 (No: people exist in a broader culture, yes: people have differing views about whether it is defensibel or not, and therefore their admission is likely to differ, based on those views). 4: Could go either way... I suspect there will be some practices that people largely don't believe are questionable and are commonly done, in those cases $\psi$ is likely to be constant across individuals. With increasing disagreement in the defensibility of these practices among people, $\psi$ is likely to differ, with those thinking the practice is defensible likely to engage, and those disagreeing with the practice likely not to.
+
+
 One thing I am uncertain about is whether uncertainty in an individual's estimate is allowed to stem from the fact that we have uncertainty in the number of trials... i.e. number of papers they authored.
+
+### Accounting for heterogeneity: 
+
+There are two-types:
+
+- individual-level (for $\psi$ and $p$)
+- Observation level co-variates (i.e., admission for a given paper $p$)
+
+$\psi$ can be modelled as a function of individual level co-variates, BUT covariates for $\psi$ must remain constant during the survey period. Ecological examples are plant-community, or patch-size.
+
+$p$ can be modelled as a function of 
+
+- individual level co-variates, (ecological examples include veg cover or site).
+- Covariates for each paper or article. (ecological examples include cloud cover, air-temp, observer).
+
+I don't think that $p$ will waver during the course of the survey (over the ~5 years elicited for). Hmmm.. unless there was a really high profile paper in there... But the survey is anonomous, so unlikely to not admit for one over another. 
+
+# Is this approach going to be useful?! what could it possibly reveal?
+
+To think about what some plausible outcomes would be and what information it might provide, we could run a few different simulation scenarios.
+
+1. Different engagement rates: "low", "high", using rates from Hannah's paper.
+2. Different admission rates: There's the risk that we are seriously underestimating the true engagement rate because admission rates are very low (Unlikely, given hannah's )
+
+What are plausible covariates if assumption 4 doesn't hold. 
 
 ## Simulate some data
 
@@ -98,6 +179,62 @@ One thing I am uncertain about is whether uncertainty in an individual's estimat
 
 
 ```
+### All assumptions OK (simplest form, no covariates)
+
+Our model will require data for the following variables:
+For each individual, we need ${p}_{ij}$, the probability of admission of QRP and $j$ the number of papers per individual. From our survey data this will be summarised from a dataframe where for each individual, for each paper, we have a `<logical>` response, as to whether the practice was undertaken in that paper ($1$), or not ($0$).
+
+We can first simulate some data for the number of papers
+
+```{r sampling_number_of_papers}
+
+# Create function for generating log-normal data (see post here: https://msalganik.wordpress.com/2017/01/21/making-sense-of-the-rlnorm-function-in-r/)
+
+my_rlnorm <- function(m,s,n) {
+  location <- log(m^2 / sqrt(s^2 + m^2))
+  shape <- sqrt(log(1 + (s^2 / m^2)))
+  print(paste("location:", location))
+  print(paste("shape:", shape))
+  draws <- rlnorm(n=n, location, shape)
+  return(draws)
+}
+
+draws <- my_rlnorm(0.79,exp(0.01),10000) # mean is taken from Rorstad and Aksnes (2015), I can't find the SD just yet.
+draws <- tibble(article_equivalents_ppa = draws)
+ggplot(draws, aes(x = log(article_equivalents_ppa))) +
+  geom_density()
+ggplot(draws, aes(x = article_equivalents_ppa)) +
+  geom_density() +
+  lims(x = c(0,20))
+```
+
+OK, so now all we need is to think about the rate of QRP's. We'll simulate a few different scenarios, based on Table 1 from Fraser et al.:
+
+a.63.7 +-6
+b. 23.9% +- 6
+c. 2% +- (0.08 - 5.1)
 
 
+
+```{r create_simulated_data}
+
+raw_data_sim <- tibble(individual = 1:1000, paper_num = my_rlnorm(0.79,exp(0.1), 1000) * 5 %>% trunc()) %>%
+  group_by(individual) %>%
+  mutate(paper_num = purrr::map(.x = paper_num, ~ c(1:.x))) %>% 
+  mutate(QRP_rate_indiv = rnorm(n(),63.7,sd = 6)/100) %>%
+  mutate(QRP_yes = purrr::map2(.x = paper_num, .y = QRP_rate_indiv, .f = ~ rbinom(n = length(.x), size = 1,.y)))
+
+raw_data_sim
+
+model_data_sim <- raw_data_sim %>%
+  unnest() %>%
+  dplyr::select(individual, paper_num, QRP_yes) %>%
+  dplyr::group_by(individual) %>%
+  dplyr::summarise(j = sum(paper_num),
+                   count_qrp = sum(QRP_yes)) %>%
+  mutate(p_ij = count_qrp / j)
+
+model_data_sim
+
+```
 

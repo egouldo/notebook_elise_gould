@@ -3,8 +3,10 @@ title: "Modelling QRP Engagement as an Occupancy-Detection Problem"
 author: ''
 date: '2018-12-14'
 slug: estimating-background-qrp-rate
-tags: QRP
-categories: analysis
+tags:
+  - QRP
+categories: 
+  - analysis
 ---
 
 

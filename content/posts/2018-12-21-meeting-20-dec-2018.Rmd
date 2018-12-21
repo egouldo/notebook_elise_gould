@@ -1,0 +1,76 @@
+---
+title: "Meeting-20-Dec-2018"
+author: ''
+date: '2018-12-21'
+slug: meeting-20-dec-2018
+tags: QRP
+categories:
+- meeting
+- planning
+---
+
+Present: HF, FF, LR, EG
+
+## Problems with the proposed QRP modelling method
+
+### HF
+
+How necessary is it going to be to have covariates at the study/trial level? It will poptentially be cumbersome and problematic. Can we just have an uninformative error term to soak up between-study variation?
+
+*cumbersome to implement*
+
+- must pre-identify articles for each participant, asking them about specific papers (logistically problematic, how do we find appropriate studies? The author must also be the person who conducted the analyses, and it may not be easy to find contact details for them)
+- ask participants to specify a fixed number of studies in which they used the analysis type (although not necessary for the model, restricting *n* is going to be better for the people answering the question, and more tractible for me)... then we need to pipe these studies through to the rest of the survey some how.
+
+*problematic*
+
+Is it too confronting for people to assign behaviour to a particular study? There are also issues with data privacy and confidentiality. Career ramifications for people to admit particular QRPs for a specific study. Additionally, we would need to very carefully and clearly assure people that the methods would be anonomous
+
+### FF
+
+- Very difficult for people to be able to answer these questions. Consequently, the numbers won't mean anything, but bounds around the estimates will provide false certainty. Not really any better than having verbal probability bins.
+
+There are trikcy demand characteristics and ethical problems associated with HF's potential solutions for progressing with this modelling type.
+
+### LR
+
+Beans for getting around the verbal probability bin uncertainty: Instead of forcing people into one bin or another, you instead assign people a collection of "beans" to assign to verbal probability bins (but we have pre-specified what those bins are) -- that way people aren't forced into one bin over another... especially when there is uncertainty in the number of times that they have engaged in a particular practice.
+
+### EG
+
+I can't let the hierarchical model idea die (just yet). 
+
+What if we ask about the last 5 papers they authored? Still the problem of selection bias in people's answers. It's probable that people will just generalise to all papers in which they've done or might not choose the most recent in their mind, might choose some other selection of papers.
+
+What if we could provide a random sample of papers that the survey respondent has written, perhaps using some web-scraping plugin where they provide their name and the papers are returned / scraped into the survey? 
+
+FF: Having the paper in front of the person would maybe help them recall their memories about that paper a little more. On the other hand, it could be extremely confronting for them.
+
+Ethical concerns? Need to be extremely clear that none of the data about the identity of the respondant, or the papers answers are elicited for, will be retained, the code is only shown to them, and only their responses to the questions, disaggregated from the paper they are answering for, will be retained.
+
+HF: how do you plan on implementing this web-scraping procedure? good question :| needs some more careful though. Possible solutions include using a shiny app platform, and some type of google scholar / web of sci webscraping code that returns the paper to the survey.
+
+# Pilot Study for testing out appropriate survey methods
+
+Ask people in-lab the survey questions, and the different ways of framing them. After we ask them the questions, we can ask them about how they felt about them -- i.e. did they feel like they were making things up? Did they feel like they were giving good data on the questions, which way of framing the question was easier / harder to answer, and provided good data?
+
+Not a formal test, but, is a good indication of whether trying to elicit information at the level of the study is going to be a problem or not.
+
+1. Directed: "What did you do in these studies"?
+2. Less directed: "How often have you done this practice (categorical responses / frequency bins)?"
+3. Test out the beans option
+4. Beans alternative - continuous probability estimates with upper and lower bounds (2 questions: # success / # trials)
+5. Google scholar - random sample of papers for an author, and then ask about whether they engaged in a specific QRP.
+
+## Pilot Groups:
+
+We can test on a handful of QAECO folk, however they are likely to just go for the more quantitative approach, regardless and may potentially neglect the specific questions we ask them about how they felt when answering the survey questions.
+
+Need to be sure to get a mix of career-points, from PhD to early- to mid- to late- career.
+
+### Other potential groups include: 
+
+- Grame Newell's lab
+- Mark Burgman's lab (after QAECO)
+- ARI
+

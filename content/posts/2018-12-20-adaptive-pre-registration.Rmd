@@ -1,0 +1,78 @@
+---
+title: Adaptive Pre-registration
+author: ''
+date: '2018-12-20'
+slug: adaptive-pre-registration
+categories:
+  - reading
+tags:
+  - QRP
+---
+
+1. Context, situate paper
+2. Discuss definition of RDF / QRPs
+3. Challenges and Barriers
+4. Strategies for Adaptive Pre-registration
+
+## Why I chose this paper
+
+- Neat explanation of researcher degrees of freedom (analagous to QRP's), that makes sense in the context of non-hypothesis testing research.
+- clear articulation of challenges to pre-registration in complicated research, and creative strategies.
+- In the past when we've had conversations about pre-registration, it hasn't been very clear how we might move forward to implementing that in this field.
+- The strategies outlined here are clear and creative (multi-verse!), however, they're focussed on reserach in psychology, but think some of these strategies would be useful for the methods we use in applied ecology and conservation, particularly in modelling work.
+- Hope that when people were reading the paper you were thinking about your own work, and whether these challenges were true, whether there are barriers that weren't addressed in the paper, and whether these strategies are useful to you. Could you see yourself trying any of them out, or are they too high-level and abstract?
+
+## Challenges, Barriers
+
+Did the paper miss any challenges or barriers to pre-registration? Can you provide examples applicable to the barriers in ecology and conservation?
+
+1. Difficult to create decision inventory in advance -- can't always know what those analytic decisions are going to be
+2. Difficult to make a plan for every item without seeing some features of the data.
+
+I thought the second was particularly relevant to ecological modelling and qaeco activities.
+
+- pre-processing data
+- screening for outliers or other checks of the data, checking model assumptions are met, etc.
+
+## Adaptive pre-registration strategies
+
+single deterministic -> adaptive pre-registration: creating decision-independence for 'complex research' paradigms.
+
+1. Standardisation
+2. Blind analysis
+3. Data partitioning and hold out samples
+4. Supporting Studies
+5. Coordinated data analysis
+6. Multi-verse analysis
+
+1. Standardisation:
+
+- within lab: SOP's, e.g. pruning random effects from multi-level models that fail to converge / non-positive definite matrices.
+- field-wide: choosing construct / measurable attributes - analagous problem, diversity indices? Performance criteria for monitoring programs? **feasible? or constraining creativity and proper analysis suited to the problem at hand?**
+
+2. Blind analysis
+
+- triple blind analysis: data analyst has the condition hidden. Plausible? possible you might know what treatment is which if you are familiar with the system / problem>
+- cell scrambling
+- outlier checking, separate the data preparer from the blinded analyst and hide the variable labels
+
+3. Data partitioning
+
+- using a data partition to make decisions about how you design some aspect of the data analysis, e.g., pre-processing, variable model selection... **Likely to be costly in ecology, is this tractible? is it even a good idea, still the chance for picking the variable that makes your model look the best, but actually isn't ecologically plausible -- risks invalidating decision independence?**
+- What about the example of running an exploratory study on part of the dataset.. does this also invalidate decision independence?
+
+4. Supporting Studies
+
+Supporting studies or pre-experiments are already applied (on occasion). E.g. Freya's virtual ecology paper aiming to optimise field data collection design. Think this ticks the box for requiring researchers to pre-specify most analytic and modelling choices ahead of data-collection.
+
+6. Multi-verse analysis
+
+This is cool. But also wonder what it would like in implemntation.. What methods do we use already that fit this criteria? Robustness analysis? Envelope ensemble modelling?
+
+# Notes from Discussion
+
+- Sentiment 
+- all roads lead to pilot studies
+
+
+

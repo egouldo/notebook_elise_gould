@@ -1,0 +1,64 @@
+---
+title: Replicating Models - Talks with Neil
+author: ''
+date: '2018-12-21'
+slug: replicating-models-talks-with-neil
+categories:
+  - planning
+  - meeting
+tags:
+  - replication
+  - modelling
+---
+
+# Experiment Description ft. God, Mere mortals and steve the synthesiser.
+
+UPDATE WITH NOTES FROM NEIL MEETING
+
+# Reasons why this is a good idea
+
+1. "GOD" -- We *never* have truth to compare to! This will be a unique opportunity to be able to properly evaluate models and their deviation from some truth.
+2. We can see *where* in the causal strucutre people keep getting things wrong -- are there commonalities? Is there overlap in parts of their model structure?
+
+*Neil* why is that important? We have truth. If we're playing God we can know if it's wrong. We can measure not just where people deviate from the true model, but from each other.
+
+3. If you track their entire decision process, you could identify "breaking poitns" -- where do people keep getting it wrong?
+4. Recruitment, how to get people to do this? (Hannah!)
+
+# Reasons why this is a bad idea
+
+1. If people can't replicate the model... there is the risk that readers / reviewers will attribute the failure to artefacts within either the data, or the methodological design of the study.
+2. What is the metric of model evaluation? Is it some single result? Is it some model structuer? It's plausible that two different model structures might generate the same solutions. Alternatively, our inferences might not change, but our numeric results might differ. Do we have multiple evaluation metrics?
+
+## Replies - defensive study design
+
+1. Artificial situation, no one expects that! SO then what is plausible in this context? So the artificial problem will need to be plausible given the current state of ecological knowledge. It's causal structure and parameters must also be plausible. It should be designed such that the 'true' answer(s) is/are difficult or maybe even impossible to obtain. And it must have the following characteristics (ala the reverse-chess problem)
+
+- Aha! I couldn't see it before, even though I believed I was right! 
+- I see it now. 
+- OF COURSE your answer is the correct answer (ecologists must think that the correct answer is plausible ecologically)
+
+1 TRUE solution? 3 TRUE solutions?
+
+We can measure how people deviate from each other, how they deviate from the truth, OR chunks of the truth.
+
+In a 3-solution problem, the herd might converge and pick only one or a handful of answers, and reject others.
+
+### What materials would we need to show people to have these three chess-problem characteristics?
+
+1. Provide some visual representation such as a DAG, we make it a dynamic but robust and interactive implementation, whereby the user gets to play and put in numbers within the ball-park.
+2. Using the DAG< you could show people the method implementation of the true model, and allow them to compare it side-by-side to their model.
+
+BUT... how would you know if wrong? What if they don't believe me, the mere post-grad student, and they with their 30 years of experience refuse to believe that they are right? 
+
+Answer: you use people's own evaluation criteria! You ask people whether they thought colleague Bill's answer was plausible. From this you devise their evaluation criteria.
+
+AND THEN, and here's the cool part. You use the same evaluation criteria on their model. However, as Mulkay and Gilbert have shown, there is often an epistemic-shift in people's criteria, depending on whether they are evaluating their own work, or other's work -- and people are MUCH harsher on others work and much more lenient on their own work. (Mulkay and Gilbert, Mere vs. actual replication, stuff that FF has mentioned in her talks).
+
+SO, we need to account for this epistemic-shift in people's internal evaluation criteria. Neil says that there might be some way to systematically design a study such that we can control for this. Have a look at the red-card study.
+
+### Homework
+
+- Read the red-card study
+- 5-minute presentation on the red-card study. No Notes. No slides.
+- Read Mere vs actual replication 
